@@ -1,0 +1,8 @@
+-
+    type: html
+    input-file: Main.html
+    output-page: "Main"
+-
+    type: luadoc
+    input-file: LibRecipes-2.0.lua
+    output-page: "API"
