@@ -1,5 +1,5 @@
 local MAJOR = "LibRecipes-2.0"
-local MINOR = 2 -- Should be manually increased
+local MINOR = 3 -- Should be manually increased
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
@@ -1792,11 +1792,13 @@ lib:AddRecipe(141057, 225549, 129020) -- Glyph of Flash Bang
 lib:AddRecipe(141058, 225550, 139289) -- Glyph of Critterhex
 lib:AddRecipe(141059, 225551, 137289) -- Glyph of Flickering
 lib:AddRecipe(141060, 225552, 137288) -- Glyph of Pebbles
+lib:AddRecipe(141061, 225553, nil) -- Glyph of the Abyssal
 lib:AddRecipe(141062, 225554, 137191) -- Glyph of the Inquisitor's Eye
 lib:AddRecipe(141063, 225555, 139312) -- Glyph of the Observer
 lib:AddRecipe(141064, 225556, 139310) -- Glyph of the Shivarra
-lib:AddRecipe(141065, 225557, nil) -- Glyph of the Terrorguard
+lib:AddRecipe(141065, 225557, 139313) -- Glyph of the Terrorguard
 lib:AddRecipe(141066, 225558, 139311) -- Glyph of the Voidlord
+lib:AddRecipe(141067, 225559, 139315) -- Glyph of Wrathguard
 lib:AddRecipe(141068, 225560, 137188) -- Glyph of the Blazing Savior
 lib:AddRecipe(137729, 226248, 141333) -- Codex of the Tranquil Mind
 lib:AddRecipe(141447, 227043, 141446) -- Tome of the Tranquil Mind
@@ -1817,6 +1819,50 @@ lib:AddRecipe(142109, 229185, 142103) -- Vantus Rune: Helya
 lib:AddRecipe(143615, 232274, 129022) -- Glyph of Crackling Ox Lightning
 lib:AddRecipe(143616, 232275, 143588) -- Glyph of the Trusted Steed
 lib:AddRecipe(143751, 233278, 143750) -- Glyph of Twilight Bloom
+lib:AddRecipe(146335, 238338, 146292) -- Vantus Rune: Black Rook Hold
+lib:AddRecipe(146344, 238339, 146303) -- Vantus Rune: Cathedral of Eternal Night
+lib:AddRecipe(146395, 238340, 146293) -- Vantus Rune: Court of Stars
+lib:AddRecipe(146336, 238341, 146294) -- Vantus Rune: Darkheart Thicket
+lib:AddRecipe(146396, 238343, 146295) -- Vantus Rune: Eye of Azshara
+lib:AddRecipe(146337, 238347, 146296) -- Vantus Rune: Halls of Valor
+lib:AddRecipe(146338, 238350, 146297) -- Vantus Rune: Maw of Souls
+lib:AddRecipe(146339, 238352, 146298) -- Vantus Rune: Neltharion's Lair
+lib:AddRecipe(146340, 238353, 146299) -- Vantus Rune: Return to Karazhan (Lower)
+lib:AddRecipe(146345, 238354, 146334) -- Vantus Rune: Return to Karazhan (Upper)
+lib:AddRecipe(146341, 238356, 146300) -- Vantus Rune: The Arcway
+lib:AddRecipe(146342, 238358, 146301) -- Vantus Rune: Vault of the Wardens
+lib:AddRecipe(146343, 238359, 146302) -- Vantus Rune: Violet Hold
+lib:AddRecipe(146355, 238360, 146292) -- Vantus Rune: Black Rook Hold
+lib:AddRecipe(146364, 238361, 146303) -- Vantus Rune: Cathedral of Eternal Night
+lib:AddRecipe(146397, 238362, 146293) -- Vantus Rune: Court of Stars
+lib:AddRecipe(146356, 238363, 146294) -- Vantus Rune: Darkheart Thicket
+lib:AddRecipe(146398, 238365, 146295) -- Vantus Rune: Eye of Azshara
+lib:AddRecipe(146357, 238369, 146296) -- Vantus Rune: Halls of Valor
+lib:AddRecipe(146358, 238372, 146297) -- Vantus Rune: Maw of Souls
+lib:AddRecipe(146359, 238374, 146298) -- Vantus Rune: Neltharion's Lair
+lib:AddRecipe(146360, 238375, 146299) -- Vantus Rune: Return to Karazhan (Lower)
+lib:AddRecipe(146365, 238376, 146334) -- Vantus Rune: Return to Karazhan (Upper)
+lib:AddRecipe(146361, 238378, 146300) -- Vantus Rune: The Arcway
+lib:AddRecipe(146362, 238380, 146301) -- Vantus Rune: Vault of the Wardens
+lib:AddRecipe(146363, 238381, 146302) -- Vantus Rune: Violet Hold
+lib:AddRecipe(146375, 238382, 146292) -- Vantus Rune: Black Rook Hold
+lib:AddRecipe(146384, 238383, 146303) -- Vantus Rune: Cathedral of Eternal Night
+lib:AddRecipe(146399, 238384, 146293) -- Vantus Rune: Court of Stars
+lib:AddRecipe(146376, 238385, 146294) -- Vantus Rune: Darkheart Thicket
+lib:AddRecipe(146400, 238387, 146295) -- Vantus Rune: Eye of Azshara
+lib:AddRecipe(146377, 238391, 146296) -- Vantus Rune: Halls of Valor
+lib:AddRecipe(146378, 238394, 146297) -- Vantus Rune: Maw of Souls
+lib:AddRecipe(146379, 238396, 146298) -- Vantus Rune: Neltharion's Lair
+lib:AddRecipe(146380, 238397, 146299) -- Vantus Rune: Return to Karazhan (Lower)
+lib:AddRecipe(146385, 238398, 146334) -- Vantus Rune: Return to Karazhan (Upper)
+lib:AddRecipe(146381, 238400, 146300) -- Vantus Rune: The Arcway
+lib:AddRecipe(146382, 238402, 146301) -- Vantus Rune: Vault of the Wardens
+lib:AddRecipe(146383, 238403, 146302) -- Vantus Rune: Violet Hold
+lib:AddRecipe(146411, 238577, 146406) -- Vantus Rune: Tomb of Sargeras
+lib:AddRecipe(146412, 238578, 146406) -- Vantus Rune: Tomb of Sargeras
+lib:AddRecipe(146413, 238579, 146406) -- Vantus Rune: Tomb of Sargeras
+lib:AddRecipe(146982, 240254, 146981) -- Glyph of Frost Grip
+lib:AddRecipe(147120, 240272, 147119) -- Glyph of the Shadow Succubus
 -- Jewelcrafting
 lib:AddRecipe(20856, 25320, 20831) -- Heavy Golden Necklace of Battle
 lib:AddRecipe(20855, 25323, 20833) -- Wicked Moonstone Ring
