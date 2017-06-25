@@ -1,5 +1,5 @@
 local MAJOR = "LibRecipes-2.0"
-local MINOR = 3 -- Should be manually increased
+local MINOR = 4 -- Should be manually increased
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
@@ -1126,7 +1126,7 @@ lib:AddRecipe(133870, 201563, 133579) -- Lavish Suramar Feast
 lib:AddRecipe(133871, 201683, 133681) -- Crispy Bacon
 lib:AddRecipe(133872, 201684, 133681) -- Crispy Bacon
 lib:AddRecipe(133873, 201685, 133681) -- Crispy Bacon
-lib:AddRecipe(142331, 230046, 142334) -- Spiced Wildfowl Omelet
+lib:AddRecipe(142331, 230046, 142334) -- Spiced Falcosaur Omelet
 -- Enchanting
 lib:AddRecipe(6342, 7443, nil) -- Minor Mana
 lib:AddRecipe(6344, 7766, nil) -- Minor Versatility
@@ -1659,6 +1659,7 @@ lib:AddRecipe(104219, 148266, 104099) -- Glyph of the Skeleton
 lib:AddRecipe(104223, 148270, 104104) -- Glyph of the Unbound Elemental
 lib:AddRecipe(104224, 148271, 104105) -- Glyph of Evaporation
 lib:AddRecipe(104227, 148274, 104108) -- Glyph of Pillar of Light
+lib:AddRecipe(104228, 148275, 149755) -- Glyph of Angels
 lib:AddRecipe(104229, 148276, 104120) -- Glyph of the Sha
 lib:AddRecipe(104231, 148278, 104122) -- Glyph of Inspired Hymns
 lib:AddRecipe(104234, 148281, 104126) -- Glyph of Spirit Raptors
@@ -1792,11 +1793,9 @@ lib:AddRecipe(141057, 225549, 129020) -- Glyph of Flash Bang
 lib:AddRecipe(141058, 225550, 139289) -- Glyph of Critterhex
 lib:AddRecipe(141059, 225551, 137289) -- Glyph of Flickering
 lib:AddRecipe(141060, 225552, 137288) -- Glyph of Pebbles
-lib:AddRecipe(141061, 225553, nil) -- Glyph of the Abyssal
 lib:AddRecipe(141062, 225554, 137191) -- Glyph of the Inquisitor's Eye
 lib:AddRecipe(141063, 225555, 139312) -- Glyph of the Observer
 lib:AddRecipe(141064, 225556, 139310) -- Glyph of the Shivarra
-lib:AddRecipe(141065, 225557, 139313) -- Glyph of the Terrorguard
 lib:AddRecipe(141066, 225558, 139311) -- Glyph of the Voidlord
 lib:AddRecipe(141067, 225559, 139315) -- Glyph of Wrathguard
 lib:AddRecipe(141068, 225560, 137188) -- Glyph of the Blazing Savior
@@ -1819,50 +1818,12 @@ lib:AddRecipe(142109, 229185, 142103) -- Vantus Rune: Helya
 lib:AddRecipe(143615, 232274, 129022) -- Glyph of Crackling Ox Lightning
 lib:AddRecipe(143616, 232275, 143588) -- Glyph of the Trusted Steed
 lib:AddRecipe(143751, 233278, 143750) -- Glyph of Twilight Bloom
-lib:AddRecipe(146335, 238338, 146292) -- Vantus Rune: Black Rook Hold
-lib:AddRecipe(146344, 238339, 146303) -- Vantus Rune: Cathedral of Eternal Night
-lib:AddRecipe(146395, 238340, 146293) -- Vantus Rune: Court of Stars
-lib:AddRecipe(146336, 238341, 146294) -- Vantus Rune: Darkheart Thicket
-lib:AddRecipe(146396, 238343, 146295) -- Vantus Rune: Eye of Azshara
-lib:AddRecipe(146337, 238347, 146296) -- Vantus Rune: Halls of Valor
-lib:AddRecipe(146338, 238350, 146297) -- Vantus Rune: Maw of Souls
-lib:AddRecipe(146339, 238352, 146298) -- Vantus Rune: Neltharion's Lair
-lib:AddRecipe(146340, 238353, 146299) -- Vantus Rune: Return to Karazhan (Lower)
-lib:AddRecipe(146345, 238354, 146334) -- Vantus Rune: Return to Karazhan (Upper)
-lib:AddRecipe(146341, 238356, 146300) -- Vantus Rune: The Arcway
-lib:AddRecipe(146342, 238358, 146301) -- Vantus Rune: Vault of the Wardens
-lib:AddRecipe(146343, 238359, 146302) -- Vantus Rune: Violet Hold
-lib:AddRecipe(146355, 238360, 146292) -- Vantus Rune: Black Rook Hold
-lib:AddRecipe(146364, 238361, 146303) -- Vantus Rune: Cathedral of Eternal Night
-lib:AddRecipe(146397, 238362, 146293) -- Vantus Rune: Court of Stars
-lib:AddRecipe(146356, 238363, 146294) -- Vantus Rune: Darkheart Thicket
-lib:AddRecipe(146398, 238365, 146295) -- Vantus Rune: Eye of Azshara
-lib:AddRecipe(146357, 238369, 146296) -- Vantus Rune: Halls of Valor
-lib:AddRecipe(146358, 238372, 146297) -- Vantus Rune: Maw of Souls
-lib:AddRecipe(146359, 238374, 146298) -- Vantus Rune: Neltharion's Lair
-lib:AddRecipe(146360, 238375, 146299) -- Vantus Rune: Return to Karazhan (Lower)
-lib:AddRecipe(146365, 238376, 146334) -- Vantus Rune: Return to Karazhan (Upper)
-lib:AddRecipe(146361, 238378, 146300) -- Vantus Rune: The Arcway
-lib:AddRecipe(146362, 238380, 146301) -- Vantus Rune: Vault of the Wardens
-lib:AddRecipe(146363, 238381, 146302) -- Vantus Rune: Violet Hold
-lib:AddRecipe(146375, 238382, 146292) -- Vantus Rune: Black Rook Hold
-lib:AddRecipe(146384, 238383, 146303) -- Vantus Rune: Cathedral of Eternal Night
-lib:AddRecipe(146399, 238384, 146293) -- Vantus Rune: Court of Stars
-lib:AddRecipe(146376, 238385, 146294) -- Vantus Rune: Darkheart Thicket
-lib:AddRecipe(146400, 238387, 146295) -- Vantus Rune: Eye of Azshara
-lib:AddRecipe(146377, 238391, 146296) -- Vantus Rune: Halls of Valor
-lib:AddRecipe(146378, 238394, 146297) -- Vantus Rune: Maw of Souls
-lib:AddRecipe(146379, 238396, 146298) -- Vantus Rune: Neltharion's Lair
-lib:AddRecipe(146380, 238397, 146299) -- Vantus Rune: Return to Karazhan (Lower)
-lib:AddRecipe(146385, 238398, 146334) -- Vantus Rune: Return to Karazhan (Upper)
-lib:AddRecipe(146381, 238400, 146300) -- Vantus Rune: The Arcway
-lib:AddRecipe(146382, 238402, 146301) -- Vantus Rune: Vault of the Wardens
-lib:AddRecipe(146383, 238403, 146302) -- Vantus Rune: Violet Hold
 lib:AddRecipe(146411, 238577, 146406) -- Vantus Rune: Tomb of Sargeras
 lib:AddRecipe(146412, 238578, 146406) -- Vantus Rune: Tomb of Sargeras
 lib:AddRecipe(146413, 238579, 146406) -- Vantus Rune: Tomb of Sargeras
-lib:AddRecipe(146982, 240254, 146981) -- Glyph of Frost Grip
 lib:AddRecipe(147120, 240272, 147119) -- Glyph of the Shadow Succubus
+lib:AddRecipe(151539, 246982, 151538) -- Glyph of Ember Shards
+lib:AddRecipe(151541, 246984, 151540) -- Glyph of Floating Shards
 -- Jewelcrafting
 lib:AddRecipe(20856, 25320, 20831) -- Heavy Golden Necklace of Battle
 lib:AddRecipe(20855, 25323, 20833) -- Wicked Moonstone Ring
@@ -2814,7 +2775,7 @@ lib:AddRecipe(32750, 41163, 32577) -- Living Earth Bindings
 lib:AddRecipe(32751, 41164, 32579) -- Living Earth Shoulders
 lib:AddRecipe(33124, 42546, 33122) -- Cloak of Darkness
 lib:AddRecipe(33205, 42731, 33204) -- Shadowprowler's Chestguard
-lib:AddRecipe(34262, 44953, 34086) -- Winter Boots
+lib:AddRecipe(34262, 44953, 151791) -- Winter Boots
 lib:AddRecipe(34491, 45117, 34490) -- Bag of Many Hides
 lib:AddRecipe(35212, 46132, 34372) -- Leather Gauntlets of the Sun
 lib:AddRecipe(35213, 46133, 34374) -- Fletcher's Gloves of the Phoenix
@@ -3266,10 +3227,10 @@ lib:AddRecipe(20548, 24902, 20539) -- Runed Stygian Belt
 lib:AddRecipe(20547, 24903, 20537) -- Runed Stygian Boots
 lib:AddRecipe(21358, 26085, 21340) -- Soul Pouch
 lib:AddRecipe(21371, 26087, 21342) -- Core Felcloth Bag
-lib:AddRecipe(21722, 26403, 21154) -- Festival Dress
-lib:AddRecipe(44916, 26403, 21154) -- Festival Dress
-lib:AddRecipe(21723, 26407, 21542) -- Festival Suit
-lib:AddRecipe(44917, 26407, 21542) -- Festival Suit
+lib:AddRecipe(21722, 26403, 151771) -- Festival Dress
+lib:AddRecipe(44916, 26403, 151771) -- Festival Dress
+lib:AddRecipe(21723, 26407, 151772) -- Festival Suit
+lib:AddRecipe(44917, 26407, 151772) -- Festival Suit
 lib:AddRecipe(21892, 26747, 21842) -- Bolt of Imbued Netherweave
 lib:AddRecipe(21893, 26749, 21843) -- Imbued Netherweave Bag
 lib:AddRecipe(21894, 26750, 21844) -- Bolt of Soulcloth
@@ -3351,8 +3312,8 @@ lib:AddRecipe(32754, 41205, 32586) -- Bracers of Nimble Thought
 lib:AddRecipe(32755, 41206, 32587) -- Mantle of Nimble Thought
 lib:AddRecipe(32752, 41207, 32584) -- Swiftheal Wraps
 lib:AddRecipe(32753, 41208, 32585) -- Swiftheal Mantle
-lib:AddRecipe(34261, 44950, 34087) -- Green Winter Clothes
-lib:AddRecipe(34319, 44958, 34085) -- Red Winter Clothes
+lib:AddRecipe(34261, 44950, 151792) -- Green Winter Clothes
+lib:AddRecipe(34319, 44958, 151790) -- Red Winter Clothes
 lib:AddRecipe(35204, 46128, 34366) -- Sunfire Handwraps
 lib:AddRecipe(35205, 46129, 34367) -- Hands of Eternal Light
 lib:AddRecipe(35206, 46130, 34364) -- Sunfire Robe
