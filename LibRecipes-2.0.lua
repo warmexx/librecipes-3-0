@@ -1,5 +1,5 @@
 local MAJOR = "LibRecipes-2.0"
-local MINOR = 8 -- Should be manually increased
+local MINOR = 9 -- Should be manually increased
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
@@ -475,6 +475,10 @@ lib:AddRecipe(169603, 298864, 168656) -- Greater Mystical Cauldron
 lib:AddRecipe(170208, 300751, 169299) -- Potion of Unbridled Fury
 lib:AddRecipe(170209, 300754, 169300) -- Potion of Wild Mending
 lib:AddRecipe(170210, 301312, 169451) -- Abyssal Healing Potion
+lib:AddRecipe(171084, 305992, 171085) -- Peerless Alchemist Stone
+lib:AddRecipe(171086, 305993, 171087) -- Awakened Alchemist Stone
+lib:AddRecipe(171315, 305994, 171088) -- Unbound Alchemist Stone
+lib:AddRecipe(171318, 305994, 171088) -- Unbound Alchemist Stone
 -- Blacksmithing
 lib:AddRecipe(2881, 2667, 2864) -- Runed Copper Breastplate
 lib:AddRecipe(2882, 3330, 3481) -- Silvered Bronze Shoulders
@@ -1034,6 +1038,34 @@ lib:AddRecipe(169525, 294780, 167975) -- Notorious Combatant's Polearm
 lib:AddRecipe(169526, 294770, 167939) -- Notorious Combatant's Deckpounder
 lib:AddRecipe(169528, 294771, 167939) -- Notorious Combatant's Deckpounder
 lib:AddRecipe(169529, 265937, 158887) -- Monelite Reinforced Chassis
+lib:AddRecipe(170392, 306081, 170288) -- Uncanny Combatant's Plate Waistguard
+lib:AddRecipe(170393, 306080, 170288) -- Uncanny Combatant's Plate Waistguard
+lib:AddRecipe(170394, 306087, 170285) -- Uncanny Combatant's Plate Boots
+lib:AddRecipe(170395, 306086, 170285) -- Uncanny Combatant's Plate Boots
+lib:AddRecipe(170396, 306085, 170286) -- Uncanny Combatant's Plate Gauntlets
+lib:AddRecipe(170397, 306084, 170286) -- Uncanny Combatant's Plate Gauntlets
+lib:AddRecipe(170398, 306083, 170287) -- Uncanny Combatant's Plate Greaves
+lib:AddRecipe(170399, 306082, 170287) -- Uncanny Combatant's Plate Greaves
+lib:AddRecipe(170400, 306312, 170364) -- Uncanny Combatant's Shield
+lib:AddRecipe(170401, 306310, 170364) -- Uncanny Combatant's Shield
+lib:AddRecipe(170402, 306079, 170289) -- Uncanny Combatant's Plate Armguards
+lib:AddRecipe(170403, 306078, 170289) -- Uncanny Combatant's Plate Armguards
+lib:AddRecipe(170946, 305844, 170290) -- Uncanny Combatant's Polearm
+lib:AddRecipe(170947, 305845, 170290) -- Uncanny Combatant's Polearm
+lib:AddRecipe(170948, 305846, 170291) -- Uncanny Combatant's Shanker
+lib:AddRecipe(170949, 305847, 170291) -- Uncanny Combatant's Shanker
+lib:AddRecipe(170950, 305848, 170292) -- Uncanny Combatant's Spellblade
+lib:AddRecipe(170951, 305849, 170292) -- Uncanny Combatant's Spellblade
+lib:AddRecipe(170952, 305850, 170293) -- Uncanny Combatant's Deckpounder
+lib:AddRecipe(170953, 305851, 170293) -- Uncanny Combatant's Deckpounder
+lib:AddRecipe(170954, 305852, 170294) -- Uncanny Combatant's Cutlass
+lib:AddRecipe(170955, 305853, 170294) -- Uncanny Combatant's Cutlass
+lib:AddRecipe(171107, 305838, 170391) -- Eldritch Osmenite Girdle
+lib:AddRecipe(171108, 305839, 170390) -- Maddening Osmenite Girdle
+lib:AddRecipe(171109, 305841, 170388) -- Eldritch Osmenite Legguards
+lib:AddRecipe(171110, 305842, 170387) -- Maddening Osmenite Legguards
+lib:AddRecipe(171316, 305843, 170386) -- Unsettling Osmenite Legguards
+lib:AddRecipe(171317, 305840, 170389) -- Unsettling Osmenite Girdle
 -- Cooking
 lib:AddRecipe(728, 2543, 733) -- Westfall Stew
 lib:AddRecipe(2697, 2542, 724) -- Goretusk Liver Pie
@@ -1455,7 +1487,7 @@ lib:AddRecipe(22563, 28019, 22522) -- Superior Wizard Oil
 lib:AddRecipe(22565, 28022, 22449) -- Large Prismatic Shard
 lib:AddRecipe(24000, 27911, nil) -- Superior Healing
 lib:AddRecipe(24003, 27960, nil) -- Exceptional Stats
-lib:AddRecipe(28270, 33992, nil) -- Major Resilience
+lib:AddRecipe(28270, 33992, nil) -- Major Armor
 lib:AddRecipe(28271, 33994, nil) -- Precise Strikes
 lib:AddRecipe(28272, 33997, nil) -- Major Spellpower
 lib:AddRecipe(28273, 33999, nil) -- Major Healing
@@ -1483,7 +1515,7 @@ lib:AddRecipe(37329, 44510, nil) -- Exceptional Versatility
 lib:AddRecipe(37335, 44500, nil) -- Superior Agility
 lib:AddRecipe(37337, 44616, nil) -- Greater Stats
 lib:AddRecipe(37339, 44621, nil) -- Giant Slayer
-lib:AddRecipe(37340, 44588, nil) -- Exceptional Resilience
+lib:AddRecipe(37340, 44588, nil) -- Exceptional Armor
 lib:AddRecipe(37343, 44633, nil) -- Exceptional Agility
 lib:AddRecipe(37344, 44524, nil) -- Icebreaker
 lib:AddRecipe(37346, 44598, nil) -- Haste
@@ -1554,7 +1586,7 @@ lib:AddRecipe(38934, 33996, nil) -- Assault
 lib:AddRecipe(38937, 34001, nil) -- Major Intellect
 lib:AddRecipe(38938, 34002, nil) -- Lesser Assault
 lib:AddRecipe(38940, 34004, nil) -- Greater Agility
-lib:AddRecipe(38949, 44383, nil) -- Resilience
+lib:AddRecipe(38949, 44383, nil) -- Armor
 lib:AddRecipe(38951, 44484, nil) -- Haste
 lib:AddRecipe(38953, 44488, nil) -- Precision
 lib:AddRecipe(38954, 44489, nil) -- Dodge
@@ -1633,7 +1665,7 @@ lib:AddRecipe(52754, 74207, nil) -- Protection
 lib:AddRecipe(52755, 74211, nil) -- Elemental Slayer
 lib:AddRecipe(52756, 74212, nil) -- Exceptional Strength
 lib:AddRecipe(52757, 74213, nil) -- Major Agility
-lib:AddRecipe(52758, 74214, nil) -- Mighty Resilience
+lib:AddRecipe(52758, 74214, nil) -- Mighty Armor
 lib:AddRecipe(52759, 74220, nil) -- Greater Haste
 lib:AddRecipe(52760, 74223, nil) -- Hurricane
 lib:AddRecipe(52761, 74225, nil) -- Heartsong
@@ -1664,7 +1696,7 @@ lib:AddRecipe(71714, 13882, nil) -- Lesser Agility
 lib:AddRecipe(72070, 33996, nil) -- Assault
 lib:AddRecipe(74700, 104338, nil) -- Mastery
 lib:AddRecipe(74701, 104385, nil) -- Major Dodge
-lib:AddRecipe(74706, 104392, nil) -- Super Resilience
+lib:AddRecipe(74706, 104392, nil) -- Super Armor
 lib:AddRecipe(74707, 104393, nil) -- Mighty Versatility
 lib:AddRecipe(74708, 104395, nil) -- Glorious Stats
 lib:AddRecipe(74709, 104397, nil) -- Superior Stamina
@@ -1909,6 +1941,8 @@ lib:AddRecipe(169605, 298016, nil) -- Accord of Haste
 lib:AddRecipe(169606, 298002, nil) -- Accord of Mastery
 lib:AddRecipe(169607, 297999, nil) -- Accord of Versatility
 lib:AddRecipe(170213, 300789, nil) -- Naga Hide
+lib:AddRecipe(171152, 305938, 170312) -- Uncanny Combatant's Sorcerous Scepter
+lib:AddRecipe(171153, 305937, 170312) -- Uncanny Combatant's Sorcerous Scepter
 -- Engineering
 lib:AddRecipe(4408, 3928, 4401) -- Mechanical Squirrel Box
 lib:AddRecipe(4409, 3933, 4367) -- Small Seaforium Charge
@@ -2187,7 +2221,7 @@ lib:AddRecipe(166988, 291092, 166982) -- Emblazoned Gearspun Goggles
 lib:AddRecipe(166989, 291094, 166984) -- Emblazoned Bionic Bifocals
 lib:AddRecipe(166990, 291096, 166986) -- Emblazoned Orthogonal Optics
 lib:AddRecipe(168533, 298255, 168521) -- Ub3r-Module: P.O.G.O.
-lib:AddRecipe(168534, 298257, nil) -- Ub3r-Module: Ub3r-Coil
+lib:AddRecipe(168534, 298257, 168522) -- Ub3r-Module: Ub3r-Coil
 lib:AddRecipe(168535, 298256, 168523) -- Ub3r-Module: Scrap Cannon
 lib:AddRecipe(168660, 298930, 168667) -- Blingtron 7000
 lib:AddRecipe(168763, 299005, 168690) -- A5C-3N-D3D Synthetic Specs
@@ -2203,6 +2237,22 @@ lib:AddRecipe(169542, 294786, 167940) -- Notorious Combatant's Discombobulator
 lib:AddRecipe(169543, 294788, 167997) -- Notorious Combatant's Stormsteel Destroyer
 lib:AddRecipe(169544, 294789, 167997) -- Notorious Combatant's Stormsteel Destroyer
 lib:AddRecipe(169609, 256132, 158886) -- Super-Charged Engine
+lib:AddRecipe(170404, 305944, 171007) -- Superior Synthetic Specs
+lib:AddRecipe(170405, 305943, 171006) -- Paramount Synthetic Specs
+lib:AddRecipe(170406, 305941, 171004) -- Superior Gearspun Goggles
+lib:AddRecipe(170407, 305940, 171003) -- Paramount Gearspun Goggles
+lib:AddRecipe(170408, 305950, 171013) -- Superior Bionic Bifocals
+lib:AddRecipe(170409, 305949, 171012) -- Paramount Bionic Bifocals
+lib:AddRecipe(170410, 305947, 171010) -- Superior Orthogonal Optics
+lib:AddRecipe(170411, 305946, 171009) -- Paramount Orthogonal Optics
+lib:AddRecipe(171313, 305942, 171005) -- A-N0M-A-L0U5 Gearspun Goggles
+lib:AddRecipe(171314, 305945, 171008) -- A-N0M-A-L0U5 Synthetic Specs
+lib:AddRecipe(174271, 305859, 170314) -- Uncanny Combatant's Stormsteel Destroyer
+lib:AddRecipe(174272, 305858, 170314) -- Uncanny Combatant's Stormsteel Destroyer
+lib:AddRecipe(174273, 305862, 170313) -- Uncanny Combatant's Discombobulator
+lib:AddRecipe(174274, 305861, 170313) -- Uncanny Combatant's Discombobulator
+lib:AddRecipe(174362, 305951, 171014) -- A-N0M-A-L0U5 Bionic Bifocals
+lib:AddRecipe(174364, 305948, 171011) -- A-N0M-A-L0U5 Orthogonal Optics
 -- Inscription
 lib:AddRecipe(46108, 64051, 45854) -- Rituals of the Moon
 lib:AddRecipe(65649, 86644, 62239) -- Origami Slime
@@ -2443,6 +2493,13 @@ lib:AddRecipe(170163, 304030, 170164) -- Glyph of the Dark Depths
 lib:AddRecipe(170166, 304033, 170165) -- Glyph of Steaming Fury
 lib:AddRecipe(170169, 304036, 170168) -- Glyph of the Cold Waves
 lib:AddRecipe(170175, 304042, 170173) -- Glyph of Dire Bees
+lib:AddRecipe(171058, 305954, 170316) -- Uncanny Combatant's Etched Vessel
+lib:AddRecipe(171059, 305953, 170316) -- Uncanny Combatant's Etched Vessel
+lib:AddRecipe(171200, 306481, 171203) -- Vantus Rune: Ny'alotha, the Waking City
+lib:AddRecipe(171201, 306483, 171203) -- Vantus Rune: Ny'alotha, the Waking City
+lib:AddRecipe(171202, 306482, 171203) -- Vantus Rune: Ny'alotha, the Waking City
+lib:AddRecipe(172009, 299672, 172008) -- Contract: Rajani
+lib:AddRecipe(172011, 299673, 172010) -- Contract: Uldum Accord
 lib:AddRecipe(172450, 309443, 172449) -- Glyph of Lavish Servings
 -- Jewelcrafting
 lib:AddRecipe(20854, 25339, 20830) -- Amulet of the Moon
@@ -2693,7 +2750,7 @@ lib:AddRecipe(41708, 55396, 41401) -- Insightful Earthsiege Diamond
 lib:AddRecipe(41709, 55404, 41385) -- Invigorating Earthsiege Diamond
 lib:AddRecipe(41710, 55400, 41398) -- Relentless Earthsiege Diamond
 lib:AddRecipe(41711, 55403, 41382) -- Trenchant Earthsiege Diamond
-lib:AddRecipe(41718, 53946, 39998) -- Brilliant Scarlet Ruby
+lib:AddRecipe(41718, 53946, nil) -- Brilliant Scarlet Ruby
 lib:AddRecipe(41719, 53948, 40000) -- Subtle Autumn's Glow
 lib:AddRecipe(41720, 53957, 40013) -- Smooth Autumn's Glow
 lib:AddRecipe(41721, 53988, 40052) -- Deadly Monarch Topaz
@@ -3180,6 +3237,11 @@ lib:AddRecipe(168771, 299017, 168702) -- Crushing Leviathan's Eye Loop
 lib:AddRecipe(168772, 299018, 168703) -- Ascended Leviathan's Eye Loop
 lib:AddRecipe(169551, 294794, 167943) -- Notorious Combatant's Intuitive Staff
 lib:AddRecipe(169552, 294795, 167943) -- Notorious Combatant's Intuitive Staff
+lib:AddRecipe(171082, 305980, 171075) -- Peerless Leviathan's Eye Loop
+lib:AddRecipe(171083, 305981, 171076) -- Awakened Leviathan's Eye Loop
+lib:AddRecipe(171158, 305171, 170318) -- Uncanny Combatant's Intuitive Staff
+lib:AddRecipe(171159, 305170, 170318) -- Uncanny Combatant's Intuitive Staff
+lib:AddRecipe(174365, 305982, 171077) -- Unbound Leviathan's Eye Loop
 -- Leatherworking
 lib:AddRecipe(2406, 2158, 2307) -- Fine Leather Boots
 lib:AddRecipe(2407, 2163, 2311) -- White Leather Jerkin
@@ -3883,6 +3945,40 @@ lib:AddRecipe(169571, 294818, 167959) -- Notorious Combatant's Mail Leggings
 lib:AddRecipe(169572, 294819, 167959) -- Notorious Combatant's Mail Leggings
 lib:AddRecipe(169573, 294827, 167935) -- Notorious Combatant's Bow
 lib:AddRecipe(169574, 294828, 167935) -- Notorious Combatant's Bow
+lib:AddRecipe(170412, 304413, 170345) -- Uncanny Combatant's Leather Treads
+lib:AddRecipe(170413, 304414, 170345) -- Uncanny Combatant's Leather Treads
+lib:AddRecipe(170414, 304416, 170342) -- Uncanny Combatant's Leather Gauntlets
+lib:AddRecipe(170415, 304417, 170342) -- Uncanny Combatant's Leather Gauntlets
+lib:AddRecipe(170416, 304419, 170344) -- Uncanny Combatant's Leather Leggings
+lib:AddRecipe(170417, 304420, 170344) -- Uncanny Combatant's Leather Leggings
+lib:AddRecipe(170418, 304422, 170346) -- Uncanny Combatant's Leather Waistguard
+lib:AddRecipe(170419, 304423, 170346) -- Uncanny Combatant's Leather Waistguard
+lib:AddRecipe(170420, 304425, 170343) -- Uncanny Combatant's Leather Armguards
+lib:AddRecipe(170421, 304426, 170343) -- Uncanny Combatant's Leather Armguards
+lib:AddRecipe(170422, 304428, 170355) -- Uncanny Combatant's Mail Treads
+lib:AddRecipe(170423, 304429, 170355) -- Uncanny Combatant's Mail Treads
+lib:AddRecipe(170424, 304431, 170353) -- Uncanny Combatant's Mail Gauntlets
+lib:AddRecipe(170425, 304432, 170353) -- Uncanny Combatant's Mail Gauntlets
+lib:AddRecipe(170426, 304434, 170354) -- Uncanny Combatant's Mail Leggings
+lib:AddRecipe(170427, 304435, 170354) -- Uncanny Combatant's Mail Leggings
+lib:AddRecipe(170428, 304437, 170356) -- Uncanny Combatant's Mail Waistguard
+lib:AddRecipe(170429, 304438, 170356) -- Uncanny Combatant's Mail Waistguard
+lib:AddRecipe(170430, 304440, 170352) -- Uncanny Combatant's Mail Armguards
+lib:AddRecipe(170431, 304441, 170352) -- Uncanny Combatant's Mail Armguards
+lib:AddRecipe(170586, 304443, 170362) -- Uncanny Combatant's Bow
+lib:AddRecipe(170587, 304444, 170362) -- Uncanny Combatant's Bow
+lib:AddRecipe(171118, 305807, 170443) -- Eldritch Cragscale Greaves
+lib:AddRecipe(171122, 305801, 170440) -- Eldritch Cragscale Boots
+lib:AddRecipe(171123, 305802, 170439) -- Maddening Cragscale Boots
+lib:AddRecipe(171124, 305799, 170437) -- Eldritch Dredged Leather Leggings
+lib:AddRecipe(171125, 305798, 170436) -- Maddening Dredged Leather Leggings
+lib:AddRecipe(171126, 305805, 170434) -- Eldritch Dredged Leather Boots
+lib:AddRecipe(171127, 305795, 170433) -- Maddening Dredged Leather Boots
+lib:AddRecipe(171128, 305806, 170442) -- Maddening Cragscale Greaves
+lib:AddRecipe(174366, 305796, 170432) -- Unsettling Dredged Leather Boots
+lib:AddRecipe(174367, 305804, 170435) -- Unsettling Dredged Leather Leggings
+lib:AddRecipe(174368, 305803, 170438) -- Unsettling Cragscale Boots
+lib:AddRecipe(174369, 305800, 170441) -- Unsettling Cragscale Greaves
 -- Mining
 lib:AddRecipe(35273, 46353, 35128) -- Smelt Hardened Khorium
 lib:AddRecipe(44956, 22967, 17771) -- Smelt Enchanted Elementium
@@ -4341,3 +4437,21 @@ lib:AddRecipe(169584, 294839, 167987) -- Notorious Combatant's Satin Pants
 lib:AddRecipe(169585, 294840, 167987) -- Notorious Combatant's Satin Pants
 lib:AddRecipe(169586, 294830, 167983) -- Notorious Combatant's Satin Cloak
 lib:AddRecipe(169587, 294831, 167983) -- Notorious Combatant's Satin Cloak
+lib:AddRecipe(170444, 304566, 170320) -- Uncanny Combatant's Satin Cloak
+lib:AddRecipe(170445, 304578, 170324) -- Uncanny Combatant's Satin Belt
+lib:AddRecipe(170446, 304579, 170324) -- Uncanny Combatant's Satin Belt
+lib:AddRecipe(170447, 304567, 170320) -- Uncanny Combatant's Satin Cloak
+lib:AddRecipe(170448, 304569, 170327) -- Uncanny Combatant's Satin Boots
+lib:AddRecipe(170449, 304570, 170327) -- Uncanny Combatant's Satin Boots
+lib:AddRecipe(170450, 304572, 170340) -- Uncanny Combatant's Satin Mittens
+lib:AddRecipe(170451, 304573, 170340) -- Uncanny Combatant's Satin Mittens
+lib:AddRecipe(170452, 304575, 170325) -- Uncanny Combatant's Satin Pants
+lib:AddRecipe(170453, 304576, 170325) -- Uncanny Combatant's Satin Pants
+lib:AddRecipe(170454, 304581, 170323) -- Uncanny Combatant's Satin Bracers
+lib:AddRecipe(170455, 304582, 170323) -- Uncanny Combatant's Satin Bracers
+lib:AddRecipe(171147, 304564, 170461) -- Eldritch Seaweave Breeches
+lib:AddRecipe(171148, 304563, 170460) -- Maddening Seaweave Breeches
+lib:AddRecipe(171149, 304561, 170458) -- Eldritch Seaweave Gloves
+lib:AddRecipe(171150, 304560, 170457) -- Maddening Seaweave Gloves
+lib:AddRecipe(174370, 304559, 170456) -- Unsettling Seaweave Gloves
+lib:AddRecipe(174371, 304562, 170459) -- Unsettling Seaweave Breeches
