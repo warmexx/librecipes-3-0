@@ -1,5 +1,5 @@
 local MAJOR = "LibRecipes-3.0"
-local MINOR = 1 -- Should be manually increased
+local MINOR = 2 -- Should be manually increased
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
@@ -465,7 +465,6 @@ lib:AddRecipe(162702, 252381, 152632) -- Surging Alchemist Stone
 lib:AddRecipe(162703, 252387, 152495) -- Coastal Mana Potion
 lib:AddRecipe(162704, 252384, 152494) -- Coastal Healing Potion
 lib:AddRecipe(162705, 252390, 163082) -- Coastal Rejuvenation Potion
-lib:AddRecipe(162773, 276977, 162519) -- Mystical Cauldron
 lib:AddRecipe(163313, 279161, 163223) -- Battle Potion of Agility
 lib:AddRecipe(163314, 279161, 163223) -- Battle Potion of Agility
 lib:AddRecipe(163315, 279164, 163222) -- Battle Potion of Intellect
@@ -890,8 +889,6 @@ lib:AddRecipe(116739, 171704, 114232) -- Truesteel Breastplate
 lib:AddRecipe(116740, 171705, 114236) -- Truesteel Armguards
 lib:AddRecipe(116741, 171706, 114235) -- Truesteel Boots
 lib:AddRecipe(116742, 171707, 114233) -- Truesteel Waistguard
-lib:AddRecipe(116743, 171708, 128015) -- Truesteel Essence
-lib:AddRecipe(116745, 171710, 128016) -- Steelforged Essence
 lib:AddRecipe(118044, 173355, 116428) -- Truesteel Reshaper
 lib:AddRecipe(119329, 177169, 119328) -- Soul of the Forge
 lib:AddRecipe(120129, 176090, 118720) -- Secrets of Draenor Blacksmithing
@@ -944,10 +941,6 @@ lib:AddRecipe(123954, 182988, 123911) -- Demonsteel Boots
 lib:AddRecipe(123955, 182989, 123910) -- Demonsteel Breastplate
 lib:AddRecipe(123957, 182999, 123956) -- Leystone Hoofplates
 lib:AddRecipe(124462, 184442, 124461) -- Demonsteel Bar
-lib:AddRecipe(127725, 187490, 127713) -- Mighty Steelforged Essence
-lib:AddRecipe(127727, 187491, 127714) -- Mighty Truesteel Essence
-lib:AddRecipe(127743, 187514, 127731) -- Savage Steelforged Essence
-lib:AddRecipe(127745, 187515, 127732) -- Savage Truesteel Essence
 lib:AddRecipe(136696, 209496, 136683) -- Terrorspike
 lib:AddRecipe(136697, 209497, 136684) -- Gleaming Iron Spike
 lib:AddRecipe(136698, 209498, 136685) -- Consecrated Spike
@@ -1092,6 +1085,8 @@ lib:AddRecipe(171109, 305841, 170388) -- Eldritch Osmenite Legguards
 lib:AddRecipe(171110, 305842, 170387) -- Maddening Osmenite Legguards
 lib:AddRecipe(171316, 305843, 170386) -- Unsettling Osmenite Legguards
 lib:AddRecipe(171317, 305840, 170389) -- Unsettling Osmenite Girdle
+lib:AddRecipe(183094, 322590, 171445) -- Shadowsteel Helm
+lib:AddRecipe(183095, 322593, 171447) -- Shadowsteel Pauldrons
 -- Cooking
 lib:AddRecipe(728, 2543, 733) -- Westfall Stew
 lib:AddRecipe(2697, 2542, 724) -- Goretusk Liver Pie
@@ -1402,9 +1397,9 @@ lib:AddRecipe(168368, 297107, 168315) -- Famine Evaluator And Snack Table
 lib:AddRecipe(168369, 297106, 168315) -- Famine Evaluator And Snack Table
 lib:AddRecipe(169457, 301392, 169449) -- Mecha-Bytes
 lib:AddRecipe(170075, 303788, 169280) -- Unagi Skewer
-lib:AddRecipe(170076, 303788, 169280) -- Unagi Skewer
 lib:AddRecipe(170211, 297107, 168315) -- Famine Evaluator And Snack Table
 lib:AddRecipe(170212, 301392, 169449) -- Mecha-Bytes
+lib:AddRecipe(182668, 308403, 172043) -- Feast of Gluttonous Hedonism
 -- Enchanting
 lib:AddRecipe(6342, 7443, nil) -- Minor Mana
 lib:AddRecipe(6344, 7766, nil) -- Minor Versatility
@@ -1945,7 +1940,6 @@ lib:AddRecipe(168450, 298011, nil) -- Accord of Critical Strike
 lib:AddRecipe(168451, 298016, nil) -- Accord of Haste
 lib:AddRecipe(168452, 298002, nil) -- Accord of Mastery
 lib:AddRecipe(168453, 297999, nil) -- Accord of Versatility
-lib:AddRecipe(168591, 298437, nil) -- Oceanic Restoration
 lib:AddRecipe(168592, 298438, nil) -- Oceanic Restoration
 lib:AddRecipe(168593, 298433, nil) -- Machinist's Brilliance
 lib:AddRecipe(168595, 298439, nil) -- Force Multiplier
@@ -1969,6 +1963,40 @@ lib:AddRecipe(169607, 297999, nil) -- Accord of Versatility
 lib:AddRecipe(170213, 300789, nil) -- Naga Hide
 lib:AddRecipe(171152, 305938, 170312) -- Uncanny Combatant's Sorcerous Scepter
 lib:AddRecipe(171153, 305937, 170312) -- Uncanny Combatant's Sorcerous Scepter
+lib:AddRecipe(172357, 309612, nil) -- Bargain of Critical Strike
+lib:AddRecipe(172358, 309613, nil) -- Bargain of Haste
+lib:AddRecipe(172359, 309614, nil) -- Bargain of Mastery
+lib:AddRecipe(172360, 309615, nil) -- Bargain of Versatility
+lib:AddRecipe(172361, 309616, nil) -- Tenet of Critical Strike
+lib:AddRecipe(172362, 309617, nil) -- Tenet of Haste
+lib:AddRecipe(172363, 309618, nil) -- Tenet of Mastery
+lib:AddRecipe(172364, 309619, nil) -- Tenet of Versatility
+lib:AddRecipe(172365, 309622, nil) -- Ascended Vigor
+lib:AddRecipe(172366, 309627, nil) -- Celestial Guidance
+lib:AddRecipe(172367, 309621, nil) -- Eternal Grace
+lib:AddRecipe(172368, 309623, nil) -- Sinful Revelation
+lib:AddRecipe(172370, 309620, nil) -- Lightless Force
+lib:AddRecipe(172406, 309524, nil) -- Shadowlands Gathering
+lib:AddRecipe(172407, 309525, nil) -- Strength of Soul
+lib:AddRecipe(172408, 309526, nil) -- Eternal Strength
+lib:AddRecipe(172410, 309528, nil) -- Fortified Speed
+lib:AddRecipe(172411, 309530, nil) -- Fortified Avoidance
+lib:AddRecipe(172412, 309531, nil) -- Fortified Leech
+lib:AddRecipe(172413, 309532, nil) -- Agile Soulwalker
+lib:AddRecipe(172414, 309608, nil) -- Illuminated Soul
+lib:AddRecipe(172415, 309609, nil) -- Eternal Intellect
+lib:AddRecipe(172416, 309610, nil) -- Shaded Hearthing
+lib:AddRecipe(172418, 309535, nil) -- Eternal Bulwark
+lib:AddRecipe(172419, 309534, nil) -- Eternal Agility
+lib:AddRecipe(177659, 323760, nil) -- Eternal Skirmish
+lib:AddRecipe(177660, 323755, nil) -- Soul Vitality
+lib:AddRecipe(177661, 323609, nil) -- Soul Treads
+lib:AddRecipe(177715, 323761, nil) -- Eternal Bounds
+lib:AddRecipe(177716, 323762, nil) -- Sacred Stats
+lib:AddRecipe(177962, 324773, nil) -- Eternal Stats
+lib:AddRecipe(182666, 309636, 172437) -- Enchanted Elethium Bar
+lib:AddRecipe(183096, 309644, 172230) -- Sacred Shard
+lib:AddRecipe(183738, 342316, nil) -- Eternal Insight
 -- Engineering
 lib:AddRecipe(4408, 3928, 4401) -- Mechanical Squirrel Box
 lib:AddRecipe(4409, 3933, 4367) -- Small Seaforium Charge
@@ -2273,6 +2301,9 @@ lib:AddRecipe(170410, 305947, 171010) -- Superior Orthogonal Optics
 lib:AddRecipe(170411, 305946, 171009) -- Paramount Orthogonal Optics
 lib:AddRecipe(171313, 305942, 171005) -- A-N0M-A-L0U5 Gearspun Goggles
 lib:AddRecipe(171314, 305945, 171008) -- A-N0M-A-L0U5 Synthetic Specs
+lib:AddRecipe(172917, 255936, nil) -- Belt Enchant: Holographic Horror Projector
+lib:AddRecipe(172918, 255936, nil) -- Belt Enchant: Holographic Horror Projector
+lib:AddRecipe(172919, 255936, nil) -- Belt Enchant: Holographic Horror Projector
 lib:AddRecipe(174271, 305859, 170314) -- Uncanny Combatant's Stormsteel Destroyer
 lib:AddRecipe(174272, 305858, 170314) -- Uncanny Combatant's Stormsteel Destroyer
 lib:AddRecipe(174273, 305862, 170313) -- Uncanny Combatant's Discombobulator
@@ -2298,17 +2329,11 @@ lib:AddRecipe(104245, 148292, 104138) -- Glyph of the Weaponmaster
 lib:AddRecipe(118605, 166356, 113134) -- Crystalfire Spellstaff
 lib:AddRecipe(118606, 163294, 112270) -- Darkmoon Card of Draenor
 lib:AddRecipe(118607, 166359, 111526) -- Etched-Blade Warstaff
-lib:AddRecipe(118610, 166366, 128010) -- Weapon Crystal
 lib:AddRecipe(118613, 166363, 113270) -- Shadowtome
 lib:AddRecipe(118614, 166432, 113289) -- Volatile Crystal
 lib:AddRecipe(118615, 165804, 113131) -- Warmaster's Firestick
 lib:AddRecipe(120136, 177045, 119297) -- Secrets of Draenor Inscription
-lib:AddRecipe(120265, 178248, 128018) -- Ensorcelled Tarot
 lib:AddRecipe(122713, 182125, 112377) -- The Spirit of War
-lib:AddRecipe(127723, 187495, 127718) -- Mighty Ensorcelled Tarot
-lib:AddRecipe(127728, 187494, 127717) -- Mighty Weapon Crystal
-lib:AddRecipe(127741, 187519, 127736) -- Savage Ensorcelled Tarot
-lib:AddRecipe(127746, 187518, 127735) -- Savage Weapon Crystal
 lib:AddRecipe(128409, 190381, 114931) -- Mass Mill Frostweed
 lib:AddRecipe(128410, 190382, 114931) -- Mass Mill Fireweed
 lib:AddRecipe(128411, 190383, 114931) -- Mass Mill Gorgrond Flytrap
@@ -2508,10 +2533,6 @@ lib:AddRecipe(169547, 299671, 168960) -- Contract: Rustbolt Resistance
 lib:AddRecipe(169548, 299665, 168956) -- Contract: Ankoan
 lib:AddRecipe(169549, 299668, 168959) -- Contract: Unshackled
 lib:AddRecipe(169696, 302187, 169301) -- Highborne Compendium of Swirling Tides
-lib:AddRecipe(169697, 302187, 169301) -- Highborne Compendium of Swirling Tides
-lib:AddRecipe(169698, 302187, 169301) -- Highborne Compendium of Swirling Tides
-lib:AddRecipe(169699, 302187, 169301) -- Highborne Compendium of Swirling Tides
-lib:AddRecipe(169700, 302187, 169301) -- Highborne Compendium of Swirling Tides
 lib:AddRecipe(169701, 302187, 169301) -- Highborne Compendium of Swirling Tides
 lib:AddRecipe(169702, 302187, 169301) -- Highborne Compendium of Swirling Tides
 lib:AddRecipe(169703, 302187, 169301) -- Highborne Compendium of Swirling Tides
@@ -2527,6 +2548,16 @@ lib:AddRecipe(171202, 306482, 171203) -- Vantus Rune: Ny'alotha, the Waking City
 lib:AddRecipe(172009, 299672, 172008) -- Contract: Rajani
 lib:AddRecipe(172011, 299673, 172010) -- Contract: Uldum Accord
 lib:AddRecipe(172450, 309443, 172449) -- Glyph of Lavish Servings
+lib:AddRecipe(173068, 311453, 173067) -- Vantus Rune: Castle Nathria
+lib:AddRecipe(180782, 334537, 180755) -- Fae Revel Masque
+lib:AddRecipe(183093, 311410, 173053) -- Contract: The Wild Hunt
+lib:AddRecipe(183098, 311424, 173048) -- Codex of the Still Mind
+lib:AddRecipe(183102, 311412, 173062) -- Contract: Court of Harvesters
+lib:AddRecipe(183103, 311409, 173051) -- Contract: The Ascended
+lib:AddRecipe(183104, 311411, 175924) -- Contract: The Undying Army
+lib:AddRecipe(184095, 344335, 184096) -- Glyph of the Swift Chameleon
+lib:AddRecipe(184098, 344340, 184097) -- Glyph of the Aquatic Chameleon
+lib:AddRecipe(184099, 344341, 184100) -- Glyph of the Aerial Chameleon
 -- Jewelcrafting
 lib:AddRecipe(20854, 25339, 20830) -- Amulet of the Moon
 lib:AddRecipe(20855, 25323, 20833) -- Wicked Moonstone Ring
@@ -3102,7 +3133,6 @@ lib:AddRecipe(90471, 131898, 82775) -- Sapphire Cub
 lib:AddRecipe(95470, 140050, 95469) -- Serpent's Heart
 lib:AddRecipe(95471, 140060, 76132) -- Primal Diamond
 lib:AddRecipe(116078, 170701, 115526) -- Taladite Recrystalizer
-lib:AddRecipe(116079, 170702, 128013) -- Taladite Amplifier
 lib:AddRecipe(116081, 170704, 115987) -- Glowing Iron Band
 lib:AddRecipe(116082, 170705, 115988) -- Shifting Iron Band
 lib:AddRecipe(116083, 170706, 115989) -- Whispering Iron Band
@@ -3132,8 +3162,6 @@ lib:AddRecipe(116108, 170731, 112384) -- Reflecting Prism
 lib:AddRecipe(116109, 170732, 112498) -- Prismatic Focusing Lens
 lib:AddRecipe(120131, 176087, 118723) -- Secrets of Draenor Jewelcrafting
 lib:AddRecipe(122714, 182127, 115524) -- Primal Gemcutting
-lib:AddRecipe(127726, 187493, 127716) -- Mighty Taladite Amplifier
-lib:AddRecipe(127744, 187517, 127734) -- Savage Taladite Amplifier
 lib:AddRecipe(132467, 195860, 130227) -- Skystone Pendant
 lib:AddRecipe(132468, 195859, 130226) -- Deep Amber Pendant
 lib:AddRecipe(132469, 195861, 130228) -- Azsunite Pendant
@@ -3268,6 +3296,8 @@ lib:AddRecipe(171083, 305981, 171076) -- Awakened Leviathan's Eye Loop
 lib:AddRecipe(171158, 305171, 170318) -- Uncanny Combatant's Intuitive Staff
 lib:AddRecipe(171159, 305170, 170318) -- Uncanny Combatant's Intuitive Staff
 lib:AddRecipe(174365, 305982, 171077) -- Unbound Leviathan's Eye Loop
+lib:AddRecipe(180783, 334548, 180760) -- Crown of the Righteous
+lib:AddRecipe(183099, 311870, 173125) -- Revitalizing Jewel Doublet
 -- Leatherworking
 lib:AddRecipe(2406, 2158, 2307) -- Fine Leather Boots
 lib:AddRecipe(2407, 2163, 2311) -- White Leather Jerkin
