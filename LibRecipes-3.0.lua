@@ -1,5 +1,5 @@
 local MAJOR = "LibRecipes-3.0"
-local MINOR = 3 -- Should be manually increased
+local MINOR = 4 -- Should be manually increased
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
@@ -61,7 +61,7 @@ end
 -- @return nil
 function lib:AddRecipe(recipeId, spellId, itemId)
     recipeId = AsNumber(recipeId)
-    if recipeId == nil then 
+    if recipeId == nil then
         error("invalid recipe id")
     end
     spellId = AsNumber(spellId)
@@ -70,7 +70,7 @@ function lib:AddRecipe(recipeId, spellId, itemId)
     end
     -- a craft spell usually creates an item
     itemId = AsNumber(itemId) or false
-    
+
     -- recipe can provide multiple spells (e.g. "Plans: Balanced Trillium Ingot and Its Uses")
     local recipe = recipes[recipeId]
     if recipe == nil then
@@ -78,7 +78,7 @@ function lib:AddRecipe(recipeId, spellId, itemId)
         recipe = recipes[recipeId]
     end
     recipe[spellId] = itemId
-    
+
     -- multiple recipes can provide the same spell (e.g. "Design: Rigid Star of Elune")
     local spell = spells[spellId]
     if spell == nil then
@@ -100,14 +100,14 @@ end
 
 --- Retrieves the spell and item id related to the specified recipe; repeats in case of multiple spells (spell1, item1, spell2, item2, ...)
 -- @param recipeId Id of the recipe
--- @usage local spellId, itemId = LibStub("LibRecipes-3.0"):GetRecipeInfo(2553) 
--- <br/>-- spellId = 3230 
--- <br/>-- itemId = 2457 
--- @return Id of the spell that is learned 
+-- @usage local spellId, itemId = LibStub("LibRecipes-3.0"):GetRecipeInfo(2553)
+-- <br/>-- spellId = 3230
+-- <br/>-- itemId = 2457
+-- @return Id of the spell that is learned
 -- @return Id of the item that is created by the spell or nil if not applicable
 function lib:GetRecipeInfo(recipeId)
     recipeId = AsNumber(recipeId)
-    if recipeId == nil then 
+    if recipeId == nil then
         error("invalid recipe id")
     end
     return Flatten(recipes[recipeId])
@@ -115,9 +115,9 @@ end
 
 --- Retrieves the recipe and item id related to the specified spell; repeats in case of multiple recipes (recipe1, item1, recipe2, item2, ...)
 -- @param spellId Id of the spell
--- @usage local recipeId, itemId = LibStub("LibRecipes-3.0"):GetSpellInfo(3230) 
--- <br/>-- recipeId = 2553 
--- <br/>-- itemId = 2457 
+-- @usage local recipeId, itemId = LibStub("LibRecipes-3.0"):GetSpellInfo(3230)
+-- <br/>-- recipeId = 2553
+-- <br/>-- itemId = 2457
 -- @return Id of the recipe that learns the spell
 -- @return Id of the item that is created by the spell or nil if not applicable
 function lib:GetSpellInfo(spellId)
@@ -131,7 +131,7 @@ end
 --- Retrieves the recipe and spell id related to the specified item; repeats in case of multiple recipes (recipe1, spell1, recipe2, spell2, ...)
 -- @param itemId Id of the item that is created by a recipe spell
 -- @usage local recipeId, spellId = LibStub("LibRecipes-3.0"):GetItemInfo(2457)
--- <br/>-- recipeId = 2553 
+-- <br/>-- recipeId = 2553
 -- <br/>-- spellId = 3230
 -- @return Id of the recipe that learns the spell that creates the item
 -- @return Id of the spell that creates the item
@@ -146,7 +146,7 @@ end
 --- Determines if a spell is taught by a recipe
 -- @param spellId Id of the spell
 -- @param recipeId Id of the recipe
--- @usage local taughtBy = LibStub("LibRecipes-3.0"):TaughtBy(3230, 2553) 
+-- @usage local taughtBy = LibStub("LibRecipes-3.0"):TaughtBy(3230, 2553)
 -- <br/>-- taughtBy = true
 -- @return true if the recipe teaches the spell; otherwise false
 function lib:TaughtBy(spellId, recipeId)
@@ -155,7 +155,7 @@ function lib:TaughtBy(spellId, recipeId)
         error("invalid spell id")
     end
     recipeId = AsNumber(recipeId)
-    if recipeId == nil then 
+    if recipeId == nil then
         error("invalid recipe id")
     end
    return spells[spellId] and spells[spellId][recipeId] ~= nil or false
@@ -164,12 +164,12 @@ end
 --- Determines if a recipe teaches a spell
 -- @param recipeId Id of the recipe
 -- @param spellId Id of the spell
--- @usage local teaches = LibStub("LibRecipes-3.0"):Teaches(2553, 3230) 
+-- @usage local teaches = LibStub("LibRecipes-3.0"):Teaches(2553, 3230)
 -- <br/>-- teaches = true
 -- @return true if the spell is taught by the recipe; otherwise false
 function lib:Teaches(recipeId, spellId)
     recipeId = AsNumber(recipeId)
-    if recipeId == nil then 
+    if recipeId == nil then
         error("invalid recipe id")
     end
     spellId = AsNumber(spellId)
@@ -2308,6 +2308,7 @@ lib:AddRecipe(174362, 305951, 171014) -- A-N0M-A-L0U5 Bionic Bifocals
 lib:AddRecipe(174364, 305948, 171011) -- A-N0M-A-L0U5 Orthogonal Optics
 lib:AddRecipe(183097, 331007, 180208) -- PHA7-YNX
 lib:AddRecipe(183858, 310535, 172924) -- Wormhole Generator: Shadowlands
+lib:AddRecipe(187116, 84425, nil) -- Cardboard Assassin
 -- Inscription
 lib:AddRecipe(46108, 64051, 45854) -- Rituals of the Moon
 lib:AddRecipe(65649, 86644, 62239) -- Origami Slime
