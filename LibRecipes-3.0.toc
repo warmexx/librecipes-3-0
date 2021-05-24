@@ -6,9 +6,10 @@
 ## LoadOnDemand: 1
 ## X-Date: @project-date-iso@
 ## X-Donate: PayPal:warmexx AT wow-neighbours DOT com
-## X-Website: https://www.wowace.com/projects/librecipes-3-0
+## X-Website: https://github.com/warmexx/librecipes-3-0
 ## X-Category: Library
 ## X-License: LGPL v2.1
+## X-Curse-Project-ID: 254113
 
 LibStub\LibStub.lua
 lib.xml
