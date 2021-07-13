@@ -1,5 +1,5 @@
 local MAJOR = "LibRecipes-3.0"
-local MINOR = 5 -- Should be manually increased
+local MINOR = 6 -- Should be manually increased
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
@@ -517,7 +517,15 @@ lib:AddRecipe(171086, 305993, 171087) -- Awakened Alchemist Stone
 lib:AddRecipe(171318, 305994, 171088) -- Unbound Alchemist Stone
 lib:AddRecipe(180780, 334413, 180751) -- Red Noggin Candle
 lib:AddRecipe(182660, 307143, 180457) -- Shadestone
+lib:AddRecipe(182665, 307144, 186694) -- Stones to Ore
 lib:AddRecipe(183106, 307087, 171284) -- Eternal Cauldron
+lib:AddRecipe(183868, 343677, 173383) -- Crafter's Mark III
+lib:AddRecipe(186986, 354882, 186699) -- Widow Burst
+lib:AddRecipe(186987, 354884, 186698) -- Torch Burst
+lib:AddRecipe(186988, 354881, 186701) -- Glory Burst
+lib:AddRecipe(186989, 354880, 186700) -- Marrow Burst
+lib:AddRecipe(186990, 354885, 186697) -- Blossom Burst
+lib:AddRecipe(186991, 307144, 186694) -- Stones to Ore
 -- Blacksmithing
 lib:AddRecipe(2881, 2667, 2864) -- Runed Copper Breastplate
 lib:AddRecipe(2882, 3330, 3481) -- Silvered Bronze Shoulders
@@ -1101,6 +1109,7 @@ lib:AddRecipe(171316, 305843, 170386) -- Unsettling Osmenite Legguards
 lib:AddRecipe(171317, 305840, 170389) -- Unsettling Osmenite Girdle
 lib:AddRecipe(183094, 322590, 171445) -- Shadowsteel Helm
 lib:AddRecipe(183095, 322593, 171447) -- Shadowsteel Pauldrons
+lib:AddRecipe(183864, 343186, 173383) -- Crafter's Mark III
 -- Cooking
 lib:AddRecipe(728, 2543, 733) -- Westfall Stew
 lib:AddRecipe(2697, 2542, 724) -- Goretusk Liver Pie
@@ -1417,6 +1426,9 @@ lib:AddRecipe(182668, 308403, 172043) -- Feast of Gluttonous Hedonism
 lib:AddRecipe(184625, 347176, 184624) -- Extra Sugary Fish Feast
 lib:AddRecipe(184683, 347457, 184682) -- Extra Lemony Herb Filet
 lib:AddRecipe(184689, 347509, 184690) -- Extra Fancy Darkmoon Feast
+lib:AddRecipe(187006, 354764, 186704) -- Twilight Tea
+lib:AddRecipe(187007, 354766, 186725) -- Bonemeal Bread
+lib:AddRecipe(187008, 354768, 186726) -- Porous Rock Candy
 -- Enchanting
 lib:AddRecipe(6342, 7443, nil) -- Minor Mana
 lib:AddRecipe(6344, 7766, nil) -- Minor Versatility
@@ -2013,6 +2025,7 @@ lib:AddRecipe(177962, 324773, nil) -- Eternal Stats
 lib:AddRecipe(182666, 309636, 172437) -- Enchanted Elethium Bar
 lib:AddRecipe(183096, 309644, 172230) -- Sacred Shard
 lib:AddRecipe(183738, 342316, nil) -- Eternal Insight
+lib:AddRecipe(186992, 355184, 186973) -- Anima-ted Leash
 -- Engineering
 lib:AddRecipe(4408, 3928, 4401) -- Mechanical Squirrel Box
 lib:AddRecipe(4409, 3933, 4367) -- Small Seaforium Charge
@@ -2322,6 +2335,7 @@ lib:AddRecipe(174362, 305951, 171014) -- A-N0M-A-L0U5 Bionic Bifocals
 lib:AddRecipe(174364, 305948, 171011) -- A-N0M-A-L0U5 Orthogonal Optics
 lib:AddRecipe(183097, 331007, 180208) -- PHA7-YNX
 lib:AddRecipe(183858, 310535, 172924) -- Wormhole Generator: Shadowlands
+lib:AddRecipe(183867, 343102, 173383) -- Crafter's Mark III
 lib:AddRecipe(187116, 84425, nil) -- Cardboard Assassin
 -- Inscription
 lib:AddRecipe(46108, 64051, 45854) -- Rituals of the Moon
@@ -2570,6 +2584,8 @@ lib:AddRecipe(183104, 311411, 175924) -- Contract: The Undying Army
 lib:AddRecipe(184095, 344335, 184096) -- Glyph of the Swift Chameleon
 lib:AddRecipe(184098, 344340, 184097) -- Glyph of the Aquatic Chameleon
 lib:AddRecipe(184099, 344341, 184100) -- Glyph of the Aerial Chameleon
+lib:AddRecipe(186671, 354394, 186662) -- Vantus Rune: Sanctum of Domination
+lib:AddRecipe(186724, 354000, 186522) -- Contract: Death's Advance
 -- Jewelcrafting
 lib:AddRecipe(20854, 25339, 20830) -- Amulet of the Moon
 lib:AddRecipe(20855, 25323, 20833) -- Wicked Moonstone Ring
@@ -3310,6 +3326,8 @@ lib:AddRecipe(171159, 305170, 170318) -- Uncanny Combatant's Intuitive Staff
 lib:AddRecipe(174365, 305982, 171077) -- Unbound Leviathan's Eye Loop
 lib:AddRecipe(180783, 334548, 180760) -- Crown of the Righteous
 lib:AddRecipe(183099, 311870, 173125) -- Revitalizing Jewel Doublet
+lib:AddRecipe(186993, 355187, 186981) -- Porous Stone Statue
+lib:AddRecipe(186994, 355189, 186982) -- Shaded Stone Statue
 -- Leatherworking
 lib:AddRecipe(2406, 2158, 2307) -- Fine Leather Boots
 lib:AddRecipe(2407, 2163, 2311) -- White Leather Jerkin
@@ -4046,6 +4064,10 @@ lib:AddRecipe(174368, 305803, 170438) -- Unsettling Cragscale Boots
 lib:AddRecipe(174369, 305800, 170441) -- Unsettling Cragscale Greaves
 lib:AddRecipe(183100, 324088, 172347) -- Heavy Desolate Armor Kit
 lib:AddRecipe(183839, 308897, 172097) -- Heavy Callous Hide
+lib:AddRecipe(183869, 343192, 173383) -- Crafter's Mark III
+lib:AddRecipe(186998, 354797, 186686) -- Pallid Oracle Bones
+lib:AddRecipe(186999, 354800, 186702) -- Pallid Bone Flute
+lib:AddRecipe(187000, 355354, 186985) -- Elusive Pet Treat
 -- Mining
 lib:AddRecipe(35273, 46353, 35128) -- Smelt Hardened Khorium
 lib:AddRecipe(44956, 22967, 17771) -- Smelt Enchanted Elementium
@@ -4521,6 +4543,8 @@ lib:AddRecipe(174370, 304559, 170456) -- Unsettling Seaweave Gloves
 lib:AddRecipe(174371, 304562, 170459) -- Unsettling Seaweave Breeches
 lib:AddRecipe(180781, 334499, 180752) -- Pink Party Hat
 lib:AddRecipe(183101, 310898, 173215) -- Shadowlace Cloak
+lib:AddRecipe(183871, 343201, 173383) -- Crafter's Mark III
+lib:AddRecipe(186995, 355183, 186975) -- Shrouded Hand Towel
 
 --------------------------------------------------------------------------------
 -- End Retail Data                                                            --
