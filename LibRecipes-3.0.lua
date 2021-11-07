@@ -1,5 +1,5 @@
 local MAJOR = "LibRecipes-3.0"
-local MINOR = 6 -- Should be manually increased
+local MINOR = 7 -- Should be manually increased
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
@@ -2586,6 +2586,12 @@ lib:AddRecipe(184098, 344340, 184097) -- Glyph of the Aquatic Chameleon
 lib:AddRecipe(184099, 344341, 184100) -- Glyph of the Aerial Chameleon
 lib:AddRecipe(186671, 354394, 186662) -- Vantus Rune: Sanctum of Domination
 lib:AddRecipe(186724, 354000, 186522) -- Contract: Death's Advance
+lib:AddRecipe(187883, 360539, 187884) -- Mark of the Twilight Runestag
+lib:AddRecipe(187886, 360542, 187887) -- Mark of the Gloomstalker Dredbat
+lib:AddRecipe(187930, 360880, 187931) -- Mark of the Regal Dredbat
+lib:AddRecipe(187932, 360882, 187933) -- Mark of the Duskwing Raven
+lib:AddRecipe(187935, 360885, 187934) -- Mark of the Midnight Runestag
+lib:AddRecipe(187937, 360899, 187936) -- Mark of the Sable Ardenmoth
 -- Jewelcrafting
 lib:AddRecipe(20854, 25339, 20830) -- Amulet of the Moon
 lib:AddRecipe(20855, 25323, 20833) -- Wicked Moonstone Ring
