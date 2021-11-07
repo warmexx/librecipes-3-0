@@ -3,6 +3,4 @@
 enable-nolib-creation: no
 
 externals:
-   LibStub:
-       url: https://repos.wowace.com/wow/libstub/trunk
-       tag: latest
+   LibStub: https://repos.wowace.com/wow/libstub/trunk
