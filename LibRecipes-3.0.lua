@@ -1,5 +1,5 @@
 local MAJOR = "LibRecipes-3.0"
-local MINOR = 7 -- Should be manually increased
+local MINOR = 8 -- Should be manually increased
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
@@ -526,6 +526,8 @@ lib:AddRecipe(186988, 354881, 186701) -- Glory Burst
 lib:AddRecipe(186989, 354880, 186700) -- Marrow Burst
 lib:AddRecipe(186990, 354885, 186697) -- Blossom Burst
 lib:AddRecipe(186991, 307144, 186694) -- Stones to Ore
+lib:AddRecipe(187828, 360014, 187827) -- Infusion: Corpse Purification
+lib:AddRecipe(187848, 360318, 187850) -- Sustaining Armor Polish
 -- Blacksmithing
 lib:AddRecipe(2881, 2667, 2864) -- Runed Copper Breastplate
 lib:AddRecipe(2882, 3330, 3481) -- Silvered Bronze Shoulders
@@ -1429,6 +1431,7 @@ lib:AddRecipe(184689, 347509, 184690) -- Extra Fancy Darkmoon Feast
 lib:AddRecipe(187006, 354764, 186704) -- Twilight Tea
 lib:AddRecipe(187007, 354766, 186725) -- Bonemeal Bread
 lib:AddRecipe(187008, 354768, 186726) -- Porous Rock Candy
+lib:AddRecipe(187804, 359333, 187648) -- Empty Kettle of Stone Soup
 -- Enchanting
 lib:AddRecipe(6342, 7443, nil) -- Minor Mana
 lib:AddRecipe(6344, 7766, nil) -- Minor Versatility
@@ -2026,6 +2029,8 @@ lib:AddRecipe(182666, 309636, 172437) -- Enchanted Elethium Bar
 lib:AddRecipe(183096, 309644, 172230) -- Sacred Shard
 lib:AddRecipe(183738, 342316, nil) -- Eternal Insight
 lib:AddRecipe(186992, 355184, 186973) -- Anima-ted Leash
+lib:AddRecipe(187824, 360007, 187823) -- Magically Regulated Automa Core
+lib:AddRecipe(187826, 360013, 187825) -- Cosmic Protoweave
 -- Engineering
 lib:AddRecipe(4408, 3928, 4401) -- Mechanical Squirrel Box
 lib:AddRecipe(4409, 3933, 4367) -- Small Seaforium Charge
@@ -2337,6 +2342,8 @@ lib:AddRecipe(183097, 331007, 180208) -- PHA7-YNX
 lib:AddRecipe(183858, 310535, 172924) -- Wormhole Generator: Shadowlands
 lib:AddRecipe(183867, 343102, 173383) -- Crafter's Mark III
 lib:AddRecipe(187116, 84425, nil) -- Cardboard Assassin
+lib:AddRecipe(187832, 360088, 187831) -- Pure-Air Sail Extensions
+lib:AddRecipe(187837, 360126, 187836) -- Erratic Genesis Matrix
 -- Inscription
 lib:AddRecipe(46108, 64051, 45854) -- Rituals of the Moon
 lib:AddRecipe(65649, 86644, 62239) -- Origami Slime
@@ -2586,12 +2593,16 @@ lib:AddRecipe(184098, 344340, 184097) -- Glyph of the Aquatic Chameleon
 lib:AddRecipe(184099, 344341, 184100) -- Glyph of the Aerial Chameleon
 lib:AddRecipe(186671, 354394, 186662) -- Vantus Rune: Sanctum of Domination
 lib:AddRecipe(186724, 354000, 186522) -- Contract: Death's Advance
+lib:AddRecipe(187797, 359786, 187796) -- Contract: Enlightened Brokers
+lib:AddRecipe(187806, 359890, 187805) -- Vantus Rune: Sepulcher of the First Ones
 lib:AddRecipe(187883, 360539, 187884) -- Mark of the Twilight Runestag
 lib:AddRecipe(187886, 360542, 187887) -- Mark of the Gloomstalker Dredbat
 lib:AddRecipe(187930, 360880, 187931) -- Mark of the Regal Dredbat
 lib:AddRecipe(187932, 360882, 187933) -- Mark of the Duskwing Raven
 lib:AddRecipe(187935, 360885, 187934) -- Mark of the Midnight Runestag
 lib:AddRecipe(187937, 360899, 187936) -- Mark of the Sable Ardenmoth
+lib:AddRecipe(190379, 367389, 190378) -- Glyph of the Spectral Lupine
+lib:AddRecipe(190381, 367393, 190380) -- Glyph of the Spectral Vulpine
 -- Jewelcrafting
 lib:AddRecipe(20854, 25339, 20830) -- Amulet of the Moon
 lib:AddRecipe(20855, 25323, 20833) -- Wicked Moonstone Ring
@@ -3334,6 +3345,8 @@ lib:AddRecipe(180783, 334548, 180760) -- Crown of the Righteous
 lib:AddRecipe(183099, 311870, 173125) -- Revitalizing Jewel Doublet
 lib:AddRecipe(186993, 355187, 186981) -- Porous Stone Statue
 lib:AddRecipe(186994, 355189, 186982) -- Shaded Stone Statue
+lib:AddRecipe(187830, 360016, 187829) -- Aealic Harmonizing Stone
+lib:AddRecipe(187847, 360317, 187849) -- Devourer Essence Stone
 -- Leatherworking
 lib:AddRecipe(2406, 2158, 2307) -- Fine Leather Boots
 lib:AddRecipe(2407, 2163, 2311) -- White Leather Jerkin
@@ -6722,10 +6735,10 @@ lib:AddRecipe(35549, 46139, 34375) -- Sun-Drenched Scale Chestguard
 lib:AddRecipe(35550, 46135, 34376) -- Sun-Drenched Scale Gloves
 lib:AddRecipe(185922, 351766, 185852) -- Greater Drums of War
 lib:AddRecipe(185923, 351768, 185851) -- Greater Drums of Speed
-lib:AddRecipe(185924, 351769, 29531) -- Greater Drums of Restoration
+lib:AddRecipe(185924, 351769, 185850) -- Greater Drums of Restoration
 lib:AddRecipe(185925, 351770, 185849) -- Greater Drums of Panic
 lib:AddRecipe(185926, 351771, 185848) -- Greater Drums of Battle
-lib:AddRecipe(187048, 351769, 29531) -- Greater Drums of Restoration
+lib:AddRecipe(187048, 351769, 185850) -- Greater Drums of Restoration
 lib:AddRecipe(187049, 351768, 185851) -- Greater Drums of Speed
 -- Mining
 lib:AddRecipe(35273, 46353, 35128) -- Smelt Hardened Khorium
