@@ -1,4 +1,4 @@
-## Interface: 90105
+## Interface: 90200
 ## Title: Lib: Recipes
 ## Notes: Library providing mappings between trade skill recipes, spells and created items
 ## Author: Warmexx [Neighbours]
