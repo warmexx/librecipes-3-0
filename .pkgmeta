@@ -1,6 +1,7 @@
 ﻿package-as: LibRecipes-3.0
 
 enable-nolib-creation: no
+enable-toc-creation: yes
 
 externals:
    LibStub: https://repos.wowace.com/wow/libstub/trunk
