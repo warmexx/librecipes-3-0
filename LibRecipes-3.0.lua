@@ -1,5 +1,5 @@
 local MAJOR = "LibRecipes-3.0"
-local MINOR = 11 -- Should be manually increased
+local MINOR = 12 -- Should be manually increased
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
@@ -529,32 +529,36 @@ lib:AddRecipe(186990, 354885, 186697) -- Blossom Burst
 lib:AddRecipe(186991, 307144, 186694) -- Stones to Ore
 lib:AddRecipe(187828, 360014, 187827) -- Infusion: Corpse Purification
 lib:AddRecipe(187848, 360318, 187850) -- Sustaining Armor Polish
-lib:AddRecipe(191429, 370438, nil) -- Phial of the Eye in the Storm
-lib:AddRecipe(191430, 370453, nil) -- Phial of Still Air
-lib:AddRecipe(191431, 370456, nil) -- Phial of Icy Preservation
-lib:AddRecipe(191432, 370457, nil) -- Iced Phial of Corrupting Rage
-lib:AddRecipe(191433, 370460, nil) -- Phial of Charged Isolation
-lib:AddRecipe(191434, 370462, nil) -- Phial of Glacial Fury
-lib:AddRecipe(191435, 370463, nil) -- Phial of Static Empowerment
-lib:AddRecipe(191436, 370465, nil) -- Phial of Tepid Versatility
-lib:AddRecipe(191437, 370472, nil) -- Aerated Phial of Deftness
-lib:AddRecipe(191438, 370473, nil) -- Steaming Phial of Finesse
-lib:AddRecipe(191439, 370476, nil) -- Charged Phial of Alacrity
-lib:AddRecipe(191440, 370478, nil) -- Potion of Frozen Fatality
-lib:AddRecipe(191441, 370483, nil) -- Crystalline Phial of Perception
-lib:AddRecipe(191443, 370521, nil) -- Bottled Putrescence
-lib:AddRecipe(191444, 370524, nil) -- Potion of Frozen Focus
-lib:AddRecipe(191445, 370525, nil) -- Potion of Chilled Clarity
-lib:AddRecipe(191446, 370528, nil) -- Potion of Withering Vitality
-lib:AddRecipe(191447, 370533, nil) -- Residual Neural Channeling Agent
-lib:AddRecipe(191448, 370536, nil) -- Delicate Suspension of Spores
-lib:AddRecipe(191449, 370539, nil) -- Refreshing Healing Potion
-lib:AddRecipe(191450, 370543, nil) -- Elemental Potion of Ultimate Power
-lib:AddRecipe(191451, 370547, nil) -- Aerated Mana Potion
-lib:AddRecipe(191454, 370556, nil) -- Potion of the Hushed Zephyr
-lib:AddRecipe(191455, 370558, nil) -- Potion of Gusts
-lib:AddRecipe(191456, 370561, nil) -- Potion of Shocking Disclosure
-lib:AddRecipe(191544, 370673, nil) -- Cauldron of the Pooka
+lib:AddRecipe(191429, 370438, 191318) -- Phial of the Eye in the Storm
+lib:AddRecipe(191430, 370453, 191321) -- Phial of Still Air
+lib:AddRecipe(191431, 370456, 191324) -- Phial of Icy Preservation
+lib:AddRecipe(191432, 370457, 191327) -- Iced Phial of Corrupting Rage
+lib:AddRecipe(191433, 370460, 191330) -- Phial of Charged Isolation
+lib:AddRecipe(191434, 370462, 191333) -- Phial of Glacial Fury
+lib:AddRecipe(191435, 370463, 191336) -- Phial of Static Empowerment
+lib:AddRecipe(191436, 370465, 191339) -- Phial of Tepid Versatility
+lib:AddRecipe(191437, 370472, 191342) -- Aerated Phial of Deftness
+lib:AddRecipe(191438, 370473, 191345) -- Steaming Phial of Finesse
+lib:AddRecipe(191439, 370476, 191348) -- Charged Phial of Alacrity
+lib:AddRecipe(191440, 370478, 191351) -- Potion of Frozen Fatality
+lib:AddRecipe(191441, 370483, 191354) -- Crystalline Phial of Perception
+lib:AddRecipe(191442, 370504, 191357) -- Phial of Elemental Chaos
+lib:AddRecipe(191443, 370521, 191360) -- Bottled Putrescence
+lib:AddRecipe(191444, 370524, 191363) -- Potion of Frozen Focus
+lib:AddRecipe(191445, 370525, 191366) -- Potion of Chilled Clarity
+lib:AddRecipe(191446, 370528, 191369) -- Potion of Withering Vitality
+lib:AddRecipe(191447, 370533, 191372) -- Residual Neural Channeling Agent
+lib:AddRecipe(191448, 370536, 191375) -- Delicate Suspension of Spores
+lib:AddRecipe(191449, 370539, 191378) -- Refreshing Healing Potion
+lib:AddRecipe(191450, 370543, 191381) -- Elemental Potion of Ultimate Power
+lib:AddRecipe(191451, 370547, 191384) -- Aerated Mana Potion
+lib:AddRecipe(191452, 370551, 191387) -- Elemental Potion of Power
+lib:AddRecipe(191454, 370556, 191393) -- Potion of the Hushed Zephyr
+lib:AddRecipe(191455, 370558, 191396) -- Potion of Gusts
+lib:AddRecipe(191456, 370561, 191399) -- Potion of Shocking Disclosure
+lib:AddRecipe(191542, 370668, 191482) -- Potion Cauldron of Power
+lib:AddRecipe(191543, 370672, 191485) -- Potion Cauldron of Ultimate Power
+lib:AddRecipe(191544, 370673, 191488) -- Cauldron of the Pooka
 lib:AddRecipe(191545, 370676, 191491) -- Sustaining Alchemist Stone
 lib:AddRecipe(191547, 370677, 191492) -- Alacritous Alchemist Stone
 lib:AddRecipe(191578, 370707, 190321) -- Transmute: Awakened Fire
@@ -563,17 +567,26 @@ lib:AddRecipe(191580, 370710, 190316) -- Transmute: Awakened Earth
 lib:AddRecipe(191581, 370711, 190327) -- Transmute: Awakened Air
 lib:AddRecipe(191582, 370714, nil) -- Transmute: Decay to Elements
 lib:AddRecipe(191583, 370715, nil) -- Transmute: Order to Elements
-lib:AddRecipe(191584, 370717, nil) -- Primal Convergent
-lib:AddRecipe(191590, 370729, nil) -- Stable Fluidic Draconium
-lib:AddRecipe(191591, 370730, nil) -- Brood Salt
-lib:AddRecipe(191592, 370731, nil) -- Writhefire Oil
+lib:AddRecipe(191584, 370717, 191493) -- Primal Convergent
+lib:AddRecipe(191585, 370722, 191496) -- Omnium Draconis
+lib:AddRecipe(191586, 370723, 191499) -- Sagacious Incense
+lib:AddRecipe(191587, 370724, 191502) -- Somniferous Incense
+lib:AddRecipe(191588, 370725, 191505) -- Exultant Incense
+lib:AddRecipe(191589, 370728, 191508) -- Fervid Incense
+lib:AddRecipe(191590, 370729, 191511) -- Stable Fluidic Draconium
+lib:AddRecipe(191591, 370730, 191514) -- Brood Salt
+lib:AddRecipe(191592, 370731, 191517) -- Writhefire Oil
+lib:AddRecipe(191593, 370732, 191520) -- Agitating Potion Augmentation
+lib:AddRecipe(191594, 370733, 191523) -- Reactive Phial Embellishment
 lib:AddRecipe(191596, 370735, 191529) -- Illustrious Insight
+lib:AddRecipe(191597, 370738, 191532) -- Potion Absorption Inhibitor
 lib:AddRecipe(191599, 370743, nil) -- Basic Potion Experimentation
 lib:AddRecipe(191600, 370745, nil) -- Advanced Potion Experimentation
 lib:AddRecipe(191601, 370746, nil) -- Basic Phial Experimentation
 lib:AddRecipe(191602, 370747, nil) -- Advanced Phial Experimentation
-lib:AddRecipe(198533, 381270, nil) -- Aerated Phial of Quick Hands
-lib:AddRecipe(201740, 370543, nil) -- Elemental Potion of Ultimate Power
+lib:AddRecipe(198533, 381270, 197720) -- Aerated Phial of Quick Hands
+lib:AddRecipe(201740, 370543, 191381) -- Elemental Potion of Ultimate Power
+lib:AddRecipe(201740, 370672, 191485) -- Potion Cauldron of Ultimate Power
 -- Blacksmithing
 lib:AddRecipe(2881, 2667, 2864) -- Runed Copper Breastplate
 lib:AddRecipe(2882, 3330, 3481) -- Silvered Bronze Shoulders
@@ -1196,7 +1209,7 @@ lib:AddRecipe(194489, 367615, 190519) -- Allied Chestplate of Generosity
 lib:AddRecipe(194490, 367614, 190526) -- Allied Wristguard of Companionship
 lib:AddRecipe(194491, 367619, 190523) -- Frostfire Legguards of Preparation
 lib:AddRecipe(194492, 367618, 191623) -- Unstable Frostfire Belt
-lib:AddRecipe(194493, 371349, nil) -- Armor Spikes
+lib:AddRecipe(194493, 371349, 191250) -- Armor Spikes
 lib:AddRecipe(194495, 371365, 191224) -- Khaz'gorite Sickle
 lib:AddRecipe(194496, 371366, 191223) -- Khaz'gorite Pickaxe
 lib:AddRecipe(194497, 371367, 191225) -- Khaz'gorite Skinning Knife
@@ -1206,16 +1219,21 @@ lib:AddRecipe(194500, 371371, 191229) -- Khaz'gorite Leatherworker's Toolset
 lib:AddRecipe(194501, 371412, 191888) -- Khaz'gorite Blacksmith's Hammer
 lib:AddRecipe(194502, 371374, 191230) -- Khaz'gorite Blacksmith's Toolbox
 lib:AddRecipe(194503, 371372, 191228) -- Black Dragon Touched Hammer
-lib:AddRecipe(194504, 371650, nil) -- Primal Whetstone
-lib:AddRecipe(194505, 371674, nil) -- Primal Weightstone
+lib:AddRecipe(194504, 371650, 191933) -- Primal Whetstone
+lib:AddRecipe(194505, 371674, 191943) -- Primal Weightstone
+lib:AddRecipe(194506, 371682, 191948) -- Primal Razorstone
 lib:AddRecipe(194507, 371394, 191256) -- Serevite Skeleton Key
 lib:AddRecipe(194508, 371403, 191886) -- Alvin the Anvil
-lib:AddRecipe(194963, 367713, nil) -- Obsidian Seared Alloy
+lib:AddRecipe(194963, 367713, 190533) -- Obsidian Seared Alloy
 lib:AddRecipe(198713, 377281, 194542) -- Prototype Explorer's Barding Framework
 lib:AddRecipe(198714, 377280, 194541) -- Prototype Regal Barding Framework
 lib:AddRecipe(198719, 388279, 191304) -- Sturdy Expedition Shovel
-lib:AddRecipe(200102, 367714, nil) -- Infurious Alloy
-lib:AddRecipe(201256, 367714, nil) -- Infurious Alloy
+lib:AddRecipe(200102, 367714, 190536) -- Infurious Alloy
+lib:AddRecipe(201256, 367714, 190536) -- Infurious Alloy
+lib:AddRecipe(202223, 397853, 202208) -- Impressive Steelforged Essence
+lib:AddRecipe(202224, 397855, 202209) -- Remarkable Steelforged Essence
+lib:AddRecipe(202226, 397856, 202210) -- Impressive Truesteel Essence
+lib:AddRecipe(202227, 397857, 202211) -- Remarkable Truesteel Essence
 -- Cooking
 lib:AddRecipe(728, 2543, 733) -- Westfall Stew
 lib:AddRecipe(2697, 2542, 724) -- Goretusk Liver Pie
@@ -1582,6 +1600,7 @@ lib:AddRecipe(201784, 381391, 197778) -- Timely Demise
 lib:AddRecipe(201785, 381393, 197780) -- Seamoth Surprise
 lib:AddRecipe(201786, 381395, 197781) -- Salt-Baked Fishcake
 lib:AddRecipe(201787, 381392, 197779) -- Filet of Fangs
+lib:AddRecipe(202249, 13028, 10841) -- Goldthorn Tea
 -- Enchanting
 lib:AddRecipe(6342, 7443, nil) -- Minor Mana
 lib:AddRecipe(6344, 7766, nil) -- Minor Versatility
@@ -2331,7 +2350,7 @@ lib:AddRecipe(201318, 391810, nil) -- Illusory Adornment: Air
 lib:AddRecipe(201319, 391812, nil) -- Illusory Adornment: Order
 lib:AddRecipe(201320, 391812, nil) -- Illusory Adornment: Order
 lib:AddRecipe(201321, 391812, nil) -- Illusory Adornment: Order
-lib:AddRecipe(201361, 391185, nil) -- Primal Invocation Extract
+lib:AddRecipe(201361, 391185, 200618) -- Primal Invocation Extract
 -- Engineering
 lib:AddRecipe(4408, 3928, 4401) -- Mechanical Squirrel Box
 lib:AddRecipe(4409, 3933, 4367) -- Small Seaforium Charge
@@ -2645,9 +2664,10 @@ lib:AddRecipe(183867, 343102, 173383) -- Crafter's Mark III
 lib:AddRecipe(187116, 84425, nil) -- Cardboard Assassin
 lib:AddRecipe(187832, 360088, 187831) -- Pure-Air Sail Extensions
 lib:AddRecipe(187837, 360126, 187836) -- Erratic Genesis Matrix
+lib:AddRecipe(198781, 382343, 198228) -- Gravitational Displacer
 lib:AddRecipe(198782, 382339, 198263) -- Bottomless Mireslush Ore Satchel
 lib:AddRecipe(198783, 382340, 194126) -- Spring-Loaded Khaz'gorite Fabric Cutters
-lib:AddRecipe(198784, 382322, nil) -- Primal Deconstruction Charge
+lib:AddRecipe(198784, 382322, 198278) -- Primal Deconstruction Charge
 lib:AddRecipe(198785, 382332, 193572) -- Quack-E
 lib:AddRecipe(199221, 382371, 192443) -- Element-Infused Rocket Helmet
 lib:AddRecipe(199222, 382317, 198322) -- Overengineered Sleeve Extenders
@@ -2656,28 +2676,46 @@ lib:AddRecipe(199224, 382319, 198332) -- Complicated Cuffs
 lib:AddRecipe(199225, 382320, 198333) -- Difficult Wrist Protectors
 lib:AddRecipe(199226, 382387, 198334) -- P.E.W. x2
 lib:AddRecipe(199227, 382321, 198335) -- Ol' Smoky
-lib:AddRecipe(199228, 382323, nil) -- Grease Grenade
-lib:AddRecipe(199229, 382324, nil) -- Tinker: Breath of Neltharion
+lib:AddRecipe(199228, 382323, 198292) -- Grease Grenade
+lib:AddRecipe(199229, 382324, 198295) -- Tinker: Breath of Neltharion
+lib:AddRecipe(199230, 382325, 198313) -- Projectile Propulsion Pinion
+lib:AddRecipe(199231, 382326, 198316) -- High Intensity Thermal Scanner
 lib:AddRecipe(199232, 382327, 198172) -- Bundle of Fireworks
-lib:AddRecipe(199233, 382328, nil) -- S.A.V.I.O.R.
+lib:AddRecipe(199233, 382328, 198275) -- S.A.V.I.O.R.
 lib:AddRecipe(199234, 382329, 198226) -- Khaz'gorite Fisherfriend
-lib:AddRecipe(199236, 382331, nil) -- D.U.C.K.O.Y.
-lib:AddRecipe(199238, 382333, nil) -- Sticky Warp Grenade
-lib:AddRecipe(199239, 382334, nil) -- Tinker: Alarm-O-Turret
+lib:AddRecipe(199235, 382330, 198239) -- Creature Combustion Canister
+lib:AddRecipe(199236, 382331, 198180) -- D.U.C.K.O.Y.
+lib:AddRecipe(199238, 382333, 198281) -- Sticky Warp Grenade
+lib:AddRecipe(199239, 382334, 198289) -- Tinker: Alarm-O-Turret
+lib:AddRecipe(199240, 382335, 198224) -- Green Fireflight
 lib:AddRecipe(199241, 382336, 201930) -- H.E.L.P.
 lib:AddRecipe(199242, 382338, 198265) -- Portable Alchemist's Lab Bench
+lib:AddRecipe(199243, 382337, 198268) -- Portable Tinker's Workbench
 lib:AddRecipe(199244, 382341, 198244) -- Khaz'gorite Delver's Helmet
 lib:AddRecipe(199245, 382342, 198235) -- Lapidary's Khaz'gorite Clamps
-lib:AddRecipe(199247, 382346, nil) -- Haphazardly Tethered Wires
-lib:AddRecipe(199248, 382348, nil) -- Overcharged Overclocker
-lib:AddRecipe(199253, 382354, nil) -- Suspiciously Ticking Crate
-lib:AddRecipe(199255, 382356, nil) -- EZ-Thro Gravitational Displacer
-lib:AddRecipe(199256, 382357, nil) -- EZ-Thro Primal Deconstruction Charge
-lib:AddRecipe(199257, 382358, nil) -- Suspiciously Silent Crate
-lib:AddRecipe(199258, 382359, nil) -- Tinker: Supercollide-O-Tron
+lib:AddRecipe(199246, 382344, 198304) -- Tinker: Grounded Circuitry
+lib:AddRecipe(199247, 382346, 198216) -- Haphazardly Tethered Wires
+lib:AddRecipe(199248, 382348, 198219) -- Overcharged Overclocker
+lib:AddRecipe(199249, 382349, 198259) -- Critical Failure Prevention Unit
+lib:AddRecipe(199250, 382350, 198253) -- Calibrated Safety Switch
+lib:AddRecipe(199251, 382351, 198256) -- Magazine of Healing Darts
+lib:AddRecipe(199252, 382353, 198157) -- I.W.I.N. Button Mk10
+lib:AddRecipe(199253, 382354, 198166) -- Suspiciously Ticking Crate
+lib:AddRecipe(199254, 382355, 198207) -- EZ-Thro Creature Combustion Canister
+lib:AddRecipe(199255, 382356, 198213) -- EZ-Thro Gravitational Displacer
+lib:AddRecipe(199256, 382357, 198210) -- EZ-Thro Primal Deconstruction Charge
+lib:AddRecipe(199257, 382358, 198169) -- Suspiciously Silent Crate
+lib:AddRecipe(199258, 382359, 198301) -- Tinker: Supercollide-O-Tron
+lib:AddRecipe(199259, 382361, 198174) -- Razor-Sharp Gear
+lib:AddRecipe(199260, 382362, 198231) -- Rapidly Ticking Gear
+lib:AddRecipe(199261, 382363, 198236) -- Meticulously-Tuned Gear
+lib:AddRecipe(199262, 382364, 198307) -- One-Size-Fits-All Gear
+lib:AddRecipe(199263, 382365, 198160) -- Completely Safe Rockets
+lib:AddRecipe(199264, 382366, 198163) -- Endless Stack of Needles
 lib:AddRecipe(199265, 382367, 198156) -- Wyrmhole Generator
 lib:AddRecipe(199266, 382368, 198264) -- Centralized Precipitation Emitter
 lib:AddRecipe(199267, 382369, 198206) -- Environmental Emulator
+lib:AddRecipe(199268, 382370, 198227) -- Giggle Goggles
 lib:AddRecipe(199270, 382383, 198328) -- Quality-Assured Optics
 lib:AddRecipe(199271, 382384, 198329) -- Milestone Magnifiers
 lib:AddRecipe(199272, 382385, 198330) -- Deadline Deadeyes
@@ -2695,12 +2733,23 @@ lib:AddRecipe(199283, 382397, 198245) -- Draconium Encased Samophlange
 lib:AddRecipe(199284, 382398, 198204) -- Draconium Brainwave Amplifier
 lib:AddRecipe(199285, 382399, 198246) -- Khaz'gorite Encased Samophlange
 lib:AddRecipe(199286, 382400, 198205) -- Khaz'gorite Brainwave Amplifier
+lib:AddRecipe(199287, 382401, 198298) -- Tinker: Plane Displacer
+lib:AddRecipe(199288, 382402, 198310) -- Gyroscopic Kaleidoscope
 lib:AddRecipe(199289, 382403, 198222) -- Blue Fireflight
+lib:AddRecipe(199290, 382404, 198223) -- Red Fireflight
 lib:AddRecipe(199293, 382407, 198247) -- Neural Silencer Mk3
+lib:AddRecipe(199294, 382408, 198173) -- Atomic Recalibrator
 lib:AddRecipe(199295, 384313, 198549) -- Black Fireflight
-lib:AddRecipe(199299, 386667, nil) -- Tinker: Polarity Amplifier
-lib:AddRecipe(199300, 386670, nil) -- EZ-Thro Grease Grenade
+lib:AddRecipe(199296, 384314, 198550) -- Bronze Fireflight
+lib:AddRecipe(199297, 384491, 198619) -- Spring-Loaded Capacitor Casing
+lib:AddRecipe(199299, 386667, 199188) -- Tinker: Polarity Amplifier
+lib:AddRecipe(199300, 386670, 199193) -- EZ-Thro Grease Grenade
+lib:AddRecipe(199415, 387246, 199414) -- Zapthrottle Soul Inhaler
 lib:AddRecipe(201794, 26011, 21277) -- Tranquil Mechanical Yeti
+lib:AddRecipe(202228, 397858, 202212) -- Impressive Linkgrease Locksprocket
+lib:AddRecipe(202229, 397859, 202213) -- Remarkable Linkgrease Locksprocket
+lib:AddRecipe(202230, 397860, 202214) -- Impressive True Iron Trigger
+lib:AddRecipe(202231, 397861, 202215) -- Remarkable True Iron Trigger
 -- Inscription
 lib:AddRecipe(46108, 64051, 45854) -- Rituals of the Moon
 lib:AddRecipe(65649, 86644, 62239) -- Origami Slime
@@ -2960,8 +3009,8 @@ lib:AddRecipe(187935, 360885, 187934) -- Mark of the Midnight Runestag
 lib:AddRecipe(187937, 360899, 187936) -- Mark of the Sable Ardenmoth
 lib:AddRecipe(190379, 367389, 190378) -- Glyph of the Spectral Lupine
 lib:AddRecipe(190381, 367393, 190380) -- Glyph of the Spectral Vulpine
-lib:AddRecipe(198598, 385197, nil) -- Scroll of Sales
-lib:AddRecipe(198788, 383593, nil) -- Contract: Dragonscale Expedition
+lib:AddRecipe(198598, 385197, 197718) -- Scroll of Sales
+lib:AddRecipe(198788, 383593, 198506) -- Contract: Dragonscale Expedition
 lib:AddRecipe(198874, 383542, 194897) -- Kinetic Pillar of the Isles
 lib:AddRecipe(198875, 383541, 194898) -- Illuminating Pillar of the Isles
 lib:AddRecipe(198876, 383545, 194894) -- Weathered Explorer's Stave
@@ -2983,7 +3032,7 @@ lib:AddRecipe(198892, 383575, 196988) -- Cliffside Wylderdrake: Red Hair
 lib:AddRecipe(198893, 383576, 196980) -- Cliffside Wylderdrake: Triple Head Horns
 lib:AddRecipe(198894, 383577, 197117) -- Highland Drake: Black Hair
 lib:AddRecipe(198895, 383578, 197108) -- Highland Drake: Spined Crest
-lib:AddRecipe(198896, 383579, 197154) -- Highland Drake: Spined Throat
+lib:AddRecipe(198896, 383579, 197154) -- Highland Drake: Spined Neck
 lib:AddRecipe(198899, 383580, 197394) -- Renewed Proto-Drake: Predator Pattern
 lib:AddRecipe(198901, 383582, 197362) -- Renewed Proto-Drake: Spined Crest
 lib:AddRecipe(198902, 383583, 197597) -- Windborne Velocidrake: Black Fur
@@ -2997,31 +3046,34 @@ lib:AddRecipe(198909, 383565, 194731) -- Illusion Parchment: Magma Missile
 lib:AddRecipe(198910, 383573, 194738) -- Illusion Parchment: Shadow Orb
 lib:AddRecipe(198911, 383572, 194737) -- Illusion Parchment: Spell Shield
 lib:AddRecipe(198912, 383569, 194734) -- Illusion Parchment: Whirling Breeze
-lib:AddRecipe(198913, 383531, nil) -- Chilled Rune
+lib:AddRecipe(198913, 383531, 194767) -- Chilled Rune
 lib:AddRecipe(198914, 384948, 194829) -- Flourishing Fortune
 lib:AddRecipe(198915, 383563, 194829) -- Blazing Fortune
 lib:AddRecipe(198916, 384949, 194829) -- Serene Fortune
-lib:AddRecipe(198920, 383556, nil) -- Draconic Missive of the Fireflash
-lib:AddRecipe(198921, 383561, nil) -- Draconic Missive of the Peerless
-lib:AddRecipe(198922, 383533, nil) -- Azurescale Sigil
-lib:AddRecipe(198923, 383534, nil) -- Sagescale Sigil
-lib:AddRecipe(198924, 383535, nil) -- Emberscale Sigil
-lib:AddRecipe(198925, 383536, nil) -- Bronzescale Sigil
-lib:AddRecipe(198926, 383538, nil) -- Jetscale Sigil
-lib:AddRecipe(198927, 383562, nil) -- Draconic Missive of the Quickblade
-lib:AddRecipe(198928, 383554, nil) -- Draconic Missive of the Aurora
-lib:AddRecipe(198929, 383560, nil) -- Draconic Missive of the Harmonious
-lib:AddRecipe(198930, 383530, nil) -- Runed Writhebark
-lib:AddRecipe(198931, 383555, nil) -- Draconic Missive of the Feverflare
-lib:AddRecipe(198932, 383791, nil) -- Burnished Ink
-lib:AddRecipe(198933, 383790, nil) -- Cosmic Ink
-lib:AddRecipe(198934, 383786, nil) -- Blazing Ink
-lib:AddRecipe(198935, 383787, nil) -- Flourishing Ink
-lib:AddRecipe(198936, 383788, nil) -- Serene Ink
-lib:AddRecipe(198937, 383591, nil) -- Contract: Maruuk Centaur
-lib:AddRecipe(198938, 383592, nil) -- Contract: Artisan's Consortium
-lib:AddRecipe(198940, 383588, nil) -- Contract: Iskaara Tuskarr
-lib:AddRecipe(198941, 383590, nil) -- Contract: Valdrakken Accord
+lib:AddRecipe(198917, 383527, 194821) -- Buzzing Rune
+lib:AddRecipe(198918, 383529, 194817) -- Howling Rune
+lib:AddRecipe(198919, 383525, 194824) -- Chirping Rune
+lib:AddRecipe(198920, 383556, 192552) -- Draconic Missive of the Fireflash
+lib:AddRecipe(198921, 383561, 194578) -- Draconic Missive of the Peerless
+lib:AddRecipe(198922, 383533, 194871) -- Azurescale Sigil
+lib:AddRecipe(198923, 383534, 194869) -- Sagescale Sigil
+lib:AddRecipe(198924, 383535, 194868) -- Emberscale Sigil
+lib:AddRecipe(198925, 383536, 194870) -- Bronzescale Sigil
+lib:AddRecipe(198926, 383538, 198431) -- Jetscale Sigil
+lib:AddRecipe(198927, 383562, 194572) -- Draconic Missive of the Quickblade
+lib:AddRecipe(198928, 383554, 194569) -- Draconic Missive of the Aurora
+lib:AddRecipe(198929, 383560, 194575) -- Draconic Missive of the Harmonious
+lib:AddRecipe(198930, 383530, 194862) -- Runed Writhebark
+lib:AddRecipe(198931, 383555, 194566) -- Draconic Missive of the Feverflare
+lib:AddRecipe(198932, 383791, 194760) -- Burnished Ink
+lib:AddRecipe(198933, 383790, 194754) -- Cosmic Ink
+lib:AddRecipe(198934, 383786, 194751) -- Blazing Ink
+lib:AddRecipe(198935, 383787, 194758) -- Flourishing Ink
+lib:AddRecipe(198936, 383788, 194856) -- Serene Ink
+lib:AddRecipe(198937, 383591, 198500) -- Contract: Maruuk Centaur
+lib:AddRecipe(198938, 383592, 198503) -- Contract: Artisan's Consortium
+lib:AddRecipe(198940, 383588, 198494) -- Contract: Iskaara Tuskarr
+lib:AddRecipe(198941, 383590, 198497) -- Contract: Valdrakken Accord
 lib:AddRecipe(198942, 383549, 191234) -- Alchemist's Sturdy Mixing Rod
 lib:AddRecipe(198943, 383550, 191231) -- Alchemist's Brilliant Mixing Rod
 lib:AddRecipe(198946, 383551, 191233) -- Chef's Smooth Rolling Pin
@@ -3032,15 +3084,16 @@ lib:AddRecipe(198952, 383770, 198478) -- Darkmoon Deck Box: Dance
 lib:AddRecipe(198953, 383772, 198481) -- Darkmoon Deck Box: Watcher
 lib:AddRecipe(198954, 383767, 198477) -- Darkmoon Deck Box: Rime
 lib:AddRecipe(198955, 383325, 194872) -- Darkmoon Deck Box: Inferno
-lib:AddRecipe(198957, 383540, 194879) -- Cracking Codex of the Isles
+lib:AddRecipe(198956, 383546, 198491) -- Vantus Rune: Vault of the Incarnates
+lib:AddRecipe(198957, 383540, 194879) -- Crackling Codex of the Isles
 lib:AddRecipe(198958, 383539, 194877) -- Core Explorer's Compendium
-lib:AddRecipe(200599, 390847, nil) -- Draconic Missive of Inspiration
-lib:AddRecipe(200600, 390848, nil) -- Draconic Missive of Resourcefulness
-lib:AddRecipe(200601, 390849, nil) -- Draconic Missive of Multicraft
-lib:AddRecipe(200602, 390850, nil) -- Draconic Missive of Crafting Speed
-lib:AddRecipe(200603, 390851, nil) -- Draconic Missive of Finesse
-lib:AddRecipe(200604, 390852, nil) -- Draconic Missive of Perception
-lib:AddRecipe(200605, 390853, nil) -- Draconic Missive of Deftness
+lib:AddRecipe(200599, 390847, 198534) -- Draconic Missive of Inspiration
+lib:AddRecipe(200600, 390848, 200565) -- Draconic Missive of Resourcefulness
+lib:AddRecipe(200601, 390849, 200568) -- Draconic Missive of Multicraft
+lib:AddRecipe(200602, 390850, 200571) -- Draconic Missive of Crafting Speed
+lib:AddRecipe(200603, 390851, 200574) -- Draconic Missive of Finesse
+lib:AddRecipe(200604, 390852, 200577) -- Draconic Missive of Perception
+lib:AddRecipe(200605, 390853, 200580) -- Draconic Missive of Deftness
 lib:AddRecipe(201026, 392944, 201023) -- Draconic Treatise on Skinning
 lib:AddRecipe(201734, 391836, 196963) -- Cliffside Wylderdrake: Silver and Blue Armor
 lib:AddRecipe(201735, 391834, 197091) -- Highland Drake: Silver and Blue Armor
@@ -3051,6 +3104,11 @@ lib:AddRecipe(201739, 391848, 197579) -- Windborne Velocidrake: Steel and Orange
 lib:AddRecipe(201741, 383581, 197377) -- Renewed Proto Drake: Bovine Horns
 lib:AddRecipe(201742, 383586, 197347) -- Renewed Proto-Drake: Silver and Blue Armor
 lib:AddRecipe(201743, 391832, 197578) -- Windborne Velocidrake: Silver and Blue Armor
+lib:AddRecipe(202236, 397866, 202220) -- Impressive Weapon Crystal
+lib:AddRecipe(202237, 397867, 202221) -- Remarkable Weapon Crystal
+lib:AddRecipe(203378, 400026, 203375) -- Crimson Combatant's Medallion
+lib:AddRecipe(203379, 400027, 203376) -- Crimson Combatant's Insignia of Alacrity
+lib:AddRecipe(203380, 400028, 203377) -- Crimson Combatant's Emblem
 -- Jewelcrafting
 lib:AddRecipe(20854, 25339, 20830) -- Amulet of the Moon
 lib:AddRecipe(20855, 25323, 20833) -- Wicked Moonstone Ring
@@ -3795,45 +3853,46 @@ lib:AddRecipe(186993, 355187, 186981) -- Porous Stone Statue
 lib:AddRecipe(186994, 355189, 186982) -- Shaded Stone Statue
 lib:AddRecipe(187830, 360016, 187829) -- Aealic Harmonizing Stone
 lib:AddRecipe(187847, 360317, 187849) -- Devourer Essence Stone
-lib:AddRecipe(194596, 374437, nil) -- Crafty Queen's Ruby
-lib:AddRecipe(194597, 374438, nil) -- Zen Mystic Sapphire
-lib:AddRecipe(194598, 374439, nil) -- Energized Vibrant Emerald
-lib:AddRecipe(194599, 374440, nil) -- Sensei's Sundered Onyx
-lib:AddRecipe(194601, 374442, nil) -- Crafty Alexstraszite
-lib:AddRecipe(194602, 374443, nil) -- Sensei's Alexstraszite
-lib:AddRecipe(194603, 374444, nil) -- Radiant Alexstraszite
-lib:AddRecipe(194604, 374445, nil) -- Deadly Alexstraszite
-lib:AddRecipe(194605, 374446, nil) -- Radiant Malygite
-lib:AddRecipe(194606, 374447, nil) -- Energized Malygite
-lib:AddRecipe(194607, 374448, nil) -- Zen Malygite
-lib:AddRecipe(194608, 374449, nil) -- Stormy Malygite
-lib:AddRecipe(194609, 374450, nil) -- Crafty Ysemerald
-lib:AddRecipe(194610, 374453, nil) -- Keen Ysemerald
-lib:AddRecipe(194611, 374454, nil) -- Energized Ysemerald
-lib:AddRecipe(194612, 374455, nil) -- Quick Ysemerald
-lib:AddRecipe(194613, 374456, nil) -- Sensei's Neltharite
-lib:AddRecipe(194614, 374457, nil) -- Keen Neltharite
-lib:AddRecipe(194615, 374458, nil) -- Zen Neltharite
-lib:AddRecipe(194616, 374459, nil) -- Fractured Neltharite
-lib:AddRecipe(194617, 374460, nil) -- Jagged Nozdorite
-lib:AddRecipe(194618, 374461, nil) -- Forceful Nozdorite
-lib:AddRecipe(194619, 374462, nil) -- Puissant Nozdorite
-lib:AddRecipe(194620, 374463, nil) -- Steady Nozdorite
-lib:AddRecipe(194621, 374465, nil) -- Inscribed Illimited Diamond
-lib:AddRecipe(194622, 374467, nil) -- Fierce Illimited Diamond
-lib:AddRecipe(194623, 374468, nil) -- Skillful Illimited Diamond
-lib:AddRecipe(194624, 374470, nil) -- Resplendent Illimited Diamond
-lib:AddRecipe(194625, 374472, nil) -- Tiered Medallion Setting
-lib:AddRecipe(194626, 374475, nil) -- Shimmering Clasp
-lib:AddRecipe(194627, 374477, nil) -- Draconic Vial
-lib:AddRecipe(194628, 374478, nil) -- Frameless Lens
-lib:AddRecipe(194629, 374480, nil) -- Glossy Stone
-lib:AddRecipe(194630, 374483, nil) -- Blotting Sand
-lib:AddRecipe(194631, 374484, nil) -- Pounce
-lib:AddRecipe(194632, 374486, 193003) -- Idol of the Lifebinder
+lib:AddRecipe(194596, 374437, 192900) -- Crafty Queen's Ruby
+lib:AddRecipe(194597, 374438, 192903) -- Zen Mystic Sapphire
+lib:AddRecipe(194598, 374439, 192906) -- Energized Vibrant Emerald
+lib:AddRecipe(194599, 374440, 192910) -- Sensei's Sundered Onyx
+lib:AddRecipe(194600, 374441, 192913) -- Solid Eternity Amber
+lib:AddRecipe(194601, 374442, 192917) -- Crafty Alexstraszite
+lib:AddRecipe(194602, 374443, 192920) -- Sensei's Alexstraszite
+lib:AddRecipe(194603, 374444, 192923) -- Radiant Alexstraszite
+lib:AddRecipe(194604, 374445, 192926) -- Deadly Alexstraszite
+lib:AddRecipe(194605, 374446, 192929) -- Radiant Malygite
+lib:AddRecipe(194606, 374447, 192933) -- Energized Malygite
+lib:AddRecipe(194607, 374448, 192936) -- Zen Malygite
+lib:AddRecipe(194608, 374449, 192940) -- Stormy Malygite
+lib:AddRecipe(194609, 374450, 192943) -- Crafty Ysemerald
+lib:AddRecipe(194610, 374453, 192946) -- Keen Ysemerald
+lib:AddRecipe(194611, 374454, 192950) -- Energized Ysemerald
+lib:AddRecipe(194612, 374455, 192953) -- Quick Ysemerald
+lib:AddRecipe(194613, 374456, 192956) -- Sensei's Neltharite
+lib:AddRecipe(194614, 374457, 192959) -- Keen Neltharite
+lib:AddRecipe(194615, 374458, 192962) -- Zen Neltharite
+lib:AddRecipe(194616, 374459, 192965) -- Fractured Neltharite
+lib:AddRecipe(194617, 374460, 192968) -- Jagged Nozdorite
+lib:AddRecipe(194618, 374461, 192971) -- Forceful Nozdorite
+lib:AddRecipe(194619, 374462, 192974) -- Puissant Nozdorite
+lib:AddRecipe(194620, 374463, 192977) -- Steady Nozdorite
+lib:AddRecipe(194621, 374465, 192980) -- Inscribed Illimited Diamond
+lib:AddRecipe(194622, 374467, 192983) -- Fierce Illimited Diamond
+lib:AddRecipe(194623, 374468, 192986) -- Skillful Illimited Diamond
+lib:AddRecipe(194624, 374470, 192989) -- Resplendent Illimited Diamond
+lib:AddRecipe(194625, 374472, 192992) -- Tiered Medallion Setting
+lib:AddRecipe(194626, 374475, 192834) -- Shimmering Clasp
+lib:AddRecipe(194627, 374477, 191474) -- Draconic Vial
+lib:AddRecipe(194628, 374478, 192876) -- Frameless Lens
+lib:AddRecipe(194629, 374480, 192883) -- Glossy Stone
+lib:AddRecipe(194630, 374483, 192894) -- Blotting Sand
+lib:AddRecipe(194631, 374484, 192897) -- Pounce
+lib:AddRecipe(194632, 374486, 193003) -- Idol of the Life-Binder
 lib:AddRecipe(194633, 374488, 193004) -- Idol of the Spell-Weaver
 lib:AddRecipe(194634, 374490, 193005) -- Idol of the Dreamer
-lib:AddRecipe(194635, 374493, 193006) -- Idol of the Earth Warder
+lib:AddRecipe(194635, 374493, 193006) -- Idol of the Earth-Warder
 lib:AddRecipe(194636, 374494, 192996) -- Pendant of Impending Perils
 lib:AddRecipe(194637, 374495, 192998) -- Crimson Combatant's Jeweled Amulet
 lib:AddRecipe(194638, 374496, 192997) -- Crimson Combatant's Jeweled Signet
@@ -3841,32 +3900,36 @@ lib:AddRecipe(194639, 374497, 192999) -- Signet of Titanic Insight
 lib:AddRecipe(194640, 374498, 193000) -- Ring-Bound Hourglass
 lib:AddRecipe(194641, 374499, 193001) -- Elemental Lariat
 lib:AddRecipe(194642, 374501, 193002) -- Choker of Shielding
-lib:AddRecipe(194643, 374502, nil) -- Narcissist's Sculpture
-lib:AddRecipe(194645, 374508, nil) -- Statue of Tyr's Herald
-lib:AddRecipe(194646, 374509, nil) -- Djaradin's "Pinata"
+lib:AddRecipe(194643, 374502, 193007) -- Narcissist's Sculpture
+lib:AddRecipe(194644, 374506, 193011) -- Revitalizing Red Carving
+lib:AddRecipe(194645, 374508, 193015) -- Statue of Tyr's Herald
+lib:AddRecipe(194646, 374509, 193019) -- Djaradin's "Pinata"
 lib:AddRecipe(194647, 374510, 193887) -- Jeweled Ruby Whelpling
 lib:AddRecipe(194648, 374511, 193888) -- Jeweled Emerald Whelpling
 lib:AddRecipe(194649, 374512, 193886) -- Jeweled Sapphire Whelpling
 lib:AddRecipe(194650, 374514, 193889) -- Jeweled Onyx Whelpling
 lib:AddRecipe(194651, 374516, 193885) -- Jeweled Amber Whelpling
-lib:AddRecipe(194652, 374518, nil) -- Projection Prism
+lib:AddRecipe(194652, 374518, 193029) -- Projection Prism
 lib:AddRecipe(194653, 374522, 193032) -- Jeweled Offering
 lib:AddRecipe(194654, 374525, 193033) -- Convergent Prism
 lib:AddRecipe(194656, 374530, 193035) -- Bold-Print Bifocals
 lib:AddRecipe(194657, 374531, 193036) -- Left-Handed Magnifying Glass
-lib:AddRecipe(194658, 374532, 193037) -- Sundered Onyx Loupes
+lib:AddRecipe(194658, 374532, 193037) -- Sundered Onyx Loupe
 lib:AddRecipe(194659, 374537, 193038) -- Chromatic Focus
 lib:AddRecipe(194660, 374538, 193039) -- Fine-Print Trifocals
 lib:AddRecipe(194661, 374540, 193040) -- Magnificent Margin Magnifier
 lib:AddRecipe(194662, 374542, 193041) -- Alexstraszite Loupes
 lib:AddRecipe(194663, 374543, 193042) -- Resonant Focus
-lib:AddRecipe(194664, 374546, nil) -- Queen's Gift
-lib:AddRecipe(194665, 374547, nil) -- Dreamer's Vision
-lib:AddRecipe(194666, 374548, nil) -- Keeper's Glory
-lib:AddRecipe(194667, 374549, nil) -- Earthwarden's Prize
-lib:AddRecipe(194668, 374550, nil) -- Timewatcher's Patience
+lib:AddRecipe(194664, 374546, 192888) -- Queen's Gift
+lib:AddRecipe(194665, 374547, 192889) -- Dreamer's Vision
+lib:AddRecipe(194666, 374548, 192890) -- Keeper's Glory
+lib:AddRecipe(194667, 374549, 192891) -- Earthwarden's Prize
+lib:AddRecipe(194668, 374550, 192892) -- Timewatcher's Patience
+lib:AddRecipe(194670, 374553, 192887) -- Elemental Harmony
+lib:AddRecipe(194671, 375063, 193371) -- "Rhinestone" Sunglasses
 lib:AddRecipe(194672, 376233, 194082) -- Band of New Beginnings
-lib:AddRecipe(194726, 377804, nil) -- Kalu'ak Figurine
+lib:AddRecipe(194726, 377804, 194723) -- Kalu'ak Figurine
+lib:AddRecipe(194749, 377960, 194748) -- Split-Lens Specs
 lib:AddRecipe(198839, 374497, 192999) -- Signet of Titanic Insight
 -- Leatherworking
 lib:AddRecipe(2406, 2158, 2307) -- Fine Leather Boots
@@ -4624,7 +4687,7 @@ lib:AddRecipe(193881, 375154, 193465) -- Scale Rein Grips
 lib:AddRecipe(193882, 375151, 193466) -- Acidic Hailstone Treads
 lib:AddRecipe(193883, 375150, 193460) -- Venom-Steeped Stompers
 lib:AddRecipe(193884, 375156, 193462) -- Infurious Chainhelm Protector
-lib:AddRecipe(194311, 375172, 193478) -- Tuskarr Bean Bag
+lib:AddRecipe(194311, 375172, 193478) -- Tuskarr Beanbag
 lib:AddRecipe(194312, 375171, 193476) -- Gnoll Tent
 lib:AddRecipe(197964, 375126, 193432) -- Crimson Combatant's Resilient Mask
 lib:AddRecipe(197965, 375127, 193431) -- Crimson Combatant's Resilient Chestpiece
@@ -4653,12 +4716,14 @@ lib:AddRecipe(198463, 375196, 193493) -- Expert Alchemist's Hat
 lib:AddRecipe(198464, 375190, 193489) -- Reinforced Pack
 lib:AddRecipe(198465, 375191, 193490) -- Expert Skinner's Cap
 lib:AddRecipe(198618, 381547, 197719) -- Artisan's Sign
-lib:AddRecipe(200103, 375176, nil) -- Infurious Hide
-lib:AddRecipe(200104, 375180, nil) -- Infurious Scales
-lib:AddRecipe(201257, 375176, nil) -- Infurious Hide
-lib:AddRecipe(201259, 375180, nil) -- Infurious Scales
-lib:AddRecipe(201732, 375162, nil) -- Fierce Armor Kit
-lib:AddRecipe(201733, 375161, nil) -- Frosted Armor Kit
+lib:AddRecipe(200103, 375176, 193236) -- Infurious Hide
+lib:AddRecipe(200104, 375180, 193248) -- Infurious Scales
+lib:AddRecipe(201257, 375176, 193236) -- Infurious Hide
+lib:AddRecipe(201259, 375180, 193248) -- Infurious Scales
+lib:AddRecipe(201732, 375162, 193557) -- Fierce Armor Kit
+lib:AddRecipe(201733, 375161, 193556) -- Frosted Armor Kit
+lib:AddRecipe(202232, 397862, 202216) -- Impressive Burnished Essence
+lib:AddRecipe(202233, 397863, 202217) -- Remarkable Burnished Essence
 -- Mining
 lib:AddRecipe(35273, 46353, 35128) -- Smelt Hardened Khorium
 lib:AddRecipe(44956, 22967, 17771) -- Smelt Enchanted Elementium
@@ -5142,11 +5207,13 @@ lib:AddRecipe(194257, 376494, 193513) -- Infurious Binding of Gesticulation
 lib:AddRecipe(194258, 376495, 193524) -- Infurious Legwraps of Possibility
 lib:AddRecipe(194259, 376497, 193530) -- Allied Wristguards of Time Dilation
 lib:AddRecipe(194260, 376496, 193532) -- Blue Dragon Soles
-lib:AddRecipe(194261, 376539, nil) -- Frozen Spellthread
-lib:AddRecipe(194262, 376540, nil) -- Temporal Spellthread
-lib:AddRecipe(194265, 376541, nil) -- Blue Silken Lining
+lib:AddRecipe(194261, 376539, 194011) -- Frozen Spellthread
+lib:AddRecipe(194262, 376540, 194014) -- Temporal Spellthread
+lib:AddRecipe(194265, 376541, 193944) -- Blue Silken Lining
+lib:AddRecipe(194266, 376542, 193941) -- Bronzed Grip Wrappings
+lib:AddRecipe(194267, 376537, 193962) -- Shimmering Embroidery Thread
 lib:AddRecipe(194268, 376570, 194060) -- Dragonscale Expedition's Expedition Tent
-lib:AddRecipe(194269, 376559, nil) -- Infurious Wildercloth Bolt
+lib:AddRecipe(194269, 376559, 193932) -- Infurious Wildercloth Bolt
 lib:AddRecipe(194270, 376527, 193505) -- Crimson Combatant's Wildercloth Bands
 lib:AddRecipe(194271, 376519, 193522) -- Crimson Combatant's Wildercloth Cloak
 lib:AddRecipe(194272, 376522, 193507) -- Crimson Combatant's Wildercloth Gloves
@@ -5161,16 +5228,23 @@ lib:AddRecipe(194280, 376505, 193512) -- Chronocloth Sash
 lib:AddRecipe(194281, 376568, 194058) -- Cold Cushion
 lib:AddRecipe(194282, 376567, 194057) -- Cushion of Time Travel
 lib:AddRecipe(194283, 376565, 194056) -- Duck-Stuffed Duck Lovie
-lib:AddRecipe(194286, 376536, nil) -- Chromatic Embroidery Thread
+lib:AddRecipe(194285, 376529, 194018) -- Azureweave Expedition Pack
+lib:AddRecipe(194286, 376536, 193959) -- Chromatic Embroidery Thread
+lib:AddRecipe(194287, 376561, 194020) -- Chronocloth Reagent Bag
 lib:AddRecipe(194288, 376544, 193544) -- Master's Wildercloth Alchemist's Robe
 lib:AddRecipe(194289, 376548, 193545) -- Master's Wildercloth Chef's Hat
 lib:AddRecipe(194290, 376550, 193533) -- Master's Wildercloth Enchanter's Hat
 lib:AddRecipe(194291, 376552, 193543) -- Master's Wildercloth Fishing Cap
 lib:AddRecipe(194292, 376554, 193542) -- Master's Wildercloth Gardening Hat
+lib:AddRecipe(194293, 376534, 193953) -- Vibrant Polishing Cloth
+lib:AddRecipe(194294, 376531, 194042) -- Explorer's Banner of Herbology
+lib:AddRecipe(194295, 376532, 194045) -- Explorer's Banner of Geology
 lib:AddRecipe(194296, 376563, nil) -- Fiddle with Draconium Fabric Cutters
 lib:AddRecipe(194297, 376564, nil) -- Fiddle with Khaz'gorite Fabric Cutters
 lib:AddRecipe(194298, 376566, 194052) -- Forlorn Funeral Pall
-lib:AddRecipe(201258, 376559, nil) -- Infurious Wildercloth Bolt
+lib:AddRecipe(201258, 376559, 193932) -- Infurious Wildercloth Bolt
+lib:AddRecipe(202234, 397864, 202218) -- Impressive Hexweave Essence
+lib:AddRecipe(202235, 397865, 202219) -- Remarkable Hexweave Essence
 
 --------------------------------------------------------------------------------
 -- End Retail Data                                                            --
