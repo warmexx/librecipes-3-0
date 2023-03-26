@@ -1,5 +1,5 @@
 local MAJOR = "LibRecipes-3.0"
-local MINOR = 12 -- Should be manually increased
+local MINOR = 13 -- Should be manually increased
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
@@ -587,6 +587,7 @@ lib:AddRecipe(191602, 370747, nil) -- Advanced Phial Experimentation
 lib:AddRecipe(198533, 381270, 197720) -- Aerated Phial of Quick Hands
 lib:AddRecipe(201740, 370543, 191381) -- Elemental Potion of Ultimate Power
 lib:AddRecipe(201740, 370672, 191485) -- Potion Cauldron of Ultimate Power
+lib:AddRecipe(203420, 400270, 203407) -- Draconic Suppression Powder
 -- Blacksmithing
 lib:AddRecipe(2881, 2667, 2864) -- Runed Copper Breastplate
 lib:AddRecipe(2882, 3330, 3481) -- Silvered Bronze Shoulders
@@ -1234,6 +1235,22 @@ lib:AddRecipe(202223, 397853, 202208) -- Impressive Steelforged Essence
 lib:AddRecipe(202224, 397855, 202209) -- Remarkable Steelforged Essence
 lib:AddRecipe(202226, 397856, 202210) -- Impressive Truesteel Essence
 lib:AddRecipe(202227, 397857, 202211) -- Remarkable Truesteel Essence
+lib:AddRecipe(203421, 400808, 203408) -- Ancient Ceremonial Trident
+lib:AddRecipe(203824, 402118, 203817) -- Gurubashi Headplate
+lib:AddRecipe(203825, 402123, 203810) -- Gurubashi Carver
+lib:AddRecipe(203826, 402124, 203802) -- Venomfang
+lib:AddRecipe(203827, 402125, 203812) -- Gurubashi Poker
+lib:AddRecipe(203828, 402126, 203809) -- Gurubashi Grinder
+lib:AddRecipe(203829, 402128, 203797) -- Gurubashi Hexxer
+lib:AddRecipe(203830, 402129, 203804) -- Sceptre of Hexing
+lib:AddRecipe(203831, 402130, 203806) -- Gurubashi Crusher
+lib:AddRecipe(203832, 402131, 203811) -- Pitchfork of Mojo Madness
+lib:AddRecipe(203833, 402134, 203790) -- Bloodherald
+lib:AddRecipe(203834, 402135, 203793) -- Bloodlord's Reaver
+lib:AddRecipe(203835, 402136, 203813) -- Fiery Vengeance
+lib:AddRecipe(203836, 402137, nil) -- Warblades of the Hakkari, Reborn
+lib:AddRecipe(203837, 402138, 203801) -- Gurubashi Slicer
+lib:AddRecipe(203861, 402133, 203860) -- Venomreaver
 -- Cooking
 lib:AddRecipe(728, 2543, 733) -- Westfall Stew
 lib:AddRecipe(2697, 2542, 724) -- Goretusk Liver Pie
@@ -1601,6 +1618,9 @@ lib:AddRecipe(201785, 381393, 197780) -- Seamoth Surprise
 lib:AddRecipe(201786, 381395, 197781) -- Salt-Baked Fishcake
 lib:AddRecipe(201787, 381392, 197779) -- Filet of Fangs
 lib:AddRecipe(202249, 13028, 10841) -- Goldthorn Tea
+lib:AddRecipe(202289, 398438, 202290) -- Firewater Sorbet
+lib:AddRecipe(203422, 400807, 203409) -- Sparkling Spice Pouch
+lib:AddRecipe(204073, 403018, 204072) -- Deviously Deviled Eggs
 -- Enchanting
 lib:AddRecipe(6342, 7443, nil) -- Minor Mana
 lib:AddRecipe(6344, 7766, nil) -- Minor Versatility
@@ -1677,8 +1697,8 @@ lib:AddRecipe(20752, 25125, 20745) -- Minor Mana Oil
 lib:AddRecipe(20753, 25126, 20746) -- Lesser Wizard Oil
 lib:AddRecipe(20754, 25127, 20747) -- Lesser Mana Oil
 lib:AddRecipe(20755, 25128, 20750) -- Wizard Oil
-lib:AddRecipe(20756, 25129, 20749) -- Brilliant Wizard Oil
-lib:AddRecipe(20757, 25130, 20748) -- Brilliant Mana Oil
+lib:AddRecipe(20756, 25129, 203865) -- Brilliant Wizard Oil
+lib:AddRecipe(20757, 25130, 203862) -- Brilliant Mana Oil
 lib:AddRecipe(20758, 25124, 20744) -- Minor Wizard Oil
 lib:AddRecipe(22392, 27837, nil) -- Agility
 lib:AddRecipe(22530, 27906, nil) -- Greater Dodge
@@ -2351,6 +2371,8 @@ lib:AddRecipe(201319, 391812, nil) -- Illusory Adornment: Order
 lib:AddRecipe(201320, 391812, nil) -- Illusory Adornment: Order
 lib:AddRecipe(201321, 391812, nil) -- Illusory Adornment: Order
 lib:AddRecipe(201361, 391185, 200618) -- Primal Invocation Extract
+lib:AddRecipe(203423, 400809, 203410) -- Glowing Crystal Bookmark
+lib:AddRecipe(203838, 402139, 203808) -- Mindslave's Reach
 -- Engineering
 lib:AddRecipe(4408, 3928, 4401) -- Mechanical Squirrel Box
 lib:AddRecipe(4409, 3933, 4367) -- Small Seaforium Charge
@@ -2712,7 +2734,7 @@ lib:AddRecipe(199261, 382363, 198236) -- Meticulously-Tuned Gear
 lib:AddRecipe(199262, 382364, 198307) -- One-Size-Fits-All Gear
 lib:AddRecipe(199263, 382365, 198160) -- Completely Safe Rockets
 lib:AddRecipe(199264, 382366, 198163) -- Endless Stack of Needles
-lib:AddRecipe(199265, 382367, 198156) -- Wyrmhole Generator
+lib:AddRecipe(199265, 382367, 198156) -- Wyrmhole Generator: Dragon Isles
 lib:AddRecipe(199266, 382368, 198264) -- Centralized Precipitation Emitter
 lib:AddRecipe(199267, 382369, 198206) -- Environmental Emulator
 lib:AddRecipe(199268, 382370, 198227) -- Giggle Goggles
@@ -2750,6 +2772,7 @@ lib:AddRecipe(202228, 397858, 202212) -- Impressive Linkgrease Locksprocket
 lib:AddRecipe(202229, 397859, 202213) -- Remarkable Linkgrease Locksprocket
 lib:AddRecipe(202230, 397860, 202214) -- Impressive True Iron Trigger
 lib:AddRecipe(202231, 397861, 202215) -- Remarkable True Iron Trigger
+lib:AddRecipe(203424, 400810, 203411) -- Gnomish Voicebox
 -- Inscription
 lib:AddRecipe(46108, 64051, 45854) -- Rituals of the Moon
 lib:AddRecipe(65649, 86644, 62239) -- Origami Slime
@@ -3109,6 +3132,10 @@ lib:AddRecipe(202237, 397867, 202221) -- Remarkable Weapon Crystal
 lib:AddRecipe(203378, 400026, 203375) -- Crimson Combatant's Medallion
 lib:AddRecipe(203379, 400027, 203376) -- Crimson Combatant's Insignia of Alacrity
 lib:AddRecipe(203380, 400028, 203377) -- Crimson Combatant's Emblem
+lib:AddRecipe(203425, 400811, 203412) -- Arcane Dispelling Rune
+lib:AddRecipe(203839, 402140, 203807) -- Gurubashi Hoodoo Stick
+lib:AddRecipe(203840, 402141, 203795) -- Judgment of the Gurubashi
+lib:AddRecipe(203841, 402142, 203815) -- Gurubashi Ceremonial Staff
 -- Jewelcrafting
 lib:AddRecipe(20854, 25339, 20830) -- Amulet of the Moon
 lib:AddRecipe(20855, 25323, 20833) -- Wicked Moonstone Ring
@@ -3925,12 +3952,16 @@ lib:AddRecipe(194665, 374547, 192889) -- Dreamer's Vision
 lib:AddRecipe(194666, 374548, 192890) -- Keeper's Glory
 lib:AddRecipe(194667, 374549, 192891) -- Earthwarden's Prize
 lib:AddRecipe(194668, 374550, 192892) -- Timewatcher's Patience
+lib:AddRecipe(194669, 374551, 192893) -- Jeweled Dragon's Heart
 lib:AddRecipe(194670, 374553, 192887) -- Elemental Harmony
 lib:AddRecipe(194671, 375063, 193371) -- "Rhinestone" Sunglasses
 lib:AddRecipe(194672, 376233, 194082) -- Band of New Beginnings
 lib:AddRecipe(194726, 377804, 194723) -- Kalu'ak Figurine
 lib:AddRecipe(194749, 377960, 194748) -- Split-Lens Specs
 lib:AddRecipe(198839, 374497, 192999) -- Signet of Titanic Insight
+lib:AddRecipe(203426, 400812, 203413) -- Crystal Tuning Fork
+lib:AddRecipe(204219, 403483, 204217) -- Unstable Elementium
+lib:AddRecipe(204406, 405205, 204404) -- Square Holders
 -- Leatherworking
 lib:AddRecipe(2406, 2158, 2307) -- Fine Leather Boots
 lib:AddRecipe(2407, 2163, 2311) -- White Leather Jerkin
@@ -4724,6 +4755,14 @@ lib:AddRecipe(201732, 375162, 193557) -- Fierce Armor Kit
 lib:AddRecipe(201733, 375161, 193556) -- Frosted Armor Kit
 lib:AddRecipe(202232, 397862, 202216) -- Impressive Burnished Essence
 lib:AddRecipe(202233, 397863, 202217) -- Remarkable Burnished Essence
+lib:AddRecipe(203427, 400814, 203414) -- Reinforced Pristine Leather
+lib:AddRecipe(203842, 402143, 203799) -- Animist's Footwraps
+lib:AddRecipe(203843, 402144, 203794) -- Animist's Legguards
+lib:AddRecipe(203844, 402146, 203819) -- Gloves of the Tormentor
+lib:AddRecipe(203845, 402147, 203814) -- Junglefury Gauntlets
+lib:AddRecipe(203846, 402148, 203816) -- Junglefury Leggings
+lib:AddRecipe(203847, 402150, 203805) -- Gurubashi's Grasp
+lib:AddRecipe(203968, 402615, 203966) -- Cord of Shriveled Heads
 -- Mining
 lib:AddRecipe(35273, 46353, 35128) -- Smelt Hardened Khorium
 lib:AddRecipe(44956, 22967, 17771) -- Smelt Enchanted Elementium
@@ -5245,6 +5284,12 @@ lib:AddRecipe(194298, 376566, 194052) -- Forlorn Funeral Pall
 lib:AddRecipe(201258, 376559, 193932) -- Infurious Wildercloth Bolt
 lib:AddRecipe(202234, 397864, 202218) -- Impressive Hexweave Essence
 lib:AddRecipe(202235, 397865, 202219) -- Remarkable Hexweave Essence
+lib:AddRecipe(203428, 400815, 203415) -- Traditional Morqut Kite
+lib:AddRecipe(203848, 402151, 203796) -- Bloodlord's Embrace
+lib:AddRecipe(203849, 402152, 203803) -- Gurubashi Tigerhide Cloak
+lib:AddRecipe(203850, 402155, 203820) -- Gurubashi Headdress
+lib:AddRecipe(203851, 402156, 203800) -- Ritualistic Legwarmers
+lib:AddRecipe(204678, 405974, 202287) -- Paw-Made Winterpelt Reagent Bag
 
 --------------------------------------------------------------------------------
 -- End Retail Data                                                            --
