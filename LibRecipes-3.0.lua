@@ -1,5 +1,5 @@
 local MAJOR = "LibRecipes-3.0"
-local MINOR = 13 -- Should be manually increased
+local MINOR = 14 -- Should be manually increased
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
@@ -588,6 +588,10 @@ lib:AddRecipe(198533, 381270, 197720) -- Aerated Phial of Quick Hands
 lib:AddRecipe(201740, 370543, 191381) -- Elemental Potion of Ultimate Power
 lib:AddRecipe(201740, 370672, 191485) -- Potion Cauldron of Ultimate Power
 lib:AddRecipe(203420, 400270, 203407) -- Draconic Suppression Powder
+lib:AddRecipe(204631, 405847, 204463) -- Transmute: Dracothyst
+lib:AddRecipe(204695, 405879, 204633) -- Cauldron of Extracted Putrescence
+lib:AddRecipe(204696, 406106, 204238) -- Draconic Phial Cauldron
+lib:AddRecipe(204984, 405832, 204370) -- Stinky Bright Potion
 -- Blacksmithing
 lib:AddRecipe(2881, 2667, 2864) -- Runed Copper Breastplate
 lib:AddRecipe(2882, 3330, 3481) -- Silvered Bronze Shoulders
@@ -1251,6 +1255,19 @@ lib:AddRecipe(203835, 402136, 203813) -- Fiery Vengeance
 lib:AddRecipe(203836, 402137, nil) -- Warblades of the Hakkari, Reborn
 lib:AddRecipe(203837, 402138, 203801) -- Gurubashi Slicer
 lib:AddRecipe(203861, 402133, 203860) -- Venomreaver
+lib:AddRecipe(204138, 403162, 204124) -- Obsidian Combatant's Draconium Helm
+lib:AddRecipe(204139, 403159, 204121) -- Obsidian Combatant's Draconium Breastplate
+lib:AddRecipe(204140, 403161, 204125) -- Obsidian Combatant's Draconium Greaves
+lib:AddRecipe(204141, 403163, 204126) -- Obsidian Combatant's Draconium Pauldrons
+lib:AddRecipe(204142, 403160, 204123) -- Obsidian Combatant's Draconium Gauntlets
+lib:AddRecipe(204143, 403164, 204122) -- Obsidian Combatant's Draconium Sabatons
+lib:AddRecipe(204144, 403158, 204128) -- Obsidian Combatant's Draconium Armguards
+lib:AddRecipe(204145, 403165, 204127) -- Obsidian Combatant's Draconium Waistguard
+lib:AddRecipe(205137, 408282, 204994) -- Shadowed Alloy
+lib:AddRecipe(205143, 408288, 205039) -- Shadowed Belt Clasp
+lib:AddRecipe(205144, 408283, 205046) -- Shadowed Razing Annihilator
+lib:AddRecipe(205145, 408326, 205168) -- Shadowed Impact Buckler
+lib:AddRecipe(205161, 408299, 205038) -- Heat-Resistant Rescue Ring
 -- Cooking
 lib:AddRecipe(728, 2543, 733) -- Westfall Stew
 lib:AddRecipe(2697, 2542, 724) -- Goretusk Liver Pie
@@ -1621,6 +1638,8 @@ lib:AddRecipe(202249, 13028, 10841) -- Goldthorn Tea
 lib:AddRecipe(202289, 398438, 202290) -- Firewater Sorbet
 lib:AddRecipe(203422, 400807, 203409) -- Sparkling Spice Pouch
 lib:AddRecipe(204073, 403018, 204072) -- Deviously Deviled Eggs
+lib:AddRecipe(204847, 407066, 204845) -- Rocks on the Rocks
+lib:AddRecipe(204849, 407100, 204848) -- Charitable Cheddar
 -- Enchanting
 lib:AddRecipe(6342, 7443, nil) -- Minor Mana
 lib:AddRecipe(6344, 7766, nil) -- Minor Versatility
@@ -2373,6 +2392,14 @@ lib:AddRecipe(201321, 391812, nil) -- Illusory Adornment: Order
 lib:AddRecipe(201361, 391185, 200618) -- Primal Invocation Extract
 lib:AddRecipe(203423, 400809, 203410) -- Glowing Crystal Bookmark
 lib:AddRecipe(203838, 402139, 203808) -- Mindslave's Reach
+lib:AddRecipe(204975, 405076, nil) -- Shadowflame Wreathe
+lib:AddRecipe(204976, 405803, 204401) -- Spore Keeper's Baton
+lib:AddRecipe(204977, 405650, nil) -- Illusory Adornment: Spores
+lib:AddRecipe(204978, 404859, nil) -- Spore Tender
+lib:AddRecipe(205337, 405937, 204673) -- Titan Training Matrix V
+lib:AddRecipe(205338, 406108, 204681) -- Enchanted Whelpling's Shadowflame Crest
+lib:AddRecipe(205339, 406413, 204682) -- Enchanted Wyrm's Shadowflame Crest
+lib:AddRecipe(205340, 406418, 204697) -- Enchanted Aspect's Shadowflame Crest
 -- Engineering
 lib:AddRecipe(4408, 3928, 4401) -- Mechanical Squirrel Box
 lib:AddRecipe(4409, 3933, 4367) -- Small Seaforium Charge
@@ -2773,6 +2800,13 @@ lib:AddRecipe(202229, 397859, 202213) -- Remarkable Linkgrease Locksprocket
 lib:AddRecipe(202230, 397860, 202214) -- Impressive True Iron Trigger
 lib:AddRecipe(202231, 397861, 202215) -- Remarkable True Iron Trigger
 lib:AddRecipe(203424, 400810, 203411) -- Gnomish Voicebox
+lib:AddRecipe(204844, 407005, 204823) -- Polarity Bomb
+lib:AddRecipe(205036, 408052, 205014) -- Tinker: Shadowflame Rockets
+lib:AddRecipe(205178, 408230, 204818) -- Mallard Mortar
+lib:AddRecipe(205282, 409351, 205278) -- Obsidian Combatant's Cloth Goggles
+lib:AddRecipe(205283, 409353, 205279) -- Obsidian Combatant's Leather Goggles
+lib:AddRecipe(205284, 409355, 205280) -- Obsidian Combatant's Mail Goggles
+lib:AddRecipe(205285, 409356, 205281) -- Obsidian Combatant's Plate Goggles
 -- Inscription
 lib:AddRecipe(46108, 64051, 45854) -- Rituals of the Moon
 lib:AddRecipe(65649, 86644, 62239) -- Origami Slime
@@ -3136,6 +3170,19 @@ lib:AddRecipe(203425, 400811, 203412) -- Arcane Dispelling Rune
 lib:AddRecipe(203839, 402140, 203807) -- Gurubashi Hoodoo Stick
 lib:AddRecipe(203840, 402141, 203795) -- Judgment of the Gurubashi
 lib:AddRecipe(203841, 402142, 203815) -- Gurubashi Ceremonial Staff
+lib:AddRecipe(204167, 403166, 204164) -- Obsidian Combatant's Medallion
+lib:AddRecipe(204168, 403167, 204165) -- Obsidian Combatant's Insignia of Alacrity
+lib:AddRecipe(204169, 403168, 204166) -- Obsidian Combatant's Emblem
+lib:AddRecipe(205127, 408218, 203300) -- Winding Slitherdrake: Blue and Silver Armor
+lib:AddRecipe(205128, 408220, 203304) -- Winding Slitherdrake: Yellow and Silver Armor
+lib:AddRecipe(205129, 408222, 203314) -- Winding Slitherdrake: Curved Chin Horn
+lib:AddRecipe(205130, 408221, 203324) -- Winding Slitherdrake: White Hair
+lib:AddRecipe(205131, 408223, 203364) -- Winding Slitherdrake: Small Finned Throat
+lib:AddRecipe(205132, 408277, 203762) -- Glyph of the Chosen Glaive
+lib:AddRecipe(205133, 408273, 203763) -- Glyph of the Heaved Armament
+lib:AddRecipe(205134, 408272, 204858) -- Vantus Rune: Aberrus, the Shadowed Crucible
+lib:AddRecipe(205135, 408271, 204971) -- Hissing Rune
+lib:AddRecipe(205136, 408278, 204991) -- Contract: Loamm Niffen
 -- Jewelcrafting
 lib:AddRecipe(20854, 25339, 20830) -- Amulet of the Moon
 lib:AddRecipe(20855, 25323, 20833) -- Wicked Moonstone Ring
@@ -3960,8 +4007,13 @@ lib:AddRecipe(194726, 377804, 194723) -- Kalu'ak Figurine
 lib:AddRecipe(194749, 377960, 194748) -- Split-Lens Specs
 lib:AddRecipe(198839, 374497, 192999) -- Signet of Titanic Insight
 lib:AddRecipe(203426, 400812, 203413) -- Crystal Tuning Fork
+lib:AddRecipe(204146, 403131, 204095) -- Obsidian Combatant's Jeweled Amulet
+lib:AddRecipe(204147, 403132, 204094) -- Obsidian Combatant's Jeweled Signet
 lib:AddRecipe(204219, 403483, 204217) -- Unstable Elementium
 lib:AddRecipe(204406, 405205, 204404) -- Square Holders
+lib:AddRecipe(205174, 408231, 205045) -- B.B.F. Fist
+lib:AddRecipe(205175, 408397, 204909) -- Statuette of Foreseen Power
+lib:AddRecipe(205176, 408398, 205171) -- Figurine of the Gathering Storm
 -- Leatherworking
 lib:AddRecipe(2406, 2158, 2307) -- Fine Leather Boots
 lib:AddRecipe(2407, 2163, 2311) -- White Leather Jerkin
@@ -4763,6 +4815,26 @@ lib:AddRecipe(203845, 402147, 203814) -- Junglefury Gauntlets
 lib:AddRecipe(203846, 402148, 203816) -- Junglefury Leggings
 lib:AddRecipe(203847, 402150, 203805) -- Gurubashi's Grasp
 lib:AddRecipe(203968, 402615, 203966) -- Cord of Shriveled Heads
+lib:AddRecipe(204148, 403133, 204098) -- Obsidian Combatant's Resilient Mask
+lib:AddRecipe(204149, 403134, 204097) -- Obsidian Combatant's Resilient Chestpiece
+lib:AddRecipe(204150, 403135, 204101) -- Obsidian Combatant's Resilient Trousers
+lib:AddRecipe(204151, 403136, 204099) -- Obsidian Combatant's Resilient Shoulderpads
+lib:AddRecipe(204152, 403138, 204096) -- Obsidian Combatant's Resilient Boots
+lib:AddRecipe(204153, 403137, 204102) -- Obsidian Combatant's Resilient Gloves
+lib:AddRecipe(204154, 403139, 204103) -- Obsidian Combatant's Resilient Wristwraps
+lib:AddRecipe(204155, 403140, 204100) -- Obsidian Combatant's Resilient Belt
+lib:AddRecipe(204156, 403141, 204106) -- Obsidian Combatant's Adamant Cowl
+lib:AddRecipe(204157, 403142, 204105) -- Obsidian Combatant's Adamant Chainmail
+lib:AddRecipe(204158, 403143, 204109) -- Obsidian Combatant's Adamant Leggings
+lib:AddRecipe(204159, 403144, 204107) -- Obsidian Combatant's Adamant Epaulettes
+lib:AddRecipe(204160, 403146, 204104) -- Obsidian Combatant's Adamant Treads
+lib:AddRecipe(204161, 403145, 204110) -- Obsidian Combatant's Adamant Gauntlets
+lib:AddRecipe(204162, 403147, 204111) -- Obsidian Combatant's Adamant Cuffs
+lib:AddRecipe(204163, 403148, 204108) -- Obsidian Combatant's Adamant Girdle
+lib:AddRecipe(204968, 406275, 204708) -- Shadowflame-Tempered Armor Patch
+lib:AddRecipe(204969, 406266, 204706) -- Spore Colony Shoulderguards
+lib:AddRecipe(204970, 406267, 204704) -- Adaptive Dracothyst Armguards
+lib:AddRecipe(204974, 406214, 204700) -- Lambent Armor Kit
 -- Mining
 lib:AddRecipe(35273, 46353, 35128) -- Smelt Hardened Khorium
 lib:AddRecipe(44956, 22967, 17771) -- Smelt Enchanted Elementium
@@ -5289,7 +5361,19 @@ lib:AddRecipe(203848, 402151, 203796) -- Bloodlord's Embrace
 lib:AddRecipe(203849, 402152, 203803) -- Gurubashi Tigerhide Cloak
 lib:AddRecipe(203850, 402155, 203820) -- Gurubashi Headdress
 lib:AddRecipe(203851, 402156, 203800) -- Ritualistic Legwarmers
+lib:AddRecipe(204129, 403157, 204115) -- Obsidian Combatant's Wildercloth Bands
+lib:AddRecipe(204130, 403149, 204120) -- Obsidian Combatant's Wildercloth Cloak
+lib:AddRecipe(204131, 403152, 204117) -- Obsidian Combatant's Wildercloth Gloves
+lib:AddRecipe(204132, 403153, 204116) -- Obsidian Combatant's Wildercloth Hood
+lib:AddRecipe(204133, 403154, 204112) -- Obsidian Combatant's Wildercloth Leggings
+lib:AddRecipe(204134, 403156, 204119) -- Obsidian Combatant's Wildercloth Sash
+lib:AddRecipe(204135, 403155, 204113) -- Obsidian Combatant's Wildercloth Shoulderpads
+lib:AddRecipe(204136, 403151, 204114) -- Obsidian Combatant's Wildercloth Treads
+lib:AddRecipe(204137, 403150, 204118) -- Obsidian Combatant's Wildercloth Tunic
 lib:AddRecipe(204678, 405974, 202287) -- Paw-Made Winterpelt Reagent Bag
+lib:AddRecipe(205138, 409839, 205411) -- Medical Wrap Kit
+lib:AddRecipe(205139, 408304, 205012) -- Reserve Parachute
+lib:AddRecipe(205140, 408318, 205025) -- Undulating Sporecloak
 
 --------------------------------------------------------------------------------
 -- End Retail Data                                                            --
