@@ -1,5 +1,5 @@
 local MAJOR = "LibRecipes-3.0"
-local MINOR = 14 -- Should be manually increased
+local MINOR = 15 -- Should be manually increased
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
@@ -1252,7 +1252,7 @@ lib:AddRecipe(203832, 402131, 203811) -- Pitchfork of Mojo Madness
 lib:AddRecipe(203833, 402134, 203790) -- Bloodherald
 lib:AddRecipe(203834, 402135, 203793) -- Bloodlord's Reaver
 lib:AddRecipe(203835, 402136, 203813) -- Fiery Vengeance
-lib:AddRecipe(203836, 402137, nil) -- Warblades of the Hakkari, Reborn
+lib:AddRecipe(203836, 402137, 207011) -- Warblades of the Hakkari, Reborn
 lib:AddRecipe(203837, 402138, 203801) -- Gurubashi Slicer
 lib:AddRecipe(203861, 402133, 203860) -- Venomreaver
 lib:AddRecipe(204138, 403162, 204124) -- Obsidian Combatant's Draconium Helm
@@ -1268,6 +1268,46 @@ lib:AddRecipe(205143, 408288, 205039) -- Shadowed Belt Clasp
 lib:AddRecipe(205144, 408283, 205046) -- Shadowed Razing Annihilator
 lib:AddRecipe(205145, 408326, 205168) -- Shadowed Impact Buckler
 lib:AddRecipe(205161, 408299, 205038) -- Heat-Resistant Rescue Ring
+lib:AddRecipe(206351, 10015, 7960) -- Truesilver Champion
+lib:AddRecipe(206352, 10003, 7954) -- The Shatterer
+lib:AddRecipe(206419, 413506, 206444) -- Icebane Coif
+lib:AddRecipe(206420, 413507, 206443) -- Icebane Mantle
+lib:AddRecipe(206421, 28242, 22669) -- Icebane Breastplate
+lib:AddRecipe(206422, 28244, 22671) -- Icebane Bracers
+lib:AddRecipe(206423, 28243, 22670) -- Icebane Gauntlets
+lib:AddRecipe(206424, 413508, 206445) -- Icebane Waistguard
+lib:AddRecipe(206425, 413509, 206442) -- Icebane Leggings
+lib:AddRecipe(206426, 413510, 206446) -- Icebane Trudgers
+lib:AddRecipe(206522, 413511, 206477) -- Warsword of Caer Darrow
+lib:AddRecipe(206525, 413512, 206478) -- Darrowdirk
+lib:AddRecipe(206526, 413513, 206479) -- Darrowshire Protector
+lib:AddRecipe(206527, 413514, 206480) -- Mirah's Lullaby
+lib:AddRecipe(206531, 413518, 206484) -- Strength of Menethil
+lib:AddRecipe(206533, 413520, 206486) -- Midnight's Graze
+lib:AddRecipe(206534, 413521, 206487) -- Weaver's Fang
+lib:AddRecipe(206535, 413522, 206488) -- Widow's Weep
+lib:AddRecipe(206536, 413523, 206489) -- Shade's Blade
+lib:AddRecipe(206537, 413524, 206490) -- Edict of the Redeemed Crusader
+lib:AddRecipe(206539, 413739, 206492) -- Blade of Unholy Might
+lib:AddRecipe(206540, 413740, 206493) -- Axe of Sundered Bone
+lib:AddRecipe(206541, 413741, 206494) -- The Plague Belcher
+lib:AddRecipe(206542, 413742, 206495) -- Bracers of Vengeance
+lib:AddRecipe(206544, 413744, 206497) -- The Final Dream
+lib:AddRecipe(206545, 413745, 206498) -- Plated Construct's Ribcage
+lib:AddRecipe(206546, 413746, 206499) -- Blade of the Fallen Seraph
+lib:AddRecipe(206549, 413749, 206502) -- The Face of Doom
+lib:AddRecipe(206550, 413750, 206503) -- Harbinger of Death
+lib:AddRecipe(206553, 413753, 206506) -- Dawn of Demise
+lib:AddRecipe(206555, 413755, 206508) -- Gauntlets of the Unrelenting
+lib:AddRecipe(206557, 413757, 206510) -- Death's Gamble
+lib:AddRecipe(206558, 413758, 206511) -- Belt of the Mentor
+lib:AddRecipe(206560, 413760, 206513) -- Stygian Shield
+lib:AddRecipe(206774, 414567, 206648) -- Undeath Metal
+lib:AddRecipe(206805, 414590, 206787) -- Bucket Kickers
+lib:AddRecipe(207567, 416682, 207555) -- Intrepid Shortblade
+lib:AddRecipe(207568, 416683, 207556) -- Valiant Shortblade
+lib:AddRecipe(207572, 416687, 207560) -- Sacred Guardian
+lib:AddRecipe(207573, 416688, 207561) -- Ichor Slicer
 -- Cooking
 lib:AddRecipe(728, 2543, 733) -- Westfall Stew
 lib:AddRecipe(2697, 2542, 724) -- Goretusk Liver Pie
@@ -1447,7 +1487,7 @@ lib:AddRecipe(78342, 6417, 5478) -- Dig Rat Stew
 lib:AddRecipe(85502, 124029, 85501) -- Viseclaw Soup
 lib:AddRecipe(85505, 124032, 85504) -- Krasarang Fritters
 lib:AddRecipe(86393, 126654, 87264) -- Four Senses Brew
-lib:AddRecipe(87266, 126655, 86432) -- Banana Infused Rum
+lib:AddRecipe(87266, 126655, 86432) -- Banana-Infused Rum
 lib:AddRecipe(101765, 145305, 101746) -- Seasoned Pomfruit Slices
 lib:AddRecipe(101766, 145307, 101748) -- Spiced Blossom Soup
 lib:AddRecipe(101767, 145308, 101745) -- Mango Ice
@@ -2400,6 +2440,9 @@ lib:AddRecipe(205337, 405937, 204673) -- Titan Training Matrix V
 lib:AddRecipe(205338, 406108, 204681) -- Enchanted Whelpling's Shadowflame Crest
 lib:AddRecipe(205339, 406413, 204682) -- Enchanted Wyrm's Shadowflame Crest
 lib:AddRecipe(205340, 406418, 204697) -- Enchanted Aspect's Shadowflame Crest
+lib:AddRecipe(207569, 416684, 207557) -- Magebane Nexus
+lib:AddRecipe(207570, 416685, 207558) -- Smoked Fireshooter
+lib:AddRecipe(207571, 416686, 207559) -- Stormwatcher
 -- Engineering
 lib:AddRecipe(4408, 3928, 4401) -- Mechanical Squirrel Box
 lib:AddRecipe(4409, 3933, 4367) -- Small Seaforium Charge
@@ -2807,6 +2850,9 @@ lib:AddRecipe(205282, 409351, 205278) -- Obsidian Combatant's Cloth Goggles
 lib:AddRecipe(205283, 409353, 205279) -- Obsidian Combatant's Leather Goggles
 lib:AddRecipe(205284, 409355, 205280) -- Obsidian Combatant's Mail Goggles
 lib:AddRecipe(205285, 409356, 205281) -- Obsidian Combatant's Plate Goggles
+lib:AddRecipe(206559, 413759, 206512) -- Replaced Servo Arm
+lib:AddRecipe(207574, 416689, 207562) -- Skullstone Bludgeon
+lib:AddRecipe(207576, 416691, 207564) -- Refurbished Purifier
 -- Inscription
 lib:AddRecipe(46108, 64051, 45854) -- Rituals of the Moon
 lib:AddRecipe(65649, 86644, 62239) -- Origami Slime
@@ -2842,7 +2888,7 @@ lib:AddRecipe(136706, 209511, 136693) -- Straszan Mark
 lib:AddRecipe(137728, 192802, 128980) -- Scroll of Forgotten Knowledge
 lib:AddRecipe(137729, 226248, 141333) -- Codex of the Tranquil Mind
 lib:AddRecipe(137730, 192838, 129017) -- Glyph of Ghostly Fade
-lib:AddRecipe(137731, 192839, 129018) -- Glyph of Fel Imp
+lib:AddRecipe(137731, 192839, 129018) -- Grimoire of the Fel Imp
 lib:AddRecipe(137732, 192840, 129019) -- Glyph of Sparkles
 lib:AddRecipe(137733, 192841, 139358) -- Glyph of Blackout
 lib:AddRecipe(137734, 192842, 129021) -- Glyph of the Sentinel
@@ -2940,11 +2986,11 @@ lib:AddRecipe(141057, 225549, 129020) -- Glyph of Flash Bang
 lib:AddRecipe(141058, 225550, 139289) -- Glyph of Critterhex
 lib:AddRecipe(141059, 225551, 137289) -- Glyph of Flickering
 lib:AddRecipe(141060, 225552, 137288) -- Glyph of Pebbles
+lib:AddRecipe(141061, 225553, 139314) -- Grimoire of the Abyssal
 lib:AddRecipe(141062, 225554, 137191) -- Glyph of the Inquisitor's Eye
-lib:AddRecipe(141063, 225555, 139312) -- Glyph of the Observer
-lib:AddRecipe(141064, 225556, 139310) -- Glyph of the Shivarra
-lib:AddRecipe(141066, 225558, 139311) -- Glyph of the Voidlord
-lib:AddRecipe(141067, 225559, 139315) -- Glyph of Wrathguard
+lib:AddRecipe(141064, 225556, 139310) -- Grimoire of the Shivarra
+lib:AddRecipe(141066, 225558, 139311) -- Grimoire of the Voidlord
+lib:AddRecipe(141067, 225559, 139315) -- Grimoire of the Wrathguard
 lib:AddRecipe(141068, 225560, 137188) -- Glyph of the Blazing Savior
 lib:AddRecipe(141447, 227043, 141446) -- Tome of the Tranquil Mind
 lib:AddRecipe(141591, 227239, 141333) -- Codex of the Tranquil Mind
@@ -2967,7 +3013,7 @@ lib:AddRecipe(143751, 233278, 143750) -- Glyph of Twilight Bloom
 lib:AddRecipe(146411, 238577, 146406) -- Vantus Rune: Tomb of Sargeras
 lib:AddRecipe(146412, 238578, 146406) -- Vantus Rune: Tomb of Sargeras
 lib:AddRecipe(146413, 238579, 146406) -- Vantus Rune: Tomb of Sargeras
-lib:AddRecipe(147120, 240272, 147119) -- Glyph of the Shadow Succubus
+lib:AddRecipe(147120, 240272, 147119) -- Grimoire of the Shadow Succubus
 lib:AddRecipe(151539, 246982, 151538) -- Glyph of Ember Shards
 lib:AddRecipe(151541, 246984, 151540) -- Glyph of Floating Shards
 lib:AddRecipe(151543, 246999, 151542) -- Glyph of Fel-Touched Shards
@@ -3088,7 +3134,7 @@ lib:AddRecipe(198891, 383574, 196981) -- Cliffside Wylderdrake: Conical Head
 lib:AddRecipe(198892, 383575, 196988) -- Cliffside Wylderdrake: Red Hair
 lib:AddRecipe(198893, 383576, 196980) -- Cliffside Wylderdrake: Triple Head Horns
 lib:AddRecipe(198894, 383577, 197117) -- Highland Drake: Black Hair
-lib:AddRecipe(198895, 383578, 197108) -- Highland Drake: Spined Crest
+lib:AddRecipe(198895, 383578, 197108) -- Highland Drake: Spined Head
 lib:AddRecipe(198896, 383579, 197154) -- Highland Drake: Spined Neck
 lib:AddRecipe(198899, 383580, 197394) -- Renewed Proto-Drake: Predator Pattern
 lib:AddRecipe(198901, 383582, 197362) -- Renewed Proto-Drake: Spined Crest
@@ -3183,6 +3229,11 @@ lib:AddRecipe(205133, 408273, 203763) -- Glyph of the Heaved Armament
 lib:AddRecipe(205134, 408272, 204858) -- Vantus Rune: Aberrus, the Shadowed Crucible
 lib:AddRecipe(205135, 408271, 204971) -- Hissing Rune
 lib:AddRecipe(205136, 408278, 204991) -- Contract: Loamm Niffen
+lib:AddRecipe(206528, 413515, 206481) -- Shifting Sliver
+lib:AddRecipe(206532, 413519, 206485) -- Soulscryer
+lib:AddRecipe(206548, 413748, 206501) -- Encased Frigid Heart
+lib:AddRecipe(207091, 416137, 207088) -- Glyph of the Shath'Yar
+lib:AddRecipe(207575, 416690, 207563) -- Wanderer's Guide
 -- Jewelcrafting
 lib:AddRecipe(20854, 25339, 20830) -- Amulet of the Moon
 lib:AddRecipe(20855, 25323, 20833) -- Wicked Moonstone Ring
@@ -4014,6 +4065,9 @@ lib:AddRecipe(204406, 405205, 204404) -- Square Holders
 lib:AddRecipe(205174, 408231, 205045) -- B.B.F. Fist
 lib:AddRecipe(205175, 408397, 204909) -- Statuette of Foreseen Power
 lib:AddRecipe(205176, 408398, 205171) -- Figurine of the Gathering Storm
+lib:AddRecipe(206543, 413743, 206496) -- Gem of the Nerubians
+lib:AddRecipe(206551, 413751, 206504) -- Frostwyrm's Icy Gaze
+lib:AddRecipe(206552, 413752, 206505) -- Frostwyrm's Frigid Stare
 -- Leatherworking
 lib:AddRecipe(2406, 2158, 2307) -- Fine Leather Boots
 lib:AddRecipe(2407, 2163, 2311) -- White Leather Jerkin
@@ -4835,6 +4889,30 @@ lib:AddRecipe(204968, 406275, 204708) -- Shadowflame-Tempered Armor Patch
 lib:AddRecipe(204969, 406266, 204706) -- Spore Colony Shoulderguards
 lib:AddRecipe(204970, 406267, 204704) -- Adaptive Dracothyst Armguards
 lib:AddRecipe(204974, 406214, 204700) -- Lambent Armor Kit
+lib:AddRecipe(206403, 413496, 206434) -- Polar Helm
+lib:AddRecipe(206404, 413497, 206433) -- Polar Spaulders
+lib:AddRecipe(206405, 28219, 22661) -- Polar Tunic
+lib:AddRecipe(206406, 28221, 22663) -- Polar Bracers
+lib:AddRecipe(206407, 28220, 22662) -- Polar Gloves
+lib:AddRecipe(206408, 413498, 206435) -- Polar Belt
+lib:AddRecipe(206409, 413499, 206432) -- Polar Leggings
+lib:AddRecipe(206410, 413500, 206436) -- Polar Footwarmers
+lib:AddRecipe(206411, 413501, 206439) -- Icy Scale Crown
+lib:AddRecipe(206412, 413502, 206438) -- Icy Scale Shoulderpads
+lib:AddRecipe(206413, 28222, 22664) -- Icy Scale Breastplate
+lib:AddRecipe(206414, 28224, 22665) -- Icy Scale Bracers
+lib:AddRecipe(206415, 28223, 22666) -- Icy Scale Gauntlets
+lib:AddRecipe(206416, 413503, 206440) -- Icy Scale Waistwrap
+lib:AddRecipe(206417, 413504, 206437) -- Icy Scale Leggings
+lib:AddRecipe(206418, 413505, 206441) -- Icy Scale Stompers
+lib:AddRecipe(206529, 413516, 206482) -- Helm of Lingering Power
+lib:AddRecipe(206530, 413517, 206483) -- Skyfury Headdress
+lib:AddRecipe(206538, 413738, 206491) -- Nerubian Persuader
+lib:AddRecipe(206556, 413756, 206509) -- Displacement Boots
+lib:AddRecipe(206561, 413761, 206514) -- Lucien's Lost Soles
+lib:AddRecipe(206772, 414565, 206646) -- Languished Leather
+lib:AddRecipe(206773, 414566, 206647) -- Scourged Scales
+lib:AddRecipe(207577, 416692, 207565) -- Sanctified Leather Hat
 -- Mining
 lib:AddRecipe(35273, 46353, 35128) -- Smelt Hardened Khorium
 lib:AddRecipe(44956, 22967, 17771) -- Smelt Enchanted Elementium
@@ -5374,6 +5452,20 @@ lib:AddRecipe(204678, 405974, 202287) -- Paw-Made Winterpelt Reagent Bag
 lib:AddRecipe(205138, 409839, 205411) -- Medical Wrap Kit
 lib:AddRecipe(205139, 408304, 205012) -- Reserve Parachute
 lib:AddRecipe(205140, 408318, 205025) -- Undulating Sporecloak
+lib:AddRecipe(206393, 28208, 22658) -- Glacial Cloak
+lib:AddRecipe(206395, 413490, 206429) -- Glacial Chapeau
+lib:AddRecipe(206396, 413491, 206428) -- Glacial Epaulets
+lib:AddRecipe(206397, 28207, 22652) -- Glacial Vest
+lib:AddRecipe(206398, 28209, 22655) -- Glacial Wrists
+lib:AddRecipe(206399, 28205, 22654) -- Glacial Gloves
+lib:AddRecipe(206400, 413492, 206430) -- Glacial Tether
+lib:AddRecipe(206401, 413494, 206427) -- Glacial Leggings
+lib:AddRecipe(206402, 413495, 206431) -- Glacial Footwear
+lib:AddRecipe(206547, 413747, 206500) -- Bindings of the Harvested Soul
+lib:AddRecipe(206554, 413754, 206507) -- Necrotic Gown
+lib:AddRecipe(206563, 413788, 206562) -- Shroud of Forbidden Magic
+lib:AddRecipe(206583, 413903, 206582) -- Peculiar Glacial Mantle
+lib:AddRecipe(206771, 414564, 206645) -- Cursed Cloth
 
 --------------------------------------------------------------------------------
 -- End Retail Data                                                            --
