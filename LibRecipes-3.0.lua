@@ -1,5 +1,5 @@
 local MAJOR = "LibRecipes-3.0"
-local MINOR = 15 -- Should be manually increased
+local MINOR = 16 -- Should be manually increased
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
@@ -592,6 +592,7 @@ lib:AddRecipe(204631, 405847, 204463) -- Transmute: Dracothyst
 lib:AddRecipe(204695, 405879, 204633) -- Cauldron of Extracted Putrescence
 lib:AddRecipe(204696, 406106, 204238) -- Draconic Phial Cauldron
 lib:AddRecipe(204984, 405832, 204370) -- Stinky Bright Potion
+lib:AddRecipe(210241, 415628, 207021) -- Dreamwalker's Healing Potion
 -- Blacksmithing
 lib:AddRecipe(2881, 2667, 2864) -- Runed Copper Breastplate
 lib:AddRecipe(2882, 3330, 3481) -- Silvered Bronze Shoulders
@@ -1308,6 +1309,15 @@ lib:AddRecipe(207567, 416682, 207555) -- Intrepid Shortblade
 lib:AddRecipe(207568, 416683, 207556) -- Valiant Shortblade
 lib:AddRecipe(207572, 416687, 207560) -- Sacred Guardian
 lib:AddRecipe(207573, 416688, 207561) -- Ichor Slicer
+lib:AddRecipe(208281, 419035, 208267) -- Verdant Combatant's Draconium Helm
+lib:AddRecipe(208282, 419032, 208264) -- Verdant Combatant's Draconium Breastplate
+lib:AddRecipe(208283, 419034, 208268) -- Verdant Combatant's Draconium Greaves
+lib:AddRecipe(208284, 419036, 208269) -- Verdant Combatant's Draconium Pauldrons
+lib:AddRecipe(208285, 419033, 208266) -- Verdant Combatant's Draconium Gauntlets
+lib:AddRecipe(208286, 419037, 208265) -- Verdant Combatant's Draconium Sabatons
+lib:AddRecipe(208287, 419031, 208271) -- Verdant Combatant's Draconium Armguards
+lib:AddRecipe(208288, 419038, 208270) -- Verdant Combatant's Draconium Waistguard
+lib:AddRecipe(210644, 426332, 210646) -- Flourishing Dream Helm
 -- Cooking
 lib:AddRecipe(728, 2543, 733) -- Westfall Stew
 lib:AddRecipe(2697, 2542, 724) -- Goretusk Liver Pie
@@ -1487,7 +1497,7 @@ lib:AddRecipe(78342, 6417, 5478) -- Dig Rat Stew
 lib:AddRecipe(85502, 124029, 85501) -- Viseclaw Soup
 lib:AddRecipe(85505, 124032, 85504) -- Krasarang Fritters
 lib:AddRecipe(86393, 126654, 87264) -- Four Senses Brew
-lib:AddRecipe(87266, 126655, 86432) -- Banana-Infused Rum
+lib:AddRecipe(87266, 126655, 86432) -- Banana Infused Rum
 lib:AddRecipe(101765, 145305, 101746) -- Seasoned Pomfruit Slices
 lib:AddRecipe(101766, 145307, 101748) -- Spiced Blossom Soup
 lib:AddRecipe(101767, 145308, 101745) -- Mango Ice
@@ -1680,6 +1690,7 @@ lib:AddRecipe(203422, 400807, 203409) -- Sparkling Spice Pouch
 lib:AddRecipe(204073, 403018, 204072) -- Deviously Deviled Eggs
 lib:AddRecipe(204847, 407066, 204845) -- Rocks on the Rocks
 lib:AddRecipe(204849, 407100, 204848) -- Charitable Cheddar
+lib:AddRecipe(210242, 416001, 207054) -- Slumbering Peacebloom Tea
 -- Enchanting
 lib:AddRecipe(6342, 7443, nil) -- Minor Mana
 lib:AddRecipe(6344, 7766, nil) -- Minor Versatility
@@ -2443,6 +2454,11 @@ lib:AddRecipe(205340, 406418, 204697) -- Enchanted Aspect's Shadowflame Crest
 lib:AddRecipe(207569, 416684, 207557) -- Magebane Nexus
 lib:AddRecipe(207570, 416685, 207558) -- Smoked Fireshooter
 lib:AddRecipe(207571, 416686, 207559) -- Stormwatcher
+lib:AddRecipe(210171, 414989, 206961) -- Enchanted Aspect's Dreaming Crest
+lib:AddRecipe(210172, 414988, 206960) -- Enchanted Wyrm's Dreaming Crest
+lib:AddRecipe(210173, 414985, 206977) -- Enchanted Whelpling's Dreaming Crest
+lib:AddRecipe(210174, 414946, nil) -- Illusory Adornment: Dreams
+lib:AddRecipe(210175, 416047, nil) -- Dreaming Devotion
 -- Engineering
 lib:AddRecipe(4408, 3928, 4401) -- Mechanical Squirrel Box
 lib:AddRecipe(4409, 3933, 4367) -- Small Seaforium Charge
@@ -2851,10 +2867,15 @@ lib:AddRecipe(205283, 409353, 205279) -- Obsidian Combatant's Leather Goggles
 lib:AddRecipe(205284, 409355, 205280) -- Obsidian Combatant's Mail Goggles
 lib:AddRecipe(205285, 409356, 205281) -- Obsidian Combatant's Plate Goggles
 lib:AddRecipe(206559, 413759, 206512) -- Replaced Servo Arm
+lib:AddRecipe(207461, 416149, 207092) -- Portable Party Platter
 lib:AddRecipe(207574, 416689, 207562) -- Skullstone Bludgeon
 lib:AddRecipe(207576, 416691, 207564) -- Refurbished Purifier
+lib:AddRecipe(208317, 419042, 208313) -- Verdant Combatant's Cloth Goggles
+lib:AddRecipe(208318, 419043, 208314) -- Verdant Combatant's Leather Goggles
+lib:AddRecipe(208319, 419044, 208315) -- Verdant Combatant's Mail Goggles
+lib:AddRecipe(208320, 419045, 208316) -- Verdant Combatant's Plate Goggles
 -- Inscription
-lib:AddRecipe(46108, 64051, 45854) -- Rituals of the Moon
+lib:AddRecipe(46108, 64051, 45854) -- Rituals of the New Moon
 lib:AddRecipe(65649, 86644, 62239) -- Origami Slime
 lib:AddRecipe(65650, 86645, 62238) -- Origami Rock
 lib:AddRecipe(65651, 86646, 63246) -- Origami Beetle
@@ -3234,6 +3255,16 @@ lib:AddRecipe(206532, 413519, 206485) -- Soulscryer
 lib:AddRecipe(206548, 413748, 206501) -- Encased Frigid Heart
 lib:AddRecipe(207091, 416137, 207088) -- Glyph of the Shath'Yar
 lib:AddRecipe(207575, 416690, 207563) -- Wanderer's Guide
+lib:AddRecipe(208310, 419039, 208307) -- Verdant Combatant's Medallion
+lib:AddRecipe(208311, 419040, 208308) -- Verdant Combatant's Insignia of Alacrity
+lib:AddRecipe(208312, 419041, 208309) -- Verdant Combatant's Emblem
+lib:AddRecipe(210243, 425263, 210244) -- Contract: Dream Wardens
+lib:AddRecipe(210490, 425954, 210247) -- Vantus Rune: Amirdrassil, the Dream's Hope
+lib:AddRecipe(210491, 425958, 203311) -- Winding Slitherdrake: Hairy Chin
+lib:AddRecipe(210492, 425961, 207761) -- Grotto Netherwing Drake: Chin Tendrils
+lib:AddRecipe(210493, 425959, 207773) -- Grotto Netherwing Drake: Spiked Jaw
+lib:AddRecipe(211065, 427956, 210735) -- Mark of the Auric Dreamstag
+lib:AddRecipe(211399, 429149, 211400) -- Glyph of the Lunar Chameleon
 -- Jewelcrafting
 lib:AddRecipe(20854, 25339, 20830) -- Amulet of the Moon
 lib:AddRecipe(20855, 25323, 20833) -- Wicked Moonstone Ring
@@ -4068,6 +4099,9 @@ lib:AddRecipe(205176, 408398, 205171) -- Figurine of the Gathering Storm
 lib:AddRecipe(206543, 413743, 206496) -- Gem of the Nerubians
 lib:AddRecipe(206551, 413751, 206504) -- Frostwyrm's Icy Gaze
 lib:AddRecipe(206552, 413752, 206505) -- Frostwyrm's Frigid Stare
+lib:AddRecipe(208289, 419004, 208238) -- Verdant Combatant's Jeweled Amulet
+lib:AddRecipe(208290, 419005, 208237) -- Verdant Combatant's Jeweled Signet
+lib:AddRecipe(210170, 420740, 208746) -- Dreamtender's Charm
 -- Leatherworking
 lib:AddRecipe(2406, 2158, 2307) -- Fine Leather Boots
 lib:AddRecipe(2407, 2163, 2311) -- White Leather Jerkin
@@ -4837,7 +4871,7 @@ lib:AddRecipe(197971, 375133, 193434) -- Crimson Combatant's Resilient Belt
 lib:AddRecipe(197972, 375134, 193441) -- Crimson Combatant's Adamant Cowl
 lib:AddRecipe(197973, 375135, 193440) -- Crimson Combatant's Adamant Chainmail
 lib:AddRecipe(197974, 375136, 193444) -- Crimson Combatant's Adamant Leggings
-lib:AddRecipe(197975, 375137, 193442) -- Crimson Combatant's Adamant Epaulettes
+lib:AddRecipe(197975, 375137, 193442) -- Crimson Combatant's Adamant Epaulets
 lib:AddRecipe(197976, 375139, 193439) -- Crimson Combatant's Adamant Treads
 lib:AddRecipe(197977, 375138, 193445) -- Crimson Combatant's Adamant Gauntlets
 lib:AddRecipe(197978, 375140, 193446) -- Crimson Combatant's Adamant Cuffs
@@ -4880,7 +4914,7 @@ lib:AddRecipe(204155, 403140, 204100) -- Obsidian Combatant's Resilient Belt
 lib:AddRecipe(204156, 403141, 204106) -- Obsidian Combatant's Adamant Cowl
 lib:AddRecipe(204157, 403142, 204105) -- Obsidian Combatant's Adamant Chainmail
 lib:AddRecipe(204158, 403143, 204109) -- Obsidian Combatant's Adamant Leggings
-lib:AddRecipe(204159, 403144, 204107) -- Obsidian Combatant's Adamant Epaulettes
+lib:AddRecipe(204159, 403144, 204107) -- Obsidian Combatant's Adamant Epaulets
 lib:AddRecipe(204160, 403146, 204104) -- Obsidian Combatant's Adamant Treads
 lib:AddRecipe(204161, 403145, 204110) -- Obsidian Combatant's Adamant Gauntlets
 lib:AddRecipe(204162, 403147, 204111) -- Obsidian Combatant's Adamant Cuffs
@@ -4913,6 +4947,23 @@ lib:AddRecipe(206561, 413761, 206514) -- Lucien's Lost Soles
 lib:AddRecipe(206772, 414565, 206646) -- Languished Leather
 lib:AddRecipe(206773, 414566, 206647) -- Scourged Scales
 lib:AddRecipe(207577, 416692, 207565) -- Sanctified Leather Hat
+lib:AddRecipe(208291, 419006, 208241) -- Verdant Combatant's Resilient Mask
+lib:AddRecipe(208292, 419007, 208240) -- Verdant Combatant's Resilient Chestpiece
+lib:AddRecipe(208293, 419008, 208244) -- Verdant Combatant's Resilient Trousers
+lib:AddRecipe(208294, 419009, 208242) -- Verdant Combatant's Resilient Shoulderpads
+lib:AddRecipe(208295, 419011, 208239) -- Verdant Combatant's Resilient Boots
+lib:AddRecipe(208296, 419010, 208245) -- Verdant Combatant's Resilient Gloves
+lib:AddRecipe(208297, 419012, 208246) -- Verdant Combatant's Resilient Wristwraps
+lib:AddRecipe(208298, 419013, 208243) -- Verdant Combatant's Resilient Belt
+lib:AddRecipe(208299, 419014, 208249) -- Verdant Combatant's Adamant Cowl
+lib:AddRecipe(208300, 419015, 208248) -- Verdant Combatant's Adamant Chainmail
+lib:AddRecipe(208301, 419016, 208252) -- Verdant Combatant's Adamant Leggings
+lib:AddRecipe(208302, 419017, 208250) -- Verdant Combatant's Adamant Epaulets
+lib:AddRecipe(208303, 419019, 208247) -- Verdant Combatant's Adamant Treads
+lib:AddRecipe(208304, 419018, 208253) -- Verdant Combatant's Adamant Gauntlets
+lib:AddRecipe(208305, 419020, 208254) -- Verdant Combatant's Adamant Cuffs
+lib:AddRecipe(208306, 419021, 208251) -- Verdant Combatant's Adamant Girdle
+lib:AddRecipe(210169, 418579, 208187) -- Verdant Conduit
 -- Mining
 lib:AddRecipe(35273, 46353, 35128) -- Smelt Hardened Khorium
 lib:AddRecipe(44956, 22967, 17771) -- Smelt Enchanted Elementium
@@ -5466,6 +5517,16 @@ lib:AddRecipe(206554, 413754, 206507) -- Necrotic Gown
 lib:AddRecipe(206563, 413788, 206562) -- Shroud of Forbidden Magic
 lib:AddRecipe(206583, 413903, 206582) -- Peculiar Glacial Mantle
 lib:AddRecipe(206771, 414564, 206645) -- Cursed Cloth
+lib:AddRecipe(208272, 419030, 208258) -- Verdant Combatant's Wildercloth Bands
+lib:AddRecipe(208273, 419022, 208263) -- Verdant Combatant's Wildercloth Cloak
+lib:AddRecipe(208274, 419025, 208260) -- Verdant Combatant's Wildercloth Gloves
+lib:AddRecipe(208275, 419026, 208259) -- Verdant Combatant's Wildercloth Hood
+lib:AddRecipe(208276, 419027, 208255) -- Verdant Combatant's Wildercloth Leggings
+lib:AddRecipe(208277, 419029, 208262) -- Verdant Combatant's Wildercloth Sash
+lib:AddRecipe(208278, 419028, 208256) -- Verdant Combatant's Wildercloth Shoulderpads
+lib:AddRecipe(208279, 419024, 208257) -- Verdant Combatant's Wildercloth Treads
+lib:AddRecipe(208280, 419023, 208261) -- Verdant Combatant's Wildercloth Tunic
+lib:AddRecipe(210670, 426434, 210671) -- Verdant Tether
 
 --------------------------------------------------------------------------------
 -- End Retail Data                                                            --
