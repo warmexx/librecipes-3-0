@@ -1,7 +1,7 @@
-## Interface: 100105
-## Interface-Classic: 11403
+## Interface: 100200
+## Interface-Classic: 11404
 ## Interface-BCC: 20504
-## Interface-WOTLKC: 30401
+## Interface-WOTLKC: 30403
 ## Title: Lib: Recipes
 ## Notes: Library providing mappings between trade skill recipes, spells and created items
 ## Author: Warmexx [Neighbours]
