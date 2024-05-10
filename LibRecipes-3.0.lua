@@ -1,5 +1,5 @@
 local MAJOR = "LibRecipes-3.0"
-local MINOR = 17 -- Should be manually increased
+local MINOR = 18 -- Should be manually increased
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
@@ -3282,6 +3282,7 @@ lib:AddRecipe(211399, 429149, 211400) -- Glyph of the Lunar Chameleon
 lib:AddRecipe(211609, 430090, 211606) -- Draconic Combatant's Medallion
 lib:AddRecipe(211610, 430091, 211607) -- Draconic Combatant's Insignia of Alacrity
 lib:AddRecipe(211611, 430092, 211608) -- Draconic Combatant's Emblem
+lib:AddRecipe(224270, 59387, 43850) -- Certificate of Ownership
 -- Jewelcrafting
 lib:AddRecipe(20854, 25339, 20830) -- Amulet of the Moon
 lib:AddRecipe(20855, 25323, 20833) -- Wicked Moonstone Ring
