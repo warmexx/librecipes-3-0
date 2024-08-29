@@ -1,5 +1,5 @@
 local MAJOR = "LibRecipes-3.0"
-local MINOR = 18 -- Should be manually increased
+local MINOR = 19 -- Should be manually increased
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
@@ -592,6 +592,10 @@ lib:AddRecipe(204695, 405879, 204633) -- Cauldron of Extracted Putrescence
 lib:AddRecipe(204696, 406106, 204238) -- Draconic Phial Cauldron
 lib:AddRecipe(204984, 405832, 204370) -- Stinky Bright Potion
 lib:AddRecipe(210241, 415628, 207021) -- Dreamwalker's Healing Potion
+lib:AddRecipe(223080, 427185, 210816) -- Algari Alchemist Stone
+lib:AddRecipe(224017, 430608, 212292) -- Vicious Flask of Honor
+lib:AddRecipe(224018, 430607, 212289) -- Vicious Flask of Classical Spirits
+lib:AddRecipe(224020, 430611, 212298) -- Vicious Flask of the Wrecking Ball
 -- Blacksmithing
 lib:AddRecipe(2881, 2667, 2864) -- Runed Copper Breastplate
 lib:AddRecipe(2882, 3330, 3481) -- Silvered Bronze Shoulders
@@ -1325,6 +1329,40 @@ lib:AddRecipe(211584, 430084, 211565) -- Draconic Combatant's Draconium Gauntlet
 lib:AddRecipe(211585, 430088, 211564) -- Draconic Combatant's Draconium Sabatons
 lib:AddRecipe(211586, 430082, 211570) -- Draconic Combatant's Draconium Armguards
 lib:AddRecipe(211587, 430089, 211569) -- Draconic Combatant's Draconium Waistguard
+lib:AddRecipe(223035, 450235, 222444) -- Charged Hexsword
+lib:AddRecipe(223036, 450236, 222445) -- Charged Runeaxe
+lib:AddRecipe(223037, 450237, 222446) -- Charged Facesmasher
+lib:AddRecipe(223038, 450238, 222447) -- Charged Claymore
+lib:AddRecipe(223039, 450239, 222448) -- Charged Halberd
+lib:AddRecipe(223040, 450240, 222449) -- Charged Crusher
+lib:AddRecipe(223041, 450241, 222450) -- Charged Invoker
+lib:AddRecipe(223042, 450242, 222451) -- Charged Slicer
+lib:AddRecipe(223043, 450245, 222458) -- Sanctified Steps
+lib:AddRecipe(223048, 450250, 222463) -- Siphoning Stiletto
+lib:AddRecipe(223049, 450275, 222488) -- Artisan Sickle
+lib:AddRecipe(223050, 450276, 222489) -- Artisan Pickaxe
+lib:AddRecipe(223051, 450277, 222490) -- Artisan Skinning Knife
+lib:AddRecipe(223052, 450278, 222491) -- Artisan Needle Set
+lib:AddRecipe(223053, 450279, 222492) -- Artisan Leatherworker's Knife
+lib:AddRecipe(223054, 450280, 222493) -- Artisan Leatherworker's Toolset
+lib:AddRecipe(223058, 450292, 222523) -- Coreforged Skeleton Key
+lib:AddRecipe(225459, 438914, 217143) -- Algari Competitor's Plate Breastplate
+lib:AddRecipe(225460, 438915, 217144) -- Algari Competitor's Plate Sabatons
+lib:AddRecipe(225461, 438916, 217145) -- Algari Competitor's Plate Gauntlets
+lib:AddRecipe(225462, 438917, 217146) -- Algari Competitor's Plate Helm
+lib:AddRecipe(225463, 438918, 217147) -- Algari Competitor's Plate Greaves
+lib:AddRecipe(225464, 438919, 217148) -- Algari Competitor's Plate Pauldrons
+lib:AddRecipe(225465, 438920, 217149) -- Algari Competitor's Plate Waistguard
+lib:AddRecipe(225466, 438921, 217150) -- Algari Competitor's Plate Armguards
+lib:AddRecipe(225478, 454997, 225366) -- Algari Competitor's Pickaxe
+lib:AddRecipe(225479, 454998, 225367) -- Algari Competitor's Dagger
+lib:AddRecipe(225483, 454999, 225371) -- Algari Competitor's Scepter
+lib:AddRecipe(225485, 455000, 225373) -- Algari Competitor's Shield
+lib:AddRecipe(225486, 455001, 225374) -- Algari Competitor's Axe
+lib:AddRecipe(225487, 455002, 225375) -- Algari Competitor's Skewer
+lib:AddRecipe(225488, 455003, 225376) -- Algari Competitor's Greatsword
+lib:AddRecipe(225489, 455004, 225377) -- Algari Competitor's Sword
+lib:AddRecipe(226643, 450246, 222459) -- Beledar's Bulwark
 -- Cooking
 lib:AddRecipe(728, 2543, 733) -- Westfall Stew
 lib:AddRecipe(2697, 2542, 724) -- Goretusk Liver Pie
@@ -1698,6 +1736,25 @@ lib:AddRecipe(204073, 403018, 204072) -- Deviously Deviled Eggs
 lib:AddRecipe(204847, 407066, 204845) -- Rocks on the Rocks
 lib:AddRecipe(204849, 407100, 204848) -- Charitable Cheddar
 lib:AddRecipe(210242, 416001, 207054) -- Slumbering Peacebloom Tea
+lib:AddRecipe(223956, 447870, nil) -- Everything-On-A-Stick
+lib:AddRecipe(223957, 447871, nil) -- Protein Slurp
+lib:AddRecipe(223958, 447872, 223968) -- Spongey Scramble
+lib:AddRecipe(223960, 447874, 223970) -- Little Buddy Biscuits
+lib:AddRecipe(223961, 447875, 223971) -- Azj-Kahet Special
+lib:AddRecipe(224152, 445109, 222729) -- Empress' Farewell
+lib:AddRecipe(224418, 445115, 222735) -- Everything Stew
+lib:AddRecipe(224419, 445110, 222730) -- Jester's Board
+lib:AddRecipe(225639, 455424, 225592) -- Exquisitely Eviscerated Muscle
+lib:AddRecipe(225892, 445482, 222747) -- Rockslide Shake
+lib:AddRecipe(225894, 445108, 222728) -- Beledar's Bounty
+lib:AddRecipe(226177, 445111, 222731) -- Outsider's Provisions
+lib:AddRecipe(226190, 445483, 222748) -- Sticky Sweet Treat
+lib:AddRecipe(227281, 445113, 222733) -- Feast of the Midnight Masquerade
+lib:AddRecipe(227283, 445112, 222732) -- Feast of the Divine Day
+lib:AddRecipe(228421, 445484, 222749) -- Melted Candlebar
+lib:AddRecipe(228422, 447876, 225855) -- Ghoulfish Delight
+lib:AddRecipe(228423, 445480, 222745) -- Pep-In-Your-Step
+lib:AddRecipe(228424, 445479, 222744) -- Cinder Nectar
 -- Enchanting
 lib:AddRecipe(6342, 7443, nil) -- Minor Mana
 lib:AddRecipe(6344, 7766, nil) -- Minor Versatility
@@ -2353,7 +2410,7 @@ lib:AddRecipe(199957, 388930, 199957) -- Writ of Critical Strike
 lib:AddRecipe(199958, 389135, 199958) -- Writ of Haste
 lib:AddRecipe(199959, 389136, 199959) -- Writ of Mastery
 lib:AddRecipe(199960, 389151, 199960) -- Writ of Versatility
-lib:AddRecipe(199963, 389519, 199963) -- Draconic Inspiration
+lib:AddRecipe(199963, 389519, 199963) -- Draconic Ingenuity
 lib:AddRecipe(199965, 389530, 199965) -- Draconic Resourcefulness
 lib:AddRecipe(199966, 389547, 199966) -- Burning Devotion
 lib:AddRecipe(199967, 389537, 199967) -- Burning Writ
@@ -2384,7 +2441,7 @@ lib:AddRecipe(199999, 388930, 199957) -- Writ of Critical Strike
 lib:AddRecipe(200000, 389135, 199958) -- Writ of Haste
 lib:AddRecipe(200001, 389136, 199959) -- Writ of Mastery
 lib:AddRecipe(200002, 389151, 199960) -- Writ of Versatility
-lib:AddRecipe(200005, 389519, 199963) -- Draconic Inspiration
+lib:AddRecipe(200005, 389519, 199963) -- Draconic Ingenuity
 lib:AddRecipe(200007, 389530, 199965) -- Draconic Resourcefulness
 lib:AddRecipe(200008, 389547, 199966) -- Burning Devotion
 lib:AddRecipe(200009, 389537, 199967) -- Burning Writ
@@ -2415,7 +2472,7 @@ lib:AddRecipe(200041, 388930, 199957) -- Writ of Critical Strike
 lib:AddRecipe(200042, 389135, 199958) -- Writ of Haste
 lib:AddRecipe(200043, 389136, 199959) -- Writ of Mastery
 lib:AddRecipe(200044, 389151, 199960) -- Writ of Versatility
-lib:AddRecipe(200047, 389519, 199963) -- Draconic Inspiration
+lib:AddRecipe(200047, 389519, 199963) -- Draconic Ingenuity
 lib:AddRecipe(200049, 389530, 199965) -- Draconic Resourcefulness
 lib:AddRecipe(200050, 389547, 199966) -- Burning Devotion
 lib:AddRecipe(200051, 389537, 199967) -- Burning Writ
@@ -2469,6 +2526,106 @@ lib:AddRecipe(210175, 416047, 207085) -- Dreaming Devotion
 lib:AddRecipe(218269, 429945, 211518) -- Enchanted Wyrm's Awakened Crest
 lib:AddRecipe(218269, 429947, 211519) -- Enchanted Aspect's Awakened Crest
 lib:AddRecipe(218269, 429948, 211520) -- Enchanted Whelpling's Awakened Crest
+lib:AddRecipe(223113, 445335, 223618) -- Cavalry's March
+lib:AddRecipe(223114, 445368, 223651) -- Scout's March
+lib:AddRecipe(223115, 445387, 223660) -- Radiant Critical Strike
+lib:AddRecipe(223116, 445320, 223672) -- Radiant Haste
+lib:AddRecipe(223117, 445375, 223675) -- Radiant Mastery
+lib:AddRecipe(223118, 445349, 223678) -- Radiant Versatility
+lib:AddRecipe(223119, 445331, 223773) -- Authority of Air
+lib:AddRecipe(223120, 445339, 223779) -- Authority of Radiant Power
+lib:AddRecipe(223121, 445399, 224069) -- Enchanted Weathered Harbinger Crest
+lib:AddRecipe(223122, 445347, 224072) -- Enchanted Runed Harbinger Crest
+lib:AddRecipe(223123, 445354, 224073) -- Enchanted Gilded Harbinger Crest
+lib:AddRecipe(223124, 445323, 224116) -- Runed Null Stone Rod
+lib:AddRecipe(223125, 445346, 224111) -- Oil of Deep Toxins
+lib:AddRecipe(223126, 445353, 223681) -- Stormrider's Agility
+lib:AddRecipe(223127, 445322, 223684) -- Council's Intellect
+lib:AddRecipe(223128, 445321, 223687) -- Oathsworn's Strength
+lib:AddRecipe(223129, 445364, 223693) -- Algari Deftness
+lib:AddRecipe(223130, 445328, 223696) -- Algari Finesse
+lib:AddRecipe(223131, 445380, 223702) -- Algari Perception
+lib:AddRecipe(223132, 445398, 223705) -- Algari Resourcefulness
+lib:AddRecipe(223133, 445327, 223745) -- Illusory Adornment: Crystal
+lib:AddRecipe(223134, 445401, 223748) -- Illusory Adornment: Radiance
+lib:AddRecipe(223135, 445337, 223754) -- Illusory Adornment: Shadow
+lib:AddRecipe(223136, 445334, 223711) -- Chant of Armored Avoidance
+lib:AddRecipe(223137, 445325, 223717) -- Chant of Armored Leech
+lib:AddRecipe(223138, 445386, 223729) -- Chant of Winged Grace
+lib:AddRecipe(223139, 445393, 223735) -- Chant of Leeching Fangs
+lib:AddRecipe(223140, 445389, 223798) -- Chant of Burrowing Rapidity
+lib:AddRecipe(223141, 445394, 223785) -- Cursed Critical Strike
+lib:AddRecipe(223142, 445359, 223791) -- Cursed Mastery
+lib:AddRecipe(223143, 445383, 223794) -- Cursed Versatility
+lib:AddRecipe(223144, 445341, 223782) -- Authority of the Depths
+lib:AddRecipe(223654, 445396, 223654) -- Defender's March
+lib:AddRecipe(223655, 445396, 223654) -- Defender's March
+lib:AddRecipe(223656, 445396, 223654) -- Defender's March
+lib:AddRecipe(223657, 445358, 223657) -- Glimmering Critical Strike
+lib:AddRecipe(223658, 445358, 223657) -- Glimmering Critical Strike
+lib:AddRecipe(223659, 445358, 223657) -- Glimmering Critical Strike
+lib:AddRecipe(223663, 445384, 223663) -- Glimmering Haste
+lib:AddRecipe(223664, 445384, 223663) -- Glimmering Haste
+lib:AddRecipe(223665, 445384, 223663) -- Glimmering Haste
+lib:AddRecipe(223666, 445381, 223666) -- Glimmering Mastery
+lib:AddRecipe(223667, 445381, 223666) -- Glimmering Mastery
+lib:AddRecipe(223668, 445381, 223666) -- Glimmering Mastery
+lib:AddRecipe(223669, 445340, 223669) -- Glimmering Versatility
+lib:AddRecipe(223670, 445340, 223669) -- Glimmering Versatility
+lib:AddRecipe(223671, 445340, 223669) -- Glimmering Versatility
+lib:AddRecipe(223690, 445333, 223690) -- Crystalline Radiance
+lib:AddRecipe(223691, 445333, 223690) -- Crystalline Radiance
+lib:AddRecipe(223692, 445333, 223690) -- Crystalline Radiance
+lib:AddRecipe(223699, 445378, 223699) -- Algari Ingenuity
+lib:AddRecipe(223700, 445378, 223699) -- Algari Ingenuity
+lib:AddRecipe(223701, 445378, 223699) -- Algari Ingenuity
+lib:AddRecipe(223708, 445392, 223708) -- Whisper of Armored Avoidance
+lib:AddRecipe(223709, 445392, 223708) -- Whisper of Armored Avoidance
+lib:AddRecipe(223710, 445392, 223708) -- Whisper of Armored Avoidance
+lib:AddRecipe(223714, 445374, 223714) -- Whisper of Armored Leech
+lib:AddRecipe(223715, 445374, 223714) -- Whisper of Armored Leech
+lib:AddRecipe(223716, 445374, 223714) -- Whisper of Armored Leech
+lib:AddRecipe(223720, 445376, 223720) -- Whisper of Armored Speed
+lib:AddRecipe(223721, 445376, 223720) -- Whisper of Armored Speed
+lib:AddRecipe(223722, 445376, 223720) -- Whisper of Armored Speed
+lib:AddRecipe(223723, 445330, 223723) -- Chant of Armored Speed
+lib:AddRecipe(223724, 445330, 223723) -- Chant of Armored Speed
+lib:AddRecipe(223725, 445330, 223723) -- Chant of Armored Speed
+lib:AddRecipe(223726, 445344, 223726) -- Whisper of Silken Avoidance
+lib:AddRecipe(223727, 445344, 223726) -- Whisper of Silken Avoidance
+lib:AddRecipe(223728, 445344, 223726) -- Whisper of Silken Avoidance
+lib:AddRecipe(223732, 445348, 223732) -- Whisper of Silken Leech
+lib:AddRecipe(223733, 445348, 223732) -- Whisper of Silken Leech
+lib:AddRecipe(223734, 445348, 223732) -- Whisper of Silken Leech
+lib:AddRecipe(223738, 445373, 223738) -- Whisper of Silken Speed
+lib:AddRecipe(223739, 445373, 223738) -- Whisper of Silken Speed
+lib:AddRecipe(223740, 445373, 223738) -- Whisper of Silken Speed
+lib:AddRecipe(223751, 445360, 223751) -- Illusory Adornment: Runes
+lib:AddRecipe(223752, 445360, 223751) -- Illusory Adornment: Runes
+lib:AddRecipe(223753, 445360, 223751) -- Illusory Adornment: Runes
+lib:AddRecipe(223757, 445379, 223757) -- Council's Guile
+lib:AddRecipe(223758, 445379, 223757) -- Council's Guile
+lib:AddRecipe(223759, 445379, 223757) -- Council's Guile
+lib:AddRecipe(223760, 445317, 223760) -- Stormrider's Fury
+lib:AddRecipe(223761, 445317, 223760) -- Stormrider's Fury
+lib:AddRecipe(223762, 445317, 223760) -- Stormrider's Fury
+lib:AddRecipe(223763, 445385, 223763) -- Stonebound Artistry
+lib:AddRecipe(223764, 445385, 223763) -- Stonebound Artistry
+lib:AddRecipe(223765, 445385, 223763) -- Stonebound Artistry
+lib:AddRecipe(223766, 445351, 223766) -- Oathsworn's Tenacity
+lib:AddRecipe(223767, 445351, 223766) -- Oathsworn's Tenacity
+lib:AddRecipe(223768, 445351, 223766) -- Oathsworn's Tenacity
+lib:AddRecipe(223770, 445336, 223770) -- Authority of Storms
+lib:AddRecipe(223771, 445336, 223770) -- Authority of Storms
+lib:AddRecipe(223772, 445336, 223770) -- Authority of Storms
+lib:AddRecipe(223776, 445403, 223776) -- Authority of Fiery Resolve
+lib:AddRecipe(223777, 445403, 223776) -- Authority of Fiery Resolve
+lib:AddRecipe(223778, 445403, 223776) -- Authority of Fiery Resolve
+lib:AddRecipe(223788, 445388, 223788) -- Cursed Haste
+lib:AddRecipe(223789, 445388, 223788) -- Cursed Haste
+lib:AddRecipe(223790, 445388, 223788) -- Cursed Haste
+lib:AddRecipe(225652, 455488, 223664) -- Glimmering Haste
+lib:AddRecipe(228708, 445382, 224304) -- Gleeful Glamour - Earthen
 -- Engineering
 lib:AddRecipe(4408, 3928, 4401) -- Mechanical Squirrel Box
 lib:AddRecipe(4409, 3933, 4367) -- Small Seaforium Charge
@@ -2888,6 +3045,16 @@ lib:AddRecipe(211616, 430093, 211612) -- Draconic Combatant's Cloth Goggles
 lib:AddRecipe(211617, 430094, 211613) -- Draconic Combatant's Leather Goggles
 lib:AddRecipe(211618, 430095, 211614) -- Draconic Combatant's Mail Goggles
 lib:AddRecipe(211619, 430096, 211615) -- Draconic Combatant's Plate Goggles
+lib:AddRecipe(219413, 443570, 219403) -- Stonebound Lantern
+lib:AddRecipe(225467, 438922, 217151) -- Algari Competitor's Cloth Goggles
+lib:AddRecipe(225468, 438923, 217152) -- Algari Competitor's Leather Goggles
+lib:AddRecipe(225469, 438924, 217153) -- Algari Competitor's Mail Goggles
+lib:AddRecipe(225470, 438925, 217154) -- Algari Competitor's Plate Goggles
+lib:AddRecipe(225471, 438926, 217155) -- Algari Competitor's Cloth Bracers
+lib:AddRecipe(225472, 438927, 217156) -- Algari Competitor's Leather Bracers
+lib:AddRecipe(225473, 438928, 217157) -- Algari Competitor's Mail Bracers
+lib:AddRecipe(225474, 438929, 217158) -- Algari Competitor's Plate Bracers
+lib:AddRecipe(225482, 455005, 225370) -- Algari Competitor's Rifle
 -- Inscription
 lib:AddRecipe(46108, 64051, 45854) -- Rituals of the New Moon
 lib:AddRecipe(65649, 86644, 62239) -- Origami Slime
@@ -3225,7 +3392,7 @@ lib:AddRecipe(198955, 383325, 194872) -- Darkmoon Deck Box: Inferno
 lib:AddRecipe(198956, 383546, 198491) -- Vantus Rune: Vault of the Incarnates
 lib:AddRecipe(198957, 383540, 194879) -- Crackling Codex of the Isles
 lib:AddRecipe(198958, 383539, 194877) -- Core Explorer's Compendium
-lib:AddRecipe(200599, 390847, 198534) -- Draconic Missive of Inspiration
+lib:AddRecipe(200599, 390847, 198534) -- Draconic Missive of Ingenuity
 lib:AddRecipe(200600, 390848, 200565) -- Draconic Missive of Resourcefulness
 lib:AddRecipe(200601, 390849, 200568) -- Draconic Missive of Multicraft
 lib:AddRecipe(200602, 390850, 200571) -- Draconic Missive of Crafting Speed
@@ -3282,7 +3449,26 @@ lib:AddRecipe(211399, 429149, 211400) -- Glyph of the Lunar Chameleon
 lib:AddRecipe(211609, 430090, 211606) -- Draconic Combatant's Medallion
 lib:AddRecipe(211610, 430091, 211607) -- Draconic Combatant's Insignia of Alacrity
 lib:AddRecipe(211611, 430092, 211608) -- Draconic Combatant's Emblem
+lib:AddRecipe(223060, 444207, 222576) -- Patient Alchemist's Mixing Rod
+lib:AddRecipe(223061, 444209, 222578) -- Inscribed Rolling Pin
+lib:AddRecipe(223062, 444220, 222597) -- Contract: Council of Dornogal
+lib:AddRecipe(223063, 444217, 222600) -- Contract: Assembly of the Deeps
+lib:AddRecipe(223064, 444218, 222603) -- Contract: Hallowfall Arathi
+lib:AddRecipe(223065, 444229, 222626) -- Algari Missive of Ingenuity
+lib:AddRecipe(223066, 444230, 222629) -- Algari Missive of Resourcefulness
+lib:AddRecipe(223067, 444231, 222632) -- Algari Missive of Multicraft
+lib:AddRecipe(223068, 444232, 222635) -- Algari Missive of Crafting Speed
+lib:AddRecipe(223069, 444233, 222638) -- Algari Missive of Finesse
+lib:AddRecipe(223070, 444234, 222641) -- Algari Missive of Perception
+lib:AddRecipe(223071, 444235, 222644) -- Algari Missive of Deftness
 lib:AddRecipe(224270, 59387, 43850) -- Certificate of Ownership
+lib:AddRecipe(225355, 444219, 222606) -- Contract: The Severed Threads
+lib:AddRecipe(225475, 444336, 219931) -- Algari Competitor's Medallion
+lib:AddRecipe(225476, 444337, 219932) -- Algari Competitor's Insignia of Alacrity
+lib:AddRecipe(225477, 444338, 219933) -- Algari Competitor's Emblem
+lib:AddRecipe(225480, 455007, 225368) -- Algari Competitor's Pillar
+lib:AddRecipe(225481, 455008, 225369) -- Algari Competitor's Staff
+lib:AddRecipe(225484, 455006, 225372) -- Algari Competitor's Lamp
 -- Jewelcrafting
 lib:AddRecipe(20854, 25339, 20830) -- Amulet of the Moon
 lib:AddRecipe(20855, 25323, 20833) -- Wicked Moonstone Ring
@@ -4122,6 +4308,30 @@ lib:AddRecipe(208290, 419005, 208237) -- Verdant Combatant's Jeweled Signet
 lib:AddRecipe(210170, 420740, 208746) -- Dreamtender's Charm
 lib:AddRecipe(211588, 430055, 211537) -- Draconic Combatant's Jeweled Amulet
 lib:AddRecipe(211589, 430056, 211536) -- Draconic Combatant's Jeweled Signet
+lib:AddRecipe(223081, 435329, 213762) -- Sifted Cave Sand
+lib:AddRecipe(223082, 435330, 213765) -- Ominous Energy Crystal
+lib:AddRecipe(223083, 435331, 213768) -- Elemental Focusing Lens
+lib:AddRecipe(223084, 435332, 213771) -- Prismatic Null Stone
+lib:AddRecipe(223085, 435383, 215134) -- Fractured Gemstone Locket
+lib:AddRecipe(223086, 435230, 213738) -- Insightful Blasphemite
+lib:AddRecipe(223087, 435318, 213741) -- Culminating Blasphemite
+lib:AddRecipe(223088, 435319, 213744) -- Elusive Blasphemite
+lib:AddRecipe(223089, 435372, 215124) -- Extravagant Loupes
+lib:AddRecipe(223090, 435374, 215125) -- Enchanter's Crystal
+lib:AddRecipe(223091, 435376, 215123) -- Forger's Font Inspector
+lib:AddRecipe(223092, 435378, 215122) -- Novelist's Specs
+lib:AddRecipe(223093, 435391, 215147) -- Beautification Iris
+lib:AddRecipe(223094, 435334, 213777) -- Magnificent Jeweler's Setting
+lib:AddRecipe(224763, 435392, 217113) -- Cubic Blasphemia
+lib:AddRecipe(225432, 435386, 215137) -- Algari Competitor's Signet
+lib:AddRecipe(225433, 435387, 215144) -- Algari Competitor's Amulet
+lib:AddRecipe(225679, 435320, 213747) -- Enduring Bloodstone
+lib:AddRecipe(225680, 435321, 213748) -- Cognitive Bloodstone
+lib:AddRecipe(225681, 435322, 213749) -- Determined Bloodstone
+lib:AddRecipe(228217, 434536, 213515) -- Solid Amber
+lib:AddRecipe(228320, 435382, 215133) -- Binding of Binding
+lib:AddRecipe(228329, 435389, 215145) -- Remembrance Stone
+lib:AddRecipe(228379, 435333, 213774) -- Captured Starlight
 -- Leatherworking
 lib:AddRecipe(2406, 2158, 2307) -- Fine Leather Boots
 lib:AddRecipe(2407, 2163, 2311) -- White Leather Jerkin
@@ -5000,6 +5210,40 @@ lib:AddRecipe(211602, 430070, 211546) -- Draconic Combatant's Adamant Treads
 lib:AddRecipe(211603, 430069, 211552) -- Draconic Combatant's Adamant Gauntlets
 lib:AddRecipe(211604, 430071, 211553) -- Draconic Combatant's Adamant Cuffs
 lib:AddRecipe(211605, 430072, 211550) -- Draconic Combatant's Adamant Girdle
+lib:AddRecipe(223095, 443949, 219511) -- Rook Feather Wristwraps
+lib:AddRecipe(223096, 443950, 219513) -- Roiling Thunderstrike Talons
+lib:AddRecipe(223097, 444070, 219502) -- Adrenal Surge Clasp
+lib:AddRecipe(223098, 444071, 219489) -- Waders of the Unifying Flame
+lib:AddRecipe(223099, 444073, 219492) -- Sanctified Torchbearer's Grips
+lib:AddRecipe(223100, 444068, 219501) -- Vambraces of Deepening Darkness
+lib:AddRecipe(223101, 443960, 219508) -- Reinforced Setae Flyers
+lib:AddRecipe(223102, 443958, 219509) -- Busy Bee's Buckle
+lib:AddRecipe(223103, 444102, 219909) -- Stormbound Armor Kit
+lib:AddRecipe(223104, 444103, 219906) -- Defender's Armor Kit
+lib:AddRecipe(223105, 444106, 219872) -- Nerubian Alchemist's Hat
+lib:AddRecipe(223106, 444108, 219874) -- Earthen Forgemaster's Apron
+lib:AddRecipe(223107, 444111, 219870) -- Charged Scrapmaster's Gauntlets
+lib:AddRecipe(223108, 444113, 219867) -- Stonebound Herbalist's Pack
+lib:AddRecipe(223109, 444115, 219876) -- Earthen Jeweler's Cover
+lib:AddRecipe(223110, 444117, 219871) -- Arathi Leatherworker's Smock
+lib:AddRecipe(223111, 444121, 219869) -- Deep Tracker's Cap
+lib:AddRecipe(223112, 444119, 219868) -- Deep Tracker's Pack
+lib:AddRecipe(225443, 438898, 217126) -- Algari Competitor's Leather Boots
+lib:AddRecipe(225444, 438899, 217127) -- Algari Competitor's Leather Chestpiece
+lib:AddRecipe(225445, 438900, 217128) -- Algari Competitor's Leather Mask
+lib:AddRecipe(225446, 438901, 217129) -- Algari Competitor's Leather Shoulderpads
+lib:AddRecipe(225447, 438902, 217130) -- Algari Competitor's Leather Belt
+lib:AddRecipe(225448, 438903, 217131) -- Algari Competitor's Leather Trousers
+lib:AddRecipe(225449, 438904, 217132) -- Algari Competitor's Leather Gloves
+lib:AddRecipe(225450, 438905, 217133) -- Algari Competitor's Leather Wristwraps
+lib:AddRecipe(225451, 438906, 217134) -- Algari Competitor's Chain Treads
+lib:AddRecipe(225452, 438907, 217135) -- Algari Competitor's Chain Chainmail
+lib:AddRecipe(225453, 438908, 217136) -- Algari Competitor's Chain Cowl
+lib:AddRecipe(225454, 438909, 217137) -- Algari Competitor's Chain Epaulets
+lib:AddRecipe(225455, 438910, 217138) -- Algari Competitor's Chain Girdle
+lib:AddRecipe(225456, 438911, 217139) -- Algari Competitor's Chain Leggings
+lib:AddRecipe(225457, 438912, 217140) -- Algari Competitor's Chain Gauntlets
+lib:AddRecipe(225458, 438913, 217141) -- Algari Competitor's Chain Cuffs
 -- Mining
 lib:AddRecipe(35273, 46353, 35128) -- Smelt Hardened Khorium
 lib:AddRecipe(44956, 22967, 17771) -- Smelt Enchanted Elementium
@@ -5572,6 +5816,32 @@ lib:AddRecipe(211576, 430080, 211561) -- Draconic Combatant's Wildercloth Sash
 lib:AddRecipe(211577, 430079, 211555) -- Draconic Combatant's Wildercloth Shoulderpads
 lib:AddRecipe(211578, 430075, 211556) -- Draconic Combatant's Wildercloth Treads
 lib:AddRecipe(211579, 430074, 211560) -- Draconic Combatant's Wildercloth Tunic
+lib:AddRecipe(224420, 446970, 222847) -- Artisan Gardening Hat
+lib:AddRecipe(224421, 446971, 222848) -- Artisan Fishing Cap
+lib:AddRecipe(224422, 446972, 222849) -- Artisan Enchanter's Hat
+lib:AddRecipe(224423, 446973, 222850) -- Artisan Alchemist's Robe
+lib:AddRecipe(224424, 446974, 222851) -- Artisan Chef's Hat
+lib:AddRecipe(224425, 446982, 222859) -- Concoctor's Clutch
+lib:AddRecipe(224426, 446983, 222860) -- Ignition Satchel
+lib:AddRecipe(224427, 446984, 222861) -- Hideshaper's Workbag
+lib:AddRecipe(224428, 446985, 222862) -- Magically "Infinite" Messenger
+lib:AddRecipe(224429, 446986, 222863) -- Prodigy's Toolbox
+lib:AddRecipe(224430, 446987, 222864) -- Darkmoon Duffle
+lib:AddRecipe(224431, 446988, 222865) -- Gardener's Seed Satchel
+lib:AddRecipe(224432, 446989, 222866) -- Excavator's Haversack
+lib:AddRecipe(224433, 446990, 222867) -- Jeweler's Purse
+lib:AddRecipe(224434, 446991, 222868) -- Dawnthread Lining
+lib:AddRecipe(224435, 446992, 222871) -- Duskthread Lining
+lib:AddRecipe(225434, 438889, 217117) -- Algari Competitor's Cloth Leggings
+lib:AddRecipe(225435, 438890, 217118) -- Algari Competitor's Cloth Shoulderpads
+lib:AddRecipe(225436, 438891, 217119) -- Algari Competitor's Cloth Treads
+lib:AddRecipe(225437, 438892, 217120) -- Algari Competitor's Cloth Bands
+lib:AddRecipe(225438, 438893, 217121) -- Algari Competitor's Cloth Hood
+lib:AddRecipe(225439, 438894, 217122) -- Algari Competitor's Cloth Gloves
+lib:AddRecipe(225440, 438895, 217123) -- Algari Competitor's Cloth Tunic
+lib:AddRecipe(225441, 438896, 217124) -- Algari Competitor's Cloth Sash
+lib:AddRecipe(225442, 438897, 217125) -- Algari Competitor's Cloth Cloak
+lib:AddRecipe(225995, 447888, 225936) -- Hideseeker's Tote
 
 --------------------------------------------------------------------------------
 -- End Retail Data                                                            --
