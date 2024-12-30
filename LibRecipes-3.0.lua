@@ -7163,22 +7163,22 @@ lib:AddRecipe(66113, 76452, 55067) -- Elementium Bonesplitter
 lib:AddRecipe(66114, 76453, 55068) -- Elementium Shank
 lib:AddRecipe(66115, 76454, 55069) -- Elementium Earthguard
 lib:AddRecipe(66116, 76455, 55070) -- Elementium Stormshield
-lib:AddRecipe(66117, 76456, 75124) -- Vicious Pyrium Bracers
-lib:AddRecipe(66118, 76457, 75122) -- Vicious Pyrium Gauntlets
-lib:AddRecipe(66119, 76458, 75123) -- Vicious Pyrium Belt
-lib:AddRecipe(66120, 76459, 75120) -- Vicious Pyrium Boots
-lib:AddRecipe(66121, 76461, 75119) -- Vicious Pyrium Shoulders
-lib:AddRecipe(66122, 76462, 75136) -- Vicious Pyrium Legguards
-lib:AddRecipe(66123, 76463, 75126) -- Vicious Pyrium Helm
-lib:AddRecipe(66124, 76464, 75135) -- Vicious Pyrium Breastplate
-lib:AddRecipe(66125, 76465, 75125) -- Vicious Ornate Pyrium Bracers
-lib:AddRecipe(66126, 76466, 75121) -- Vicious Ornate Pyrium Gauntlets
-lib:AddRecipe(66127, 76467, 75118) -- Vicious Ornate Pyrium Belt
-lib:AddRecipe(66128, 76468, 75132) -- Vicious Ornate Pyrium Boots
-lib:AddRecipe(66129, 76469, 75134) -- Vicious Ornate Pyrium Shoulders
-lib:AddRecipe(66130, 76470, 75133) -- Vicious Ornate Pyrium Legguards
-lib:AddRecipe(66131, 76471, 75129) -- Vicious Ornate Pyrium Helm
-lib:AddRecipe(66132, 76472, 75128) -- Vicious Ornate Pyrium Breastplate
+lib:AddRecipe(66117, 76456, 70011) -- Bloodthirsty Pyrium Bracers
+lib:AddRecipe(66118, 76457, 70006) -- Bloodthirsty Pyrium Gauntlets
+lib:AddRecipe(66119, 76458, 70010) -- Bloodthirsty Pyrium Belt
+lib:AddRecipe(66120, 76459, 70005) -- Bloodthirsty Pyrium Boots
+lib:AddRecipe(66121, 76461, 70009) -- Bloodthirsty Pyrium Shoulders
+lib:AddRecipe(66122, 76462, 70008) -- Bloodthirsty Pyrium Legguards
+lib:AddRecipe(66123, 76463, 70007) -- Bloodthirsty Pyrium Helm
+lib:AddRecipe(66124, 76464, 70004) -- Bloodthirsty Pyrium Breastplate
+lib:AddRecipe(66125, 76465, 70019) -- Bloodthirsty Ornate Pyrium Bracers
+lib:AddRecipe(66126, 76466, 70014) -- Bloodthirsty Ornate Pyrium Gauntlets
+lib:AddRecipe(66127, 76467, 70018) -- Bloodthirsty Ornate Pyrium Belt
+lib:AddRecipe(66128, 76468, 70013) -- Bloodthirsty Ornate Pyrium Boots
+lib:AddRecipe(66129, 76469, 70017) -- Bloodthirsty Ornate Pyrium Shoulders
+lib:AddRecipe(66130, 76470, 70016) -- Bloodthirsty Ornate Pyrium Legguards
+lib:AddRecipe(66131, 76471, 70015) -- Bloodthirsty Ornate Pyrium Helm
+lib:AddRecipe(66132, 76472, 70012) -- Bloodthirsty Ornate Pyrium Breastplate
 lib:AddRecipe(66133, 76474, 55246) -- Obsidium Bladespear
 lib:AddRecipe(66134, 92375, 65358) -- Elementium Rod
 lib:AddRecipe(67603, 94718, 67602) -- Elementium Gutslicer
@@ -7542,10 +7542,6 @@ lib:AddRecipe(35442, 33995, nil) -- Enchant Gloves - Major Strength
 lib:AddRecipe(35498, 46578, nil) -- Enchant Weapon - Deathfrost
 lib:AddRecipe(35500, 46594, nil) -- Enchant Chest - Dodge
 lib:AddRecipe(35756, 47051, nil) -- Enchant Cloak - Greater Dodge
-lib:AddRecipe(36837, 7867, nil) -- Enchant Boots - Minor Agility
-lib:AddRecipe(36838, 7867, nil) -- Enchant Boots - Minor Agility
-lib:AddRecipe(36839, 7867, nil) -- Enchant Boots - Minor Agility
-lib:AddRecipe(36840, 7867, nil) -- Enchant Boots - Minor Agility
 lib:AddRecipe(37326, 44593, nil) -- Enchant Bracer - Major Spirit
 lib:AddRecipe(37329, 44510, nil) -- Enchant Weapon - Exceptional Spirit
 lib:AddRecipe(37330, 44596, nil) -- Enchant Cloak - Superior Arcane Resistance
@@ -8824,9 +8820,6 @@ lib:AddRecipe(35545, 46136, 34371) -- Leather Chestguard of the Sun
 lib:AddRecipe(35546, 46132, 34372) -- Leather Gauntlets of the Sun
 lib:AddRecipe(35549, 46139, 34375) -- Sun-Drenched Scale Chestguard
 lib:AddRecipe(35550, 46135, 34376) -- Sun-Drenched Scale Gloves
-lib:AddRecipe(38594, 45117, 34490) -- Bag of Many Hides
-lib:AddRecipe(38595, 45117, 34490) -- Bag of Many Hides
-lib:AddRecipe(38596, 45117, 34490) -- Bag of Many Hides
 lib:AddRecipe(38597, 51568, 38590) -- Black Chitinguard Boots
 lib:AddRecipe(38598, 51569, 38591) -- Dark Arctic Leggings
 lib:AddRecipe(38599, 51570, 38592) -- Dark Arctic Chestpiece
@@ -8943,45 +8936,45 @@ lib:AddRecipe(67036, 78436, 56516) -- Heavy Savage Leather
 lib:AddRecipe(67038, 78437, 56517) -- Heavy Savage Armor Kit
 lib:AddRecipe(67039, 78438, 56518) -- Cloak of Beasts
 lib:AddRecipe(67041, 78439, 56519) -- Cloak of War
-lib:AddRecipe(67042, 78444, 75106) -- Vicious Wyrmhide Bracers
-lib:AddRecipe(67044, 78445, 75117) -- Vicious Wyrmhide Belt
-lib:AddRecipe(67046, 78446, 75131) -- Vicious Leather Bracers
-lib:AddRecipe(67048, 78447, 75104) -- Vicious Leather Gloves
-lib:AddRecipe(67049, 78448, 75094) -- Vicious Charscale Bracers
-lib:AddRecipe(67053, 78449, 75085) -- Vicious Charscale Gloves
-lib:AddRecipe(67054, 78450, 75114) -- Vicious Dragonscale Bracers
-lib:AddRecipe(67055, 78451, 75116) -- Vicious Dragonscale Shoulders
-lib:AddRecipe(67056, 78452, 75109) -- Vicious Wyrmhide Gloves
-lib:AddRecipe(67058, 78453, 75101) -- Vicious Wyrmhide Boots
-lib:AddRecipe(67060, 78454, 75130) -- Vicious Leather Boots
-lib:AddRecipe(67062, 78455, 75113) -- Vicious Leather Shoulders
-lib:AddRecipe(67063, 78456, 75092) -- Vicious Charscale Boots
-lib:AddRecipe(67064, 78457, 75083) -- Vicious Charscale Belt
-lib:AddRecipe(67065, 78458, 75110) -- Vicious Dragonscale Boots
-lib:AddRecipe(67066, 78459, 75081) -- Vicious Dragonscale Gloves
+lib:AddRecipe(67042, 78444, 70030) -- Bloodthirsty Wyrmhide Bracers
+lib:AddRecipe(67044, 78445, 70028) -- Bloodthirsty Wyrmhide Belt
+lib:AddRecipe(67046, 78446, 70022) -- Bloodthirsty Leather Bracers
+lib:AddRecipe(67048, 78447, 70024) -- Bloodthirsty Leather Gloves
+lib:AddRecipe(67049, 78448, 70046) -- Bloodthirsty Charscale Bracers
+lib:AddRecipe(67053, 78449, 70048) -- Bloodthirsty Charscale Gloves
+lib:AddRecipe(67054, 78450, 70038) -- Bloodthirsty Dragonscale Bracers
+lib:AddRecipe(67055, 78451, 70043) -- Bloodthirsty Dragonscale Shoulders
+lib:AddRecipe(67056, 78452, 70032) -- Bloodthirsty Wyrmhide Gloves
+lib:AddRecipe(67058, 78453, 70029) -- Bloodthirsty Wyrmhide Boots
+lib:AddRecipe(67060, 78454, 70021) -- Bloodthirsty Leather Boots
+lib:AddRecipe(67062, 78455, 70027) -- Bloodthirsty Leather Shoulders
+lib:AddRecipe(67063, 78456, 70045) -- Bloodthirsty Charscale Boots
+lib:AddRecipe(67064, 78457, 70044) -- Bloodthirsty Charscale Belt
+lib:AddRecipe(67065, 78458, 70037) -- Bloodthirsty Dragonscale Boots
+lib:AddRecipe(67066, 78459, 70040) -- Bloodthirsty Dragonscale Gloves
 lib:AddRecipe(67068, 78460, 56536) -- Lightning Lash
 lib:AddRecipe(67070, 78461, 56537) -- Belt of Nefarious Whispers
 lib:AddRecipe(67072, 78462, 56538) -- Stormleather Sash
 lib:AddRecipe(67073, 78463, 56539) -- Corded Viper Belt
-lib:AddRecipe(67074, 78464, 75099) -- Vicious Wyrmhide Shoulders
-lib:AddRecipe(67075, 78467, 75107) -- Vicious Wyrmhide Chest
-lib:AddRecipe(67076, 78468, 75127) -- Vicious Leather Belt
-lib:AddRecipe(67077, 78469, 75105) -- Vicious Leather Helm
-lib:AddRecipe(67078, 78470, 75061) -- Vicious Charscale Shoulders
-lib:AddRecipe(67079, 78471, 75097) -- Vicious Charscale Legs
-lib:AddRecipe(67080, 78473, 75100) -- Vicious Dragonscale Belt
-lib:AddRecipe(67081, 78474, 75102) -- Vicious Dragonscale Helm
+lib:AddRecipe(67074, 78464, 70035) -- Bloodthirsty Wyrmhide Shoulders
+lib:AddRecipe(67075, 78467, 70031) -- Bloodthirsty Wyrmhide Chest
+lib:AddRecipe(67076, 78468, 70020) -- Bloodthirsty Leather Belt
+lib:AddRecipe(67077, 78469, 70025) -- Bloodthirsty Leather Helm
+lib:AddRecipe(67078, 78470, 70051) -- Bloodthirsty Charscale Shoulders
+lib:AddRecipe(67079, 78471, 70050) -- Bloodthirsty Charscale Legs
+lib:AddRecipe(67080, 78473, 70036) -- Bloodthirsty Dragonscale Belt
+lib:AddRecipe(67081, 78474, 70041) -- Bloodthirsty Dragonscale Helm
 lib:AddRecipe(67082, 78475, 56548) -- Razor-Edged Cloak
 lib:AddRecipe(67083, 78476, 56549) -- Twilight Dragonscale Cloak
 lib:AddRecipe(67084, 78478, 56551) -- Charscale Leg Armor
-lib:AddRecipe(67085, 78479, 75080) -- Vicious Wyrmhide Legs
-lib:AddRecipe(67086, 78480, 75111) -- Vicious Wyrmhide Helm
-lib:AddRecipe(67087, 78481, 75103) -- Vicious Leather Chest
-lib:AddRecipe(67089, 78482, 75112) -- Vicious Leather Legs
-lib:AddRecipe(67090, 78483, 75084) -- Vicious Charscale Chest
-lib:AddRecipe(67091, 78484, 75090) -- Vicious Charscale Helm
-lib:AddRecipe(67092, 78485, 75108) -- Vicious Dragonscale Legs
-lib:AddRecipe(67093, 78486, 75115) -- Vicious Dragonscale Chest
+lib:AddRecipe(67085, 78479, 70034) -- Bloodthirsty Wyrmhide Legs
+lib:AddRecipe(67086, 78480, 70033) -- Bloodthirsty Wyrmhide Helm
+lib:AddRecipe(67087, 78481, 70023) -- Bloodthirsty Leather Chest
+lib:AddRecipe(67089, 78482, 70026) -- Bloodthirsty Leather Legs
+lib:AddRecipe(67090, 78483, 70047) -- Bloodthirsty Charscale Chest
+lib:AddRecipe(67091, 78484, 70049) -- Bloodthirsty Charscale Helm
+lib:AddRecipe(67092, 78485, 70042) -- Bloodthirsty Dragonscale Legs
+lib:AddRecipe(67093, 78486, 70039) -- Bloodthirsty Dragonscale Chest
 lib:AddRecipe(67094, 78487, 56561) -- Chestguard of Nature's Fury
 lib:AddRecipe(67095, 78488, 56562) -- Assassin's Chestplate
 lib:AddRecipe(67096, 78489, 56563) -- Twilight Scale Chestguard
@@ -9326,12 +9319,12 @@ lib:AddRecipe(49953, 70550, 49891) -- Leggings of Woven Death
 lib:AddRecipe(49954, 70551, 49890) -- Deathfrost Boots
 lib:AddRecipe(49955, 70552, 49892) -- Lightweave Leggings
 lib:AddRecipe(49956, 70553, 49893) -- Sandals of Consecration
-lib:AddRecipe(54593, 75306, 75073) -- Vicious Embersilk Cowl
-lib:AddRecipe(54594, 75307, 75072) -- Vicious Embersilk Pants
-lib:AddRecipe(54595, 75305, 75093) -- Vicious Embersilk Robe
-lib:AddRecipe(54596, 75304, 75062) -- Vicious Fireweave Cowl
-lib:AddRecipe(54597, 75302, 75082) -- Vicious Fireweave Pants
-lib:AddRecipe(54598, 75303, 75088) -- Vicious Fireweave Robe
+lib:AddRecipe(54593, 75306, 70067) -- Bloodthirsty Embersilk Cowl
+lib:AddRecipe(54594, 75307, 70066) -- Bloodthirsty Embersilk Pants
+lib:AddRecipe(54595, 75305, 70060) -- Bloodthirsty Embersilk Robe
+lib:AddRecipe(54596, 75304, 70055) -- Bloodthirsty Fireweave Cowl
+lib:AddRecipe(54597, 75302, 70057) -- Bloodthirsty Fireweave Pants
+lib:AddRecipe(54598, 75303, 70058) -- Bloodthirsty Fireweave Robe
 lib:AddRecipe(54599, 75309, 54448) -- Powerful Enchanted Spellthread
 lib:AddRecipe(54600, 75310, 54450) -- Powerful Ghostly Spellthread
 lib:AddRecipe(54601, 75298, 54504) -- Belt of the Depths
