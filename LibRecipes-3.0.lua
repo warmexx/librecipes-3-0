@@ -1,5 +1,5 @@
 local MAJOR = "LibRecipes-3.0"
-local MINOR = 19 -- Should be manually increased
+local MINOR = 20 -- Should be manually increased
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
@@ -1425,7 +1425,7 @@ lib:AddRecipe(16111, 15915, 12216) -- Spiced Chili Crab
 lib:AddRecipe(16767, 20626, 16766) -- Undermine Clam Chowder
 lib:AddRecipe(17062, 20916, 8364) -- Mithril Head Trout
 lib:AddRecipe(17200, 21143, 17197) -- Gingerbread Cookie
-lib:AddRecipe(17201, 21144, 17198) -- Winter Veil Egg Nog
+lib:AddRecipe(17201, 21144, 17198) -- Winter Veil Eggnog
 lib:AddRecipe(18046, 22480, 18045) -- Tender Wolf Steak
 lib:AddRecipe(18160, 9513, 7676) -- Thistle Tea
 lib:AddRecipe(18267, 22761, 18254) -- Runn Tum Tuber Surprise
@@ -1736,7 +1736,7 @@ lib:AddRecipe(204073, 403018, 204072) -- Deviously Deviled Eggs
 lib:AddRecipe(204847, 407066, 204845) -- Rocks on the Rocks
 lib:AddRecipe(204849, 407100, 204848) -- Charitable Cheddar
 lib:AddRecipe(210242, 416001, 207054) -- Slumbering Peacebloom Tea
-lib:AddRecipe(223956, 447870, nil) -- Everything-On-A-Stick
+lib:AddRecipe(223956, 447870, nil) -- Everything-on-a-Stick
 lib:AddRecipe(223957, 447871, nil) -- Protein Slurp
 lib:AddRecipe(223958, 447872, 223968) -- Spongey Scramble
 lib:AddRecipe(223960, 447874, 223970) -- Little Buddy Biscuits
@@ -3469,6 +3469,10 @@ lib:AddRecipe(225477, 444338, 219933) -- Algari Competitor's Emblem
 lib:AddRecipe(225480, 455007, 225368) -- Algari Competitor's Pillar
 lib:AddRecipe(225481, 455008, 225369) -- Algari Competitor's Staff
 lib:AddRecipe(225484, 455006, 225372) -- Algari Competitor's Lamp
+lib:AddRecipe(234229, 1213514, 234247) -- Glyph of the Gilded Pistol Shot
+lib:AddRecipe(234230, 1213512, 234248) -- Glyph of the Twilight Pistol Shot
+lib:AddRecipe(234231, 1213515, 234246) -- Glyph of the Admiral's Pistol Shot
+lib:AddRecipe(234232, 1213517, 234245) -- Glyph of the Ashvane Pistol Shot
 -- Jewelcrafting
 lib:AddRecipe(20854, 25339, 20830) -- Amulet of the Moon
 lib:AddRecipe(20855, 25323, 20833) -- Wicked Moonstone Ring
