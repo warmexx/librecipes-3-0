@@ -1,5 +1,5 @@
 local MAJOR = "LibRecipes-3.0"
-local MINOR = 20 -- Should be manually increased
+local MINOR = 21 -- Should be manually increased
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
@@ -1755,6 +1755,7 @@ lib:AddRecipe(228421, 445484, 222749) -- Melted Candlebar
 lib:AddRecipe(228422, 447876, 225855) -- Ghoulfish Delight
 lib:AddRecipe(228423, 445480, 222745) -- Pep-In-Your-Step
 lib:AddRecipe(228424, 445479, 222744) -- Cinder Nectar
+lib:AddRecipe(235800, 1218414, 235805) -- Authentic Undermine Clam Chowder
 -- Enchanting
 lib:AddRecipe(6342, 7443, nil) -- Minor Mana
 lib:AddRecipe(6344, 7766, nil) -- Minor Versatility
@@ -3055,6 +3056,7 @@ lib:AddRecipe(225472, 438927, 217156) -- Algari Competitor's Leather Bracers
 lib:AddRecipe(225473, 438928, 217157) -- Algari Competitor's Mail Bracers
 lib:AddRecipe(225474, 438929, 217158) -- Algari Competitor's Plate Bracers
 lib:AddRecipe(225482, 455005, 225370) -- Algari Competitor's Rifle
+lib:AddRecipe(234274, 1213620, 232985) -- 22H Slicks
 -- Inscription
 lib:AddRecipe(46108, 64051, 45854) -- Rituals of the New Moon
 lib:AddRecipe(65649, 86644, 62239) -- Origami Slime
@@ -3469,6 +3471,8 @@ lib:AddRecipe(225477, 444338, 219933) -- Algari Competitor's Emblem
 lib:AddRecipe(225480, 455007, 225368) -- Algari Competitor's Pillar
 lib:AddRecipe(225481, 455008, 225369) -- Algari Competitor's Staff
 lib:AddRecipe(225484, 455006, 225372) -- Algari Competitor's Lamp
+lib:AddRecipe(232535, 471132, 232532) -- Contract: The Cartels of Undermine
+lib:AddRecipe(233022, 472951, 232935) -- Vantus Rune: Liberation of Undermine
 lib:AddRecipe(234229, 1213514, 234247) -- Glyph of the Gilded Pistol Shot
 lib:AddRecipe(234230, 1213512, 234248) -- Glyph of the Twilight Pistol Shot
 lib:AddRecipe(234231, 1213515, 234246) -- Glyph of the Admiral's Pistol Shot
@@ -4336,6 +4340,7 @@ lib:AddRecipe(228217, 434536, 213515) -- Solid Amber
 lib:AddRecipe(228320, 435382, 215133) -- Binding of Binding
 lib:AddRecipe(228329, 435389, 215145) -- Remembrance Stone
 lib:AddRecipe(228379, 435333, 213774) -- Captured Starlight
+lib:AddRecipe(238922, 1226650, 235712) -- Void-Crystal Panther
 -- Leatherworking
 lib:AddRecipe(2406, 2158, 2307) -- Fine Leather Boots
 lib:AddRecipe(2407, 2163, 2311) -- White Leather Jerkin
@@ -5248,6 +5253,7 @@ lib:AddRecipe(225455, 438910, 217138) -- Algari Competitor's Chain Girdle
 lib:AddRecipe(225456, 438911, 217139) -- Algari Competitor's Chain Leggings
 lib:AddRecipe(225457, 438912, 217140) -- Algari Competitor's Chain Gauntlets
 lib:AddRecipe(225458, 438913, 217141) -- Algari Competitor's Chain Cuffs
+lib:AddRecipe(235338, 1216520, 235335) -- Charged Armor Kit
 -- Mining
 lib:AddRecipe(35273, 46353, 35128) -- Smelt Hardened Khorium
 lib:AddRecipe(44956, 22967, 17771) -- Smelt Enchanted Elementium
@@ -7420,6 +7426,38 @@ lib:AddRecipe(72014, 101929, 71991) -- Soul Redeemer Bracers
 lib:AddRecipe(72015, 101931, 71992) -- Bracers of Destructive Strength
 lib:AddRecipe(72016, 101932, 71993) -- Titanguard Wristplates
 lib:AddRecipe(74274, 10007, 7961) -- Phantom Blade
+lib:AddRecipe(238074, 1224188, 75124) -- Vicious Pyrium Bracers
+lib:AddRecipe(238075, 1224190, 75122) -- Vicious Pyrium Gauntlets
+lib:AddRecipe(238076, 1224186, 75123) -- Vicious Pyrium Belt
+lib:AddRecipe(238077, 1224187, 75120) -- Vicious Pyrium Boots
+lib:AddRecipe(238078, 1224193, 75119) -- Vicious Pyrium Shoulders
+lib:AddRecipe(238079, 1224192, 75136) -- Vicious Pyrium Legguards
+lib:AddRecipe(238080, 1224191, 75126) -- Vicious Pyrium Helm
+lib:AddRecipe(238081, 1224189, 75135) -- Vicious Pyrium Breastplate
+lib:AddRecipe(238082, 1224180, 75125) -- Vicious Ornate Pyrium Bracers
+lib:AddRecipe(238083, 1224182, 75121) -- Vicious Ornate Pyrium Gauntlets
+lib:AddRecipe(238084, 1224178, 75118) -- Vicious Ornate Pyrium Belt
+lib:AddRecipe(238085, 1224179, 75132) -- Vicious Ornate Pyrium Boots
+lib:AddRecipe(238086, 1224185, 75134) -- Vicious Ornate Pyrium Shoulders
+lib:AddRecipe(238087, 1224184, 75133) -- Vicious Ornate Pyrium Legguards
+lib:AddRecipe(238088, 1224183, 75129) -- Vicious Ornate Pyrium Helm
+lib:AddRecipe(238089, 1224181, 75128) -- Vicious Ornate Pyrium Breastplate
+lib:AddRecipe(238129, 1224224, 55071) -- Bloodied Pyrium Bracers
+lib:AddRecipe(238130, 1224225, 55072) -- Bloodied Pyrium Gauntlets
+lib:AddRecipe(238131, 1224226, 55073) -- Bloodied Pyrium Belt
+lib:AddRecipe(238132, 1224227, 55074) -- Bloodied Pyrium Boots
+lib:AddRecipe(238133, 1224228, 55075) -- Bloodied Pyrium Shoulders
+lib:AddRecipe(238134, 1224229, 55076) -- Bloodied Pyrium Legguards
+lib:AddRecipe(238135, 1224230, 55077) -- Bloodied Pyrium Helm
+lib:AddRecipe(238136, 1224231, 55078) -- Bloodied Pyrium Breastplate
+lib:AddRecipe(238137, 1224232, 55079) -- Ornate Pyrium Bracers
+lib:AddRecipe(238138, 1224233, 55080) -- Ornate Pyrium Gauntlets
+lib:AddRecipe(238139, 1224234, 55081) -- Ornate Pyrium Belt
+lib:AddRecipe(238140, 1224235, 55082) -- Ornate Pyrium Boots
+lib:AddRecipe(238141, 1224236, 55083) -- Ornate Pyrium Shoulders
+lib:AddRecipe(238142, 1224237, 55084) -- Ornate Pyrium Legguards
+lib:AddRecipe(238143, 1224238, 55085) -- Ornate Pyrium Helm
+lib:AddRecipe(238144, 1224239, 55086) -- Ornate Pyrium Breastplate
 -- Cooking
 lib:AddRecipe(728, 2543, 733) -- Westfall Stew
 lib:AddRecipe(2697, 2542, 724) -- Goretusk Liver Pie
@@ -9231,6 +9269,70 @@ lib:AddRecipe(185925, 351770, 185849) -- Greater Drums of Panic
 lib:AddRecipe(185926, 351771, 185848) -- Greater Drums of Battle
 lib:AddRecipe(187048, 351769, 185850) -- Greater Drums of Restoration
 lib:AddRecipe(187049, 351768, 185851) -- Greater Drums of Speed
+lib:AddRecipe(238090, 1224196, 75106) -- Vicious Wyrmhide Bracers
+lib:AddRecipe(238091, 1224194, 75117) -- Vicious Wyrmhide Belt
+lib:AddRecipe(238092, 1224172, 75131) -- Vicious Leather Bracers
+lib:AddRecipe(238093, 1224174, 75104) -- Vicious Leather Gloves
+lib:AddRecipe(238094, 1224140, 75094) -- Vicious Charscale Bracers
+lib:AddRecipe(238095, 1224142, 75085) -- Vicious Charscale Gloves
+lib:AddRecipe(238096, 1224148, 75114) -- Vicious Dragonscale Bracers
+lib:AddRecipe(238097, 1224153, 75116) -- Vicious Dragonscale Shoulders
+lib:AddRecipe(238098, 1224198, 75109) -- Vicious Wyrmhide Gloves
+lib:AddRecipe(238099, 1224195, 75101) -- Vicious Wyrmhide Boots
+lib:AddRecipe(238100, 1224171, 75130) -- Vicious Leather Boots
+lib:AddRecipe(238101, 1224177, 75113) -- Vicious Leather Shoulders
+lib:AddRecipe(238102, 1224139, 75092) -- Vicious Charscale Boots
+lib:AddRecipe(238103, 1224138, 75083) -- Vicious Charscale Belt
+lib:AddRecipe(238104, 1224147, 75110) -- Vicious Dragonscale Boots
+lib:AddRecipe(238105, 1224150, 75081) -- Vicious Dragonscale Gloves
+lib:AddRecipe(238106, 1224201, 75099) -- Vicious Wyrmhide Shoulders
+lib:AddRecipe(238107, 1224197, 75107) -- Vicious Wyrmhide Chest
+lib:AddRecipe(238108, 1224170, 75127) -- Vicious Leather Belt
+lib:AddRecipe(238109, 1224175, 75105) -- Vicious Leather Helm
+lib:AddRecipe(238110, 1224145, 75061) -- Vicious Charscale Shoulders
+lib:AddRecipe(238111, 1224144, 75097) -- Vicious Charscale Legs
+lib:AddRecipe(238112, 1224146, 75100) -- Vicious Dragonscale Belt
+lib:AddRecipe(238113, 1224151, 75102) -- Vicious Dragonscale Helm
+lib:AddRecipe(238114, 1224200, 75080) -- Vicious Wyrmhide Legs
+lib:AddRecipe(238115, 1224199, 75111) -- Vicious Wyrmhide Helm
+lib:AddRecipe(238116, 1224173, 75103) -- Vicious Leather Chest
+lib:AddRecipe(238117, 1224176, 75112) -- Vicious Leather Legs
+lib:AddRecipe(238118, 1224141, 75084) -- Vicious Charscale Chest
+lib:AddRecipe(238119, 1224143, 75090) -- Vicious Charscale Helm
+lib:AddRecipe(238120, 1224152, 75108) -- Vicious Dragonscale Legs
+lib:AddRecipe(238121, 1224149, 75115) -- Vicious Dragonscale Chest
+lib:AddRecipe(238145, 1224240, 56520) -- Bloodied Wyrmhide Bracers
+lib:AddRecipe(238146, 1224241, 56521) -- Bloodied Wyrmhide Belt
+lib:AddRecipe(238147, 1224242, 56522) -- Bloodied Leather Bracers
+lib:AddRecipe(238148, 1224243, 56523) -- Bloodied Leather Gloves
+lib:AddRecipe(238149, 1224244, 56524) -- Bloodied Scale Bracers
+lib:AddRecipe(238150, 1224245, 56525) -- Bloodied Scale Gloves
+lib:AddRecipe(238151, 1224246, 56526) -- Bloodied Dragonscale Bracers
+lib:AddRecipe(238152, 1224247, 56527) -- Bloodied Dragonscale Shoulders
+lib:AddRecipe(238153, 1224248, 56528) -- Bloodied Wyrmhide Gloves
+lib:AddRecipe(238154, 1224249, 56529) -- Bloodied Wyrmhide Boots
+lib:AddRecipe(238155, 1224250, 56530) -- Bloodied Leather Boots
+lib:AddRecipe(238156, 1224251, 56531) -- Bloodied Leather Shoulders
+lib:AddRecipe(238157, 1224252, 56532) -- Bloodied Scale Boots
+lib:AddRecipe(238158, 1224253, 56533) -- Bloodied Scale Belt
+lib:AddRecipe(238159, 1224254, 56534) -- Bloodied Dragonscale Boots
+lib:AddRecipe(238160, 1224255, 56535) -- Bloodied Dragonscale Gloves
+lib:AddRecipe(238161, 1224256, 56540) -- Bloodied Wyrmhide Shoulders
+lib:AddRecipe(238162, 1224257, 56541) -- Bloodied Wyrmhide Chest
+lib:AddRecipe(238163, 1224258, 56542) -- Bloodied Leather Belt
+lib:AddRecipe(238164, 1224259, 56543) -- Bloodied Leather Helm
+lib:AddRecipe(238165, 1224260, 56544) -- Bloodied Scale Shoulders
+lib:AddRecipe(238166, 1224261, 56545) -- Bloodied Scale Legs
+lib:AddRecipe(238167, 1224262, 56546) -- Bloodied Dragonscale Belt
+lib:AddRecipe(238168, 1224263, 56547) -- Bloodied Dragonscale Helm
+lib:AddRecipe(238169, 1224264, 56552) -- Bloodied Wyrmhide Legs
+lib:AddRecipe(238170, 1224265, 56553) -- Bloodied Wyrmhide Helm
+lib:AddRecipe(238171, 1224266, 56554) -- Bloodied Leather Chest
+lib:AddRecipe(238172, 1224267, 56555) -- Bloodied Leather Legs
+lib:AddRecipe(238173, 1224268, 56556) -- Bloodied Scale Chest
+lib:AddRecipe(238174, 1224269, 56557) -- Bloodied Scale Helm
+lib:AddRecipe(238175, 1224270, 56558) -- Bloodied Dragonscale Legs
+lib:AddRecipe(238176, 1224271, 56559) -- Bloodied Dragonscale Chest
 -- Mining
 lib:AddRecipe(35273, 46353, 35128) -- Smelt Hardened Khorium
 lib:AddRecipe(44956, 22967, 17771) -- Smelt Enchanted Elementium
@@ -9561,6 +9663,18 @@ lib:AddRecipe(72002, 101921, 71980) -- Lavaquake Legwraps
 lib:AddRecipe(72003, 101922, 71990) -- Dreamwraps of the Light
 lib:AddRecipe(72004, 101923, 71989) -- Bracers of Unconquered Power
 lib:AddRecipe(72102, 102171, 72101) -- Black Silk Vest
+lib:AddRecipe(238068, 1224157, 75073) -- Vicious Embersilk Cowl
+lib:AddRecipe(238069, 1224159, 75072) -- Vicious Embersilk Pants
+lib:AddRecipe(238070, 1224160, 75093) -- Vicious Embersilk Robe
+lib:AddRecipe(238071, 1224165, 75062) -- Vicious Fireweave Cowl
+lib:AddRecipe(238072, 1224167, 75082) -- Vicious Fireweave Pants
+lib:AddRecipe(238073, 1224168, 75088) -- Vicious Fireweave Robe
+lib:AddRecipe(238123, 1224222, 54496) -- Emberfire Cowl
+lib:AddRecipe(238124, 1224223, 54498) -- Emberfire Pants
+lib:AddRecipe(238125, 1224221, 54495) -- Emberfire Robe
+lib:AddRecipe(238126, 1224220, 54493) -- Fireweave Cowl
+lib:AddRecipe(238127, 1224218, 54491) -- Fireweave Pants
+lib:AddRecipe(238128, 1224219, 54494) -- Fireweave Robe
 
 --------------------------------------------------------------------------------
 --  End Classic Data                                                          --
