@@ -1,5 +1,5 @@
 local MAJOR = "LibRecipes-3.0"
-local MINOR = 21 -- Should be manually increased
+local MINOR = 22 -- Should be manually increased
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
@@ -3477,6 +3477,7 @@ lib:AddRecipe(234229, 1213514, 234247) -- Glyph of the Gilded Pistol Shot
 lib:AddRecipe(234230, 1213512, 234248) -- Glyph of the Twilight Pistol Shot
 lib:AddRecipe(234231, 1213515, 234246) -- Glyph of the Admiral's Pistol Shot
 lib:AddRecipe(234232, 1213517, 234245) -- Glyph of the Ashvane Pistol Shot
+lib:AddRecipe(243052, 1234336, 243051) -- Glyph of the Strix
 -- Jewelcrafting
 lib:AddRecipe(20854, 25339, 20830) -- Amulet of the Moon
 lib:AddRecipe(20855, 25323, 20833) -- Wicked Moonstone Ring
