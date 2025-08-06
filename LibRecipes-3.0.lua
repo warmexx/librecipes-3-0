@@ -1,5 +1,5 @@
 local MAJOR = "LibRecipes-3.0"
-local MINOR = 23 -- Should be manually increased
+local MINOR = 24 -- Should be manually increased
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local lib = LibStub:NewLibrary(MAJOR, MINOR)
@@ -596,6 +596,8 @@ lib:AddRecipe(223080, 427185, 210816) -- Algari Alchemist Stone
 lib:AddRecipe(224017, 430608, 212292) -- Vicious Flask of Honor
 lib:AddRecipe(224018, 430607, 212289) -- Vicious Flask of Classical Spirits
 lib:AddRecipe(224020, 430611, 212298) -- Vicious Flask of the Wrecking Ball
+lib:AddRecipe(244841, 1238010, 244835) -- Invigorating Healing Potion
+lib:AddRecipe(248550, 1246966, 248331) -- Umbral Essentia
 -- Blacksmithing
 lib:AddRecipe(2881, 2667, 2864) -- Runed Copper Breastplate
 lib:AddRecipe(2882, 3330, 3481) -- Silvered Bronze Shoulders
@@ -1363,6 +1365,7 @@ lib:AddRecipe(225487, 455002, 225375) -- Algari Competitor's Skewer
 lib:AddRecipe(225488, 455003, 225376) -- Algari Competitor's Greatsword
 lib:AddRecipe(225489, 455004, 225377) -- Algari Competitor's Sword
 lib:AddRecipe(226643, 450246, 222459) -- Beledar's Bulwark
+lib:AddRecipe(238041, 12260, 10421) -- Rough Copper Vest
 -- Cooking
 lib:AddRecipe(728, 2543, 733) -- Westfall Stew
 lib:AddRecipe(2697, 2542, 724) -- Goretusk Liver Pie
@@ -2627,6 +2630,7 @@ lib:AddRecipe(223789, 445388, 223788) -- Cursed Haste
 lib:AddRecipe(223790, 445388, 223788) -- Cursed Haste
 lib:AddRecipe(225652, 455488, 223664) -- Glimmering Haste
 lib:AddRecipe(228708, 445382, 224304) -- Gleeful Glamour - Earthen
+lib:AddRecipe(249709, 1249469, 249706) -- Gleeful Glamour - Ethereal
 -- Engineering
 lib:AddRecipe(4408, 3928, 4401) -- Mechanical Squirrel Box
 lib:AddRecipe(4409, 3933, 4367) -- Small Seaforium Charge
@@ -3478,6 +3482,12 @@ lib:AddRecipe(234230, 1213512, 234248) -- Glyph of the Twilight Pistol Shot
 lib:AddRecipe(234231, 1213515, 234246) -- Glyph of the Admiral's Pistol Shot
 lib:AddRecipe(234232, 1213517, 234245) -- Glyph of the Ashvane Pistol Shot
 lib:AddRecipe(243052, 1234336, 243051) -- Glyph of the Strix
+lib:AddRecipe(244043, 1236170, 243821) -- Contract: The K'aresh Trust
+lib:AddRecipe(244334, 1236908, 244147) -- Vantus Rune: Manaforge Omega
+lib:AddRecipe(246811, 1243994, 246809) -- Inspired Writer's Quill
+lib:AddRecipe(249701, 1249463, 249700) -- Deal: Cartel Zo
+lib:AddRecipe(249703, 1249466, 249702) -- Deal: Cartel Ba
+lib:AddRecipe(249705, 1249468, 249704) -- Deal: Cartel Om
 -- Jewelcrafting
 lib:AddRecipe(20854, 25339, 20830) -- Amulet of the Moon
 lib:AddRecipe(20855, 25323, 20833) -- Wicked Moonstone Ring
@@ -5853,6 +5863,10 @@ lib:AddRecipe(225440, 438895, 217123) -- Algari Competitor's Cloth Tunic
 lib:AddRecipe(225441, 438896, 217124) -- Algari Competitor's Cloth Sash
 lib:AddRecipe(225442, 438897, 217125) -- Algari Competitor's Cloth Cloak
 lib:AddRecipe(225995, 447888, 225936) -- Hideseeker's Tote
+lib:AddRecipe(239485, 1228338, 238046) -- Pure Energizing Fiber
+lib:AddRecipe(239486, 1228344, 238045) -- Pure Chronomatic Fiber
+lib:AddRecipe(239487, 1228343, 238042) -- Pure Dexterous Fiber
+lib:AddRecipe(239488, 1228342, 238044) -- Pure Precise Fiber
 
 --------------------------------------------------------------------------------
 -- End Retail Data                                                            --
