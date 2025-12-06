@@ -1,6 +1,6 @@
-## Interface: 110200
-## Interface-Classic: 11507
-## Interface-Mists: 50500
+## Interface: 110207
+## Interface-Classic: 11508
+## Interface-Mists: 50502
 ## Title: Lib: Recipes
 ## Notes: Library providing mappings between trade skill recipes, spells and created items
 ## Author: Warmexx [Neighbours]
