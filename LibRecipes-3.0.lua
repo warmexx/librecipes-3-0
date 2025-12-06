@@ -1366,6 +1366,8 @@ lib:AddRecipe(225488, 455003, 225376) -- Algari Competitor's Greatsword
 lib:AddRecipe(225489, 455004, 225377) -- Algari Competitor's Sword
 lib:AddRecipe(226643, 450246, 222459) -- Beledar's Bulwark
 lib:AddRecipe(238041, 12260, 10421) -- Rough Copper Vest
+lib:AddRecipe(256939, 1260987, 245600) -- Frostwall Forge
+lib:AddRecipe(256940, 1260988, 245436) -- Blackrock Weapon Rack
 -- Cooking
 lib:AddRecipe(728, 2543, 733) -- Westfall Stew
 lib:AddRecipe(2697, 2542, 724) -- Goretusk Liver Pie
@@ -1759,6 +1761,8 @@ lib:AddRecipe(228422, 447876, 225855) -- Ghoulfish Delight
 lib:AddRecipe(228423, 445480, 222745) -- Pep-In-Your-Step
 lib:AddRecipe(228424, 445479, 222744) -- Cinder Nectar
 lib:AddRecipe(235800, 1218414, 235805) -- Authentic Undermine Clam Chowder
+lib:AddRecipe(248013, 1245993, 239170) -- Dornic Mine and Cheese Platter
+lib:AddRecipe(260556, 1266560, 245428) -- Hungry Human's Platter
 -- Enchanting
 lib:AddRecipe(6342, 7443, nil) -- Minor Mana
 lib:AddRecipe(6344, 7766, nil) -- Minor Versatility
@@ -2631,6 +2635,8 @@ lib:AddRecipe(223790, 445388, 223788) -- Cursed Haste
 lib:AddRecipe(225652, 455488, 223664) -- Glimmering Haste
 lib:AddRecipe(228708, 445382, 224304) -- Gleeful Glamour - Earthen
 lib:AddRecipe(249709, 1249469, 249706) -- Gleeful Glamour - Ethereal
+lib:AddRecipe(256941, 1260990, 245601) -- Ancestral Signal Brazier
+lib:AddRecipe(256959, 1261008, 251655) -- Draenethyst String Lights
 -- Engineering
 lib:AddRecipe(4408, 3928, 4401) -- Mechanical Squirrel Box
 lib:AddRecipe(4409, 3933, 4367) -- Small Seaforium Charge
@@ -3060,7 +3066,10 @@ lib:AddRecipe(225472, 438927, 217156) -- Algari Competitor's Leather Bracers
 lib:AddRecipe(225473, 438928, 217157) -- Algari Competitor's Mail Bracers
 lib:AddRecipe(225474, 438929, 217158) -- Algari Competitor's Plate Bracers
 lib:AddRecipe(225482, 455005, 225370) -- Algari Competitor's Rifle
+lib:AddRecipe(233203, 473408, 36812) -- Housing Crafting Test Recipe
 lib:AddRecipe(234274, 1213620, 232985) -- 22H Slicks
+lib:AddRecipe(256962, 1261025, 251482) -- Draenei Stargazer's Telescope
+lib:AddRecipe(256964, 1261027, 244314) -- Frostwall Architect's Table
 -- Inscription
 lib:AddRecipe(46108, 64051, 45854) -- Rituals of the New Moon
 lib:AddRecipe(65649, 86644, 62239) -- Origami Slime
@@ -3488,6 +3497,10 @@ lib:AddRecipe(246811, 1243994, 246809) -- Inspired Writer's Quill
 lib:AddRecipe(249701, 1249463, 249700) -- Deal: Cartel Zo
 lib:AddRecipe(249703, 1249466, 249702) -- Deal: Cartel Ba
 lib:AddRecipe(249705, 1249468, 249704) -- Deal: Cartel Om
+lib:AddRecipe(257025, 1261032, 245534) -- Frostwall Elevated Brazier
+lib:AddRecipe(257028, 1261066, 244317) -- Orcish Banded Barrel
+lib:AddRecipe(262809, 1269500, 244313) -- Orcish Fence
+lib:AddRecipe(262810, 1269501, 245441) -- Orcish Fencepost
 -- Jewelcrafting
 lib:AddRecipe(20854, 25339, 20830) -- Amulet of the Moon
 lib:AddRecipe(20855, 25323, 20833) -- Wicked Moonstone Ring
@@ -4352,6 +4365,8 @@ lib:AddRecipe(228320, 435382, 215133) -- Binding of Binding
 lib:AddRecipe(228329, 435389, 215145) -- Remembrance Stone
 lib:AddRecipe(228379, 435333, 213774) -- Captured Starlight
 lib:AddRecipe(238922, 1226650, 235712) -- Void-Crystal Panther
+lib:AddRecipe(257030, 1261071, 251495) -- Draenic Basin
+lib:AddRecipe(257031, 1261075, 251550) -- Draenethyst Sconce
 -- Leatherworking
 lib:AddRecipe(2406, 2158, 2307) -- Fine Leather Boots
 lib:AddRecipe(2407, 2163, 2311) -- White Leather Jerkin
@@ -5265,6 +5280,8 @@ lib:AddRecipe(225456, 438911, 217139) -- Algari Competitor's Chain Leggings
 lib:AddRecipe(225457, 438912, 217140) -- Algari Competitor's Chain Gauntlets
 lib:AddRecipe(225458, 438913, 217141) -- Algari Competitor's Chain Cuffs
 lib:AddRecipe(235338, 1216520, 235335) -- Charged Armor Kit
+lib:AddRecipe(257033, 1261081, 245432) -- Blackrock Bunkbed
+lib:AddRecipe(257058, 1261122, 244323) -- Orcish Sleeping Cot
 -- Mining
 lib:AddRecipe(35273, 46353, 35128) -- Smelt Hardened Khorium
 lib:AddRecipe(44956, 22967, 17771) -- Smelt Enchanted Elementium
@@ -5864,7 +5881,7 @@ lib:AddRecipe(225441, 438896, 217124) -- Algari Competitor's Cloth Sash
 lib:AddRecipe(225442, 438897, 217125) -- Algari Competitor's Cloth Cloak
 lib:AddRecipe(225995, 447888, 225936) -- Hideseeker's Tote
 lib:AddRecipe(239485, 1228338, 238046) -- Pure Energizing Fiber
-lib:AddRecipe(239486, 1228344, 238045) -- Pure Chronomatic Fiber
+lib:AddRecipe(239486, 1228344, 238045) -- Pure Chronomantic Fiber
 lib:AddRecipe(239487, 1228343, 238042) -- Pure Dexterous Fiber
 lib:AddRecipe(239488, 1228342, 238044) -- Pure Precise Fiber
 
