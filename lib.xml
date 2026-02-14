@@ -1,4 +1,8 @@
-<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
-..\FrameXML\UI.xsd">
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
   <Script file="LibRecipes-3.0.lua"/>
+
+  <Script file="Data\Retail.lua"/>
+  <Script file="Data\Era.lua"/>
+  <Script file="Data\BCC.lua"/>
+  <Script file="Data\Classic.lua"/>
 </Ui>
