@@ -405,7 +405,7 @@ lib:AddRecipe(244841, 1238010, 244835) -- Invigorating Healing Potion
 lib:AddRecipe(246671, 1233135, 256356) -- Sunsmoke Censer
 lib:AddRecipe(247423, 1233138, 257420) -- Silvermoon Spire Fountain
 lib:AddRecipe(247425, 1233136, 262354) -- Riftstone
-lib:AddRecipe(247498, 1233132, nil) -- Entropic Illuminant
+lib:AddRecipe(247498, 1233132, 262355) -- Entropic Illuminant
 lib:AddRecipe(247499, 1233137, 262356) -- Haranir Preserving Agents
 lib:AddRecipe(247500, 1233133, 253506) -- Rootbound Vat
 lib:AddRecipe(248550, 1246966, 248331) -- Umbral Essentia
@@ -415,6 +415,10 @@ lib:AddRecipe(257753, 1262011, 257044) -- Orcish Felblood Cauldron
 lib:AddRecipe(258141, 1230873, 241316) -- Haranir Phial of Perception
 lib:AddRecipe(258305, 1230864, 241298) -- Amani Extract
 lib:AddRecipe(259459, 1230859, 241288) -- Potion of Recklessness
+lib:AddRecipe(271885, 1289744, 271883) -- Concentrated Silvermoon Health Potion
+lib:AddRecipe(271888, 1289745, 271886) -- Liquid Luster
+lib:AddRecipe(271891, 1289746, 271889) -- Alluring Nostrum
+lib:AddRecipe(275275, 1296429, 279359) -- Ersatz Venom Splatter
 -- Blacksmithing
 lib:AddRecipe(2881, 2667, 2864) -- Runed Copper Breastplate
 lib:AddRecipe(2882, 3330, 3481) -- Silvered Bronze Shoulders
@@ -1196,24 +1200,41 @@ lib:AddRecipe(238227, 1229636, 237910) -- Thalassian Competitor's Knife
 lib:AddRecipe(238228, 1229635, 237911) -- Thalassian Competitor's Maxim
 lib:AddRecipe(238229, 1229634, 237912) -- Thalassian Competitor's Bulwark
 lib:AddRecipe(238230, 1229633, 237913) -- Thalassian Competitor's Splitter
-lib:AddRecipe(238231, 1229632, 237914) -- Thalassian Competitor's Spelldagger
+lib:AddRecipe(238231, 1229632, 237914) -- Thalassian Competitor's Skewer
 lib:AddRecipe(238232, 1229631, 237915) -- Thalassian Competitor's Greatsword
 lib:AddRecipe(238233, 1229630, 237916) -- Thalassian Competitor's Sword
 lib:AddRecipe(256939, 1260987, 245600) -- Frostwall Forge
 lib:AddRecipe(256940, 1260988, 245436) -- Blackrock Weapon Rack
-lib:AddRecipe(258487, 1230766, 244463) -- Murder Row Fleet Feet Recipe
+lib:AddRecipe(258487, 1230766, 244463) -- Murder Row Fleet Feet
 lib:AddRecipe(258517, 1230767, 244472) -- Knight-Commander's Palisade
 lib:AddRecipe(258518, 1230768, 244679) -- Murder Row Fishhook
 lib:AddRecipe(258519, 1229647, 237849) -- Magister's Valediction
 lib:AddRecipe(258521, 1229653, 237847) -- Blood Knight's Impetus
 lib:AddRecipe(258522, 1229655, 237842) -- Bloomforged Greataxe
+lib:AddRecipe(259231, 1264644, 259230) -- Sunforged Blacksmith's Toolbox
+lib:AddRecipe(259233, 1264645, 259232) -- Sunforged Leatherworker's Toolset
+lib:AddRecipe(259235, 1264646, 259234) -- Sunforged Needle Set
+lib:AddRecipe(259237, 1230769, 246537) -- Sunforged Blacksmith's Hammer
+lib:AddRecipe(259317, 1264651, 246533) -- Sunforged Sickle
+lib:AddRecipe(259318, 1262899, 246536) -- Sunforged Leatherworker's Knife
+lib:AddRecipe(259319, 1262919, 246534) -- Sunforged Pickaxe
+lib:AddRecipe(259322, 1262905, 246535) -- Sunforged Skinning Knife
 lib:AddRecipe(260246, 1265906, 260232) -- Thalassian Skeleton Key
+lib:AddRecipe(265528, 1276108, 262451) -- Gilded Silvermoon Anvil
+lib:AddRecipe(265530, 1276109, 262456) -- Ornamental Silvermoon Hanger
+lib:AddRecipe(265532, 1276110, 262457) -- Gilded Silvermoon Hanger
+lib:AddRecipe(265534, 1276111, 262460) -- Ren'dorei Anvil
+lib:AddRecipe(265536, 1276112, 262452) -- Masterwork Crafting Hammer
 lib:AddRecipe(267281, 1229652, 237848) -- Blood Knight's Mercy
 lib:AddRecipe(267282, 1229648, 237846) -- Blood Knight's Warblade
 lib:AddRecipe(267284, 1229649, 237845) -- Bloomforged Claw
 lib:AddRecipe(267285, 1229654, 237844) -- Magister's Cleaver
 lib:AddRecipe(267286, 1229651, 237843) -- Magister's Mana Sword
 lib:AddRecipe(267287, 1229650, 237838) -- Magister's Ritual Knife
+lib:AddRecipe(273061, 1291683, 273059) -- Hunter's Ritual Stone
+lib:AddRecipe(275304, 1296495, 263709) -- Amani Forgemaster's Workbench
+lib:AddRecipe(275306, 1296496, 275305) -- Amani Forgemaster's Decorative Spear
+lib:AddRecipe(275308, 1296497, 279329) -- Amani Forgemaster's Rack
 -- Cooking
 lib:AddRecipe(728, 2543, 733) -- Westfall Stew
 lib:AddRecipe(2697, 2542, 724) -- Goretusk Liver Pie
@@ -1608,9 +1629,16 @@ lib:AddRecipe(228423, 445480, 222745) -- Pep-In-Your-Step
 lib:AddRecipe(228424, 445479, 222744) -- Cinder Nectar
 lib:AddRecipe(235800, 1218414, 235805) -- Authentic Undermine Clam Chowder
 lib:AddRecipe(248013, 1245993, 239170) -- Dornic Mine and Cheese Platter
+lib:AddRecipe(251630, 1295534, 275264) -- Amani Cornucopia
 lib:AddRecipe(258490, 1226194, 242298) -- Argentleaf Tea
 lib:AddRecipe(260556, 1266560, 245428) -- Hungry Human's Platter
 lib:AddRecipe(263473, 1259660, 255848) -- Flora Frenzy
+lib:AddRecipe(275271, 1295783, 275258) -- Venom-Spiced Cutlets
+lib:AddRecipe(275273, 1296419, 275261) -- Sweet-And-Sour Skewers
+lib:AddRecipe(275300, 1295776, 275265) -- Loa's Gathering
+lib:AddRecipe(275301, 1295777, 275266) -- Feast of Knowledge
+lib:AddRecipe(278331, 1296419, 275261) -- Sweet-And-Sour Skewers
+lib:AddRecipe(278332, 1296418, 275260) -- Puffer Plate
 -- Enchanting
 lib:AddRecipe(6342, 7443, nil) -- Minor Mana
 lib:AddRecipe(6344, 7766, nil) -- Minor Versatility
@@ -2482,9 +2510,6 @@ lib:AddRecipe(223789, 445388, 223788) -- Cursed Haste
 lib:AddRecipe(223790, 445388, 223788) -- Cursed Haste
 lib:AddRecipe(225652, 455488, 223664) -- Glimmering Haste
 lib:AddRecipe(228708, 445382, 224304) -- Gleeful Glamour - Earthen
-lib:AddRecipe(243434, 445358, 223657) -- Glimmering Critical Strike
-lib:AddRecipe(243442, 445358, 223657) -- Glimmering Critical Strike
-lib:AddRecipe(243448, 445358, 223657) -- Glimmering Critical Strike
 lib:AddRecipe(243448, 1236098, 244032) -- Illusory Adornment - Blooming Light
 lib:AddRecipe(243948, 1236055, 243948) -- Enchant Helm - Hex of Leeching
 lib:AddRecipe(243949, 1236055, 243948) -- Enchant Helm - Hex of Leeching
@@ -2532,8 +2557,6 @@ lib:AddRecipe(244022, 1236092, 244022) -- Enchant Tool - Sin'dorei Deftness
 lib:AddRecipe(244023, 1236092, 244022) -- Enchant Tool - Sin'dorei Deftness
 lib:AddRecipe(244030, 1236097, 244030) -- Enchant Weapon - Arcane Mastery
 lib:AddRecipe(244031, 1236097, 244030) -- Enchant Weapon - Arcane Mastery
-lib:AddRecipe(244032, 1236098, 244032) -- Illusory Adornment - Blooming Light
-lib:AddRecipe(244033, 1236098, 244032) -- Illusory Adornment - Blooming Light
 lib:AddRecipe(249709, 1249469, 249706) -- Gleeful Glamour - Ethereal
 lib:AddRecipe(256737, 1236054, 243946) -- Enchant Chest - Mark of Nalorakk
 lib:AddRecipe(256738, 1236056, 243950) -- Enchant Helm - Empowered Hex of Leeching
@@ -2565,12 +2588,16 @@ lib:AddRecipe(256959, 1261008, 251655) -- Draenethyst String Lights
 lib:AddRecipe(259364, 1246906, 262459) -- Animated Sin'dorei Hammer
 lib:AddRecipe(259367, 1246902, 262458) -- Animated Sin'dorei Pick
 lib:AddRecipe(259370, 1246908, 262590) -- Rootflame Campfire
-lib:AddRecipe(259373, 1246903, 262468) -- Ren'dorei Postage Repository
+lib:AddRecipe(259373, 1246903, 262468) -- Ren'dorei Postal Repository
 lib:AddRecipe(259374, 1246907, 262470) -- Spellbound Tome of Thalassian Magics
 lib:AddRecipe(259375, 1246909, 246693) -- Self-Pouring Thalassian Sunwine
 lib:AddRecipe(268042, 1281342, 268038) -- Endless Codex of Blooming Light
 lib:AddRecipe(268043, 1281348, 268039) -- Endless Codex of Nature's Grace
 lib:AddRecipe(268044, 1281349, 268041) -- Endless Codex of the Voidtouched
+lib:AddRecipe(273073, 1291694, 273071) -- Enchant Weapon - Rite of the Hash'ey
+lib:AddRecipe(275310, 1296498, 279332) -- Keen Hex Mask
+lib:AddRecipe(275312, 1296499, 279362) -- Furious Tiki Mask
+lib:AddRecipe(275314, 1296500, 279335) -- Enchanted Voidwell Fish
 -- Engineering
 lib:AddRecipe(4408, 3928, 4401) -- Mechanical Squirrel Box
 lib:AddRecipe(4409, 3933, 4367) -- Small Seaforium Charge
@@ -3000,7 +3027,6 @@ lib:AddRecipe(225472, 438927, 217156) -- Algari Competitor's Leather Bracers
 lib:AddRecipe(225473, 438928, 217157) -- Algari Competitor's Mail Bracers
 lib:AddRecipe(225474, 438929, 217158) -- Algari Competitor's Plate Bracers
 lib:AddRecipe(225482, 455005, 225370) -- Algari Competitor's Rifle
-lib:AddRecipe(233203, 473408, 36812) -- Housing Crafting Test Recipe
 lib:AddRecipe(234274, 1213620, 232985) -- 22H Slicks
 lib:AddRecipe(256962, 1261025, 251482) -- Draenei Stargazer's Telescope
 lib:AddRecipe(256964, 1261027, 244314) -- Frostwall Architect's Table
@@ -3016,12 +3042,21 @@ lib:AddRecipe(257413, 1229913, 244740) -- Thalassian Competitor's Leather Bands
 lib:AddRecipe(257414, 1229909, 244736) -- Thalassian Competitor's Leather Optics
 lib:AddRecipe(257415, 1229914, 244741) -- Thalassian Competitor's Mail Links
 lib:AddRecipe(257416, 1229910, 244737) -- Thalassian Competitor's Mail Visor
+lib:AddRecipe(259172, 1264523, 259171) -- Head-Mounted Beam Bummer
 lib:AddRecipe(259174, 1264524, 259173) -- Rock Bonkin' Hardhat
 lib:AddRecipe(259176, 1264525, 259175) -- Heavy-Duty Rock Assister
 lib:AddRecipe(259178, 1264526, 259177) -- Self-Sharpening Sin'dorei Snippers
 lib:AddRecipe(259180, 1264527, 259179) -- Sin'dorei Reeler's Rod
 lib:AddRecipe(259182, 1264528, 259181) -- Giga-Gem Grippers
 lib:AddRecipe(259184, 1264529, 259183) -- Turbo-Junker's Multitool v9
+lib:AddRecipe(268480, 1282457, 268479) -- Thalassian Competitor's Rifle
+lib:AddRecipe(273064, 1291687, 273062) -- Coiled Snake-Eye
+lib:AddRecipe(275316, 1296501, 279337) -- Coiled Amani Hookshot
+lib:AddRecipe(275318, 1296502, 279339) -- Proudmoore Ship-in-a-Bottle
+lib:AddRecipe(275320, 1296503, 279341) -- Aetherlume Field Lamp
+lib:AddRecipe(275684, 1297647, 275683) -- G-00
+lib:AddRecipe(278330, 1297585, nil) -- R0CKY
+lib:AddRecipe(278333, 1305148, 275676) -- R0CKY-To-Go
 -- Inscription
 lib:AddRecipe(46108, 64051, 45854) -- Rituals of the New Moon
 lib:AddRecipe(65649, 86644, 62239) -- Origami Slime
@@ -3488,6 +3523,11 @@ lib:AddRecipe(267395, 1248627, 262595) -- Homely Wall Shelves
 lib:AddRecipe(267396, 1248620, 262790) -- Restful Bronze Bench
 lib:AddRecipe(267399, 1248619, 262612) -- Sturdy Ren'dorei Cask
 lib:AddRecipe(267400, 1248628, 262601) -- Wild Hanging Scroll
+lib:AddRecipe(268366, 1230065, 268365) -- Thalassian Competitor's Staff
+lib:AddRecipe(272196, 1290561, 272194) -- Vantus Rune: Tides
+lib:AddRecipe(275324, 1296505, 280752) -- "Cursed Gaze of Ula'tek" Mural
+lib:AddRecipe(275326, 1296506, 280757) -- Chiseled Amani Tablet
+lib:AddRecipe(277967, 1303151, 277968) -- Contract: Zul'jarra's Forces
 -- Jewelcrafting
 lib:AddRecipe(20854, 25339, 20830) -- Amulet of the Moon
 lib:AddRecipe(20855, 25323, 20833) -- Wicked Moonstone Ring
@@ -4381,6 +4421,10 @@ lib:AddRecipe(259363, 1246891, 262471) -- Bejeweled Sin'dorei Lyre
 lib:AddRecipe(259366, 1246893, 262613) -- Replica Haranir Mural
 lib:AddRecipe(259369, 1246892, 248965) -- Resplendent Highborne Statue
 lib:AddRecipe(259372, 1246894, 262454) -- Shining Sin'dorei Hourglass
+lib:AddRecipe(273067, 1291690, 273065) -- Polished Ammolite
+lib:AddRecipe(275693, 1297679, 279356) -- Opalescent Amani Peridot
+lib:AddRecipe(275695, 1297680, 279343) -- Piercing Amani Lapis
+lib:AddRecipe(275697, 1297681, 280762) -- Roaring Amani Garnet
 -- Leatherworking
 lib:AddRecipe(2406, 2158, 2307) -- Fine Leather Boots
 lib:AddRecipe(2407, 2163, 2311) -- White Leather Jerkin
@@ -5317,10 +5361,8 @@ lib:AddRecipe(256644, 1237525, 244564) -- Thalassian Competitor's Chain Epaulets
 lib:AddRecipe(256645, 1237577, 244603) -- Blessed Pango Charm
 lib:AddRecipe(256646, 1237523, 244563) -- Thalassian Competitor's Chain Cowl
 lib:AddRecipe(256647, 1237544, 244640) -- Forest Hunter's Armor Kit
-lib:AddRecipe(256648, 1237579, 244674) -- Devouring Banding
 lib:AddRecipe(256649, 1237526, 244565) -- Thalassian Competitor's Chain Girdle
 lib:AddRecipe(256650, 1237518, 244610) -- World Tender's Rootslippers
-lib:AddRecipe(256651, 1237545, 244642) -- Blood Knight's Armor Kit
 lib:AddRecipe(256652, 1237517, 244609) -- World Tender's Trunkplate
 lib:AddRecipe(256653, 1237515, 244602) -- Ranger-General's Grips
 lib:AddRecipe(256654, 1237527, 244568) -- Thalassian Competitor's Chain Cuffs
@@ -5348,6 +5390,11 @@ lib:AddRecipe(259365, 1246943, 264244) -- Plush Haranir Leather Pillow
 lib:AddRecipe(259368, 1246942, 243090) -- Sturdy Haranir Chair
 lib:AddRecipe(259371, 1246941, 262600) -- Stitched Haranir Rug
 lib:AddRecipe(259457, 1246940, 262589) -- Simple Haranir Table
+lib:AddRecipe(272391, 1291046, 270058) -- Rope Lynx Harness
+lib:AddRecipe(273070, 1291691, 273068) -- Adorned Fang
+lib:AddRecipe(275332, 1296509, 266170) -- Flat Snakeskin Canopy
+lib:AddRecipe(275334, 1296510, 279346) -- Stretched Snakeskin Rack
+lib:AddRecipe(275336, 1296511, 279348) -- Mounted Moby
 -- Mining
 lib:AddRecipe(35273, 46353, 35128) -- Smelt Hardened Khorium
 lib:AddRecipe(44956, 22967, 17771) -- Smelt Enchanted Elementium
@@ -5727,7 +5774,6 @@ lib:AddRecipe(138018, 213037, 137558) -- Clothes Chest: Molten Core
 lib:AddRecipe(142076, 229041, 142075) -- Imbued Silkweave Bag
 lib:AddRecipe(142077, 229043, 142075) -- Imbued Silkweave Bag
 lib:AddRecipe(142078, 229045, 142075) -- Imbued Silkweave Bag
-lib:AddRecipe(142333, 230047, 142332) -- Feathered Luffa
 lib:AddRecipe(151746, 247807, 151571) -- Lightweave Breeches
 lib:AddRecipe(151747, 247808, 151571) -- Lightweave Breeches
 lib:AddRecipe(151748, 247809, 151571) -- Lightweave Breeches
@@ -5985,3 +6031,6 @@ lib:AddRecipe(267055, 1279124, 267054) -- Thalassian Chef's Chapeau
 lib:AddRecipe(267057, 1279125, 267056) -- Thalassian Enchanter's Bonnet
 lib:AddRecipe(267061, 1279128, 267060) -- Thalassian Herbalist's Cowl
 lib:AddRecipe(267063, 1279129, 267062) -- Thalassian Tailor's Threads
+lib:AddRecipe(270900, 1288335, 270898) -- Snakeskin Lining
+lib:AddRecipe(275338, 1296512, 279350) -- Twilight's Blade Bedroll
+lib:AddRecipe(275342, 1296514, 279353) -- Tortollan Slingsack
