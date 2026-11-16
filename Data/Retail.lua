@@ -3505,7 +3505,7 @@ lib:AddRecipe(258498, 1248619, 262612) -- Sturdy Ren'dorei Cask
 lib:AddRecipe(258499, 1248620, 262790) -- Restful Bronze Bench
 lib:AddRecipe(258500, 1248621, 262464) -- Floating Void-Touched Tome
 lib:AddRecipe(258502, 1248623, 262616) -- Lively Songwriter's Quill
-lib:AddRecipe(258503, 1248624, 262598) -- Opened Sin'dorei Scroll
+lib:AddRecipe(258503, 1248624, 262598) -- Open Sin'dorei Scroll
 lib:AddRecipe(258504, 1248625, 262597) -- Gilded Eversong Book
 lib:AddRecipe(258505, 1248626, 262615) -- Sin'dorei Phoenix Quill
 lib:AddRecipe(258509, 1248630, 253508) -- Harandar Signpost
@@ -3528,6 +3528,7 @@ lib:AddRecipe(272196, 1290561, 272194) -- Vantus Rune: Tides
 lib:AddRecipe(275324, 1296505, 280752) -- "Cursed Gaze of Ula'tek" Mural
 lib:AddRecipe(275326, 1296506, 280757) -- Chiseled Amani Tablet
 lib:AddRecipe(277967, 1303151, 277968) -- Contract: Zul'jarra's Forces
+lib:AddRecipe(284212, 1315433, 282190) -- Apple Bobbing Bucket
 -- Jewelcrafting
 lib:AddRecipe(20854, 25339, 20830) -- Amulet of the Moon
 lib:AddRecipe(20855, 25323, 20833) -- Wicked Moonstone Ring
@@ -5395,6 +5396,8 @@ lib:AddRecipe(273070, 1291691, 273068) -- Adorned Fang
 lib:AddRecipe(275332, 1296509, 266170) -- Flat Snakeskin Canopy
 lib:AddRecipe(275334, 1296510, 279346) -- Stretched Snakeskin Rack
 lib:AddRecipe(275336, 1296511, 279348) -- Mounted Moby
+lib:AddRecipe(284255, 1315719, 284240) -- Beloved Ottuk Plushie
+lib:AddRecipe(284256, 1315728, 284242) -- Beloved Ottuuuuuuk Plushie
 -- Mining
 lib:AddRecipe(35273, 46353, 35128) -- Smelt Hardened Khorium
 lib:AddRecipe(44956, 22967, 17771) -- Smelt Enchanted Elementium
@@ -6034,3 +6037,6 @@ lib:AddRecipe(267063, 1279129, 267062) -- Thalassian Tailor's Threads
 lib:AddRecipe(270900, 1288335, 270898) -- Snakeskin Lining
 lib:AddRecipe(275338, 1296512, 279350) -- Twilight's Blade Bedroll
 lib:AddRecipe(275342, 1296514, 279353) -- Tortollan Slingsack
+lib:AddRecipe(284213, 1315440, 282184) -- Spidery Witch Hat
+lib:AddRecipe(284250, 1315691, 284244) -- Lillistrasza's Lucky Duck Plushie
+lib:AddRecipe(284263, 1315766, 284238) -- Beloved Murloc Plushie
